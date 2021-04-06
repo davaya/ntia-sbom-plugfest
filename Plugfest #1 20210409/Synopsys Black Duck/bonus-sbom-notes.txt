@@ -1,0 +1,14 @@
+
+Some additional SBOMs have been uploaded which are the product of manual curation of the BOM 
+within Black Duck and some updates to the export script:
+
+- Attempting to correct the 'origin' for time
+- Manual entry of blinky as a custom component
+- Some review comments entered
+- Adding PackageSupplier field and OpenHub references where available
+- Adding PackageComment to explain logic used to resolve package information
+
+
+These are named bonus-*.spdx
+
+

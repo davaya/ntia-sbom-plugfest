@@ -1,0 +1,690 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <spdx:SpdxDocument rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-DOCUMENT">
+    <spdx:relationship>
+      <spdx:Relationship>
+        <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_describes"/>
+        <spdx:relatedSpdxElement>
+          <spdx:Package rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-1">
+            <spdx:licenseComments>License declared in package.json file</spdx:licenseComments>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-21">
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <rdfs:comment></rdfs:comment>
+                <spdx:licenseConcluded>
+                  <spdx:License rdf:about="http://spdx.org/licenses/ISC">
+                    <spdx:standardLicenseHeader>
+        &lt;p xmlns="http://www.w3.org/1999/xhtml" style="font-style: italic"&gt;There is no standard license header for the license&lt;/p&gt;
+        
+      ^^http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral</spdx:standardLicenseHeader>
+                    <spdx:isOsiApproved>true</spdx:isOsiApproved>
+                    <spdx:licenseText>ISC License: 
+Copyright (c) 2004-2010 by Internet Systems Consortium, Inc. ("ISC") 
+ Copyright (c) 1995-2003 by Internet Software Consortium 
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies. 
+THE SOFTWARE IS PROVIDED "AS IS" AND ISC DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL ISC BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</spdx:licenseText>
+                    <rdfs:seeAlso>http://www.opensource.org/licenses/ISC</rdfs:seeAlso>
+                    <rdfs:seeAlso>http://www.isc.org/software/license</rdfs:seeAlso>
+                    <spdx:name>ISC License</spdx:name>
+                    <spdx:licenseId>ISC</spdx:licenseId>
+                  </spdx:License>
+                </spdx:licenseConcluded>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>ef2d08820ddf402c38c882304a1cedc0a7d0a97c</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement>
+                      <spdx:Package rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3">
+                        <spdx:licenseComments></spdx:licenseComments>
+                        <doap:homepage>https://github.com/gothinkster/node-express-realworld-example-app</doap:homepage>
+                        <spdx:licenseDeclared rdf:resource="http://spdx.org/licenses/ISC"/>
+                        <spdx:description></spdx:description>
+                        <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                        <rdfs:comment>Package info generated from Source Auditor package database</rdfs:comment>
+                        <spdx:downloadLocation>https://github.com/gothinkster/node-express-realworld-example-app/archive/ba04b70c31af81ca7935096740a6e083563b3a4a.zip</spdx:downloadLocation>
+                        <spdx:filesAnalyzed>false</spdx:filesAnalyzed>
+                        <spdx:summary></spdx:summary>
+                        <spdx:name>github.gothinkster.node-express-realworld-example-app</spdx:name>
+                        <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                      </spdx:Package>
+                    </spdx:relatedSpdxElement>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:fileName>./routes/index.js</spdx:fileName>
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_source"/>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-14">
+                <spdx:fileName>./README.md</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>05968425434a374e841119cc8fcea6c189b5b8f4</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <rdfs:comment></rdfs:comment>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_other"/>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:sourceInfo></spdx:sourceInfo>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-9">
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>a1e487732aac59acecb07aaefcc20db73b5afb2b</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:fileName>./models/Comment.js</spdx:fileName>
+                <rdfs:comment></rdfs:comment>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_source"/>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:downloadLocation>https://github.com/gothinkster/node-express-realworld-example-app/archive/ba04b70c31af81ca7935096740a6e083563b3a4a.zip</spdx:downloadLocation>
+            <spdx:name>conduit-node</spdx:name>
+            <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/licenses/ISC"/>
+            <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-11">
+                <spdx:fileName>./package.json</spdx:fileName>
+                <spdx:licenseConcluded>
+                  <spdx:ConjunctiveLicenseSet>
+                    <spdx:member rdf:resource="http://spdx.org/licenses/ISC"/>
+                  </spdx:ConjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <rdfs:comment></rdfs:comment>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>65565f668fe07357a7d9fab55e07a4960c608a87</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/ISC"/>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_other"/>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseComments>Seen licenses generated by Source Auditor Scanner.  Results should be manually verified.</spdx:licenseComments>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-5">
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:fileName>./app.js</spdx:fileName>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>284001a8060dec2a396a4524606d29ffb439b6ad</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_source"/>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <rdfs:comment></rdfs:comment>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:licenseComments></spdx:licenseComments>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-16">
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:fileName>./routes/api/index.js</spdx:fileName>
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_source"/>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>ce5ea619d9e502772b685c2fc61dba70cfa2228e</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <rdfs:comment></rdfs:comment>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+            <spdx:licenseDeclared rdf:resource="http://spdx.org/licenses/ISC"/>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-24">
+                <rdfs:comment></rdfs:comment>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_other"/>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>9282e0bac2fccc2c28d4d435aed65879b4a2c131</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:fileName>./yarn.lock</spdx:fileName>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:packageFileName>node-express-realworld-example-app-ba04b70c31af81ca7935096740a6e083563b3a4a.zip</spdx:packageFileName>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-19">
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>305fcf698a483692d0a46dc4073ce276573b52d7</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_source"/>
+                <spdx:fileName>./routes/api/users.js</spdx:fileName>
+                <rdfs:comment></rdfs:comment>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-4">
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>b1061521e34211240dcb98fc43b16a6578836b05</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <rdfs:comment></rdfs:comment>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_other"/>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:fileName>./.travis.yml</spdx:fileName>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-20">
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_source"/>
+                <rdfs:comment></rdfs:comment>
+                <spdx:fileName>./routes/auth.js</spdx:fileName>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>596792660d4111a042c15854e92ab895253fb48a</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-10">
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>fe98771dfda4f0870077075015b18e277569c4c1</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <rdfs:comment></rdfs:comment>
+                <spdx:fileName>./models/User.js</spdx:fileName>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_source"/>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+              </spdx:File>
+            </spdx:hasFile>
+            <rdfs:comment></rdfs:comment>
+            <spdx:summary>conduit on node</spdx:summary>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-8">
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_source"/>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>32c7c702a4c950f7430b5bf4a983c9d07de82909</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <rdfs:comment></rdfs:comment>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:fileName>./models/Article.js</spdx:fileName>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:checksum>
+              <spdx:Checksum>
+                <spdx:checksumValue>127123f8cc66e41652a45b3310f7f38295e97342</spdx:checksumValue>
+                <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+              </spdx:Checksum>
+            </spdx:checksum>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-23">
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_other"/>
+                <spdx:fileName>./tests/env-api-tests.postman.json</spdx:fileName>
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <rdfs:comment></rdfs:comment>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>2212802d35af5fcbb9c62c37f66bf75a67984632</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-13">
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:fileName>./public/.keep</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>da39a3ee5e6b4b0d3255bfef95601890afd80709</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                <rdfs:comment></rdfs:comment>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_other"/>
+                <spdx:licenseComments></spdx:licenseComments>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-18">
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>67a38f5dd3e24963ab12fbabb388bbb257efc9b7</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                <rdfs:comment></rdfs:comment>
+                <spdx:fileName>./routes/api/tags.js</spdx:fileName>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_source"/>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:versionInfo>ba04b70c31af81ca7935096740a6e083563b3a4a</spdx:versionInfo>
+            <spdx:originator>Organization: Github/gothinkster</spdx:originator>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-22">
+                <spdx:fileName>./tests/api-tests.postman.json</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>bffbf77d4a24ca42011a357a43e1d8e1616d800b</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <rdfs:comment></rdfs:comment>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_other"/>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-15">
+                <spdx:fileName>./routes/api/articles.js</spdx:fileName>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_source"/>
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>5fa3ae95bf8e06d949961e481fcd78185ac03111</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <rdfs:comment></rdfs:comment>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:supplier>Organization: Github/gothinkster</spdx:supplier>
+            <spdx:description>conduit on node</spdx:description>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-7">
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <rdfs:comment></rdfs:comment>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                <spdx:fileName>./config/passport.js</spdx:fileName>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>fa2f77aec6e82c6e7df77efa9a8b0f5d6ac2a698</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_source"/>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:packageVerificationCode>
+              <spdx:PackageVerificationCode>
+                <spdx:packageVerificationCodeValue>a708497c069015d05ff2aa41243fc6d2249be9c4</spdx:packageVerificationCodeValue>
+              </spdx:PackageVerificationCode>
+            </spdx:packageVerificationCode>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-6">
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_source"/>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>a17afc31e74816c45ae691fb406b6c97911eb513</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <rdfs:comment></rdfs:comment>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                <spdx:fileName>./config/index.js</spdx:fileName>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-12">
+                <rdfs:comment></rdfs:comment>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_binary"/>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:fileName>./project-logo.png</spdx:fileName>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>376eaade121ba2e7134a883d42c286a874143b6b</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-17">
+                <rdfs:comment></rdfs:comment>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>8e5c66b07b5cd4032ac71d7fe52188fe65e70fb2</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_source"/>
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:fileName>./routes/api/profiles.js</spdx:fileName>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-2">
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/licenses/ISC"/>
+                <spdx:relationship>
+                  <spdx:Relationship>
+                    <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_containedBy"/>
+                    <spdx:relatedSpdxElement rdf:resource="http://www.spdx.org/spdxdocs/node-express-realworld-example-app/ba04b70c31af81ca7935096740a6e083563b3a4a/ab0f6303-4b8f-455a-8bf9-b647fc5e57a4#SPDXRef-3"/>
+                    <rdfs:comment>The file originates from this package</rdfs:comment>
+                  </spdx:Relationship>
+                </spdx:relationship>
+                <rdfs:comment></rdfs:comment>
+                <spdx:noticeText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:checksumValue>c32588647aeb80f5a8e25ec333c46c3f5e19a80d</spdx:checksumValue>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseComments></spdx:licenseComments>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+                <spdx:fileName>./.circleci/config.yml</spdx:fileName>
+                <spdx:fileType rdf:resource="http://spdx.org/rdf/terms#fileType_other"/>
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+              </spdx:File>
+            </spdx:hasFile>
+            <spdx:filesAnalyzed>true</spdx:filesAnalyzed>
+            <doap:homepage></doap:homepage>
+          </spdx:Package>
+        </spdx:relatedSpdxElement>
+        <rdfs:comment></rdfs:comment>
+      </spdx:Relationship>
+    </spdx:relationship>
+    <spdx:creationInfo>
+      <spdx:CreationInfo>
+        <spdx:licenseListVersion>2.5</spdx:licenseListVersion>
+        <spdx:created>2021-03-27T21:37:16Z</spdx:created>
+        <rdfs:comment>Created for the NTIA Plugfest</rdfs:comment>
+        <spdx:creator>Tool: Source Auditor Open Source Console</spdx:creator>
+        <spdx:creator>Person: Gary O'Neall</spdx:creator>
+      </spdx:CreationInfo>
+    </spdx:creationInfo>
+    <spdx:dataLicense>
+      <spdx:License rdf:about="http://spdx.org/licenses/CC0-1.0">
+        <spdx:standardLicenseHeader>
+        &lt;p xmlns="http://www.w3.org/1999/xhtml" style="font-style: italic"&gt;There is no standard license header for the license&lt;/p&gt;
+        
+      ^^http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral</spdx:standardLicenseHeader>
+        <spdx:licenseText>Creative Commons CC0 1.0 Universal 
+ CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED HEREUNDER. 
+ 
+Statement of Purpose 
+The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related Rights (defined below) upon the creator and subsequent owner(s) (each and all, an "owner") of an original work of authorship and/or a database (each, a "Work"). 
+Certain owners wish to permanently relinquish those rights to a Work for the purpose of contributing to a commons of creative, cultural and scientific works ("Commons") that the public can reliably and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse and redistribute as freely as possible in any form whatsoever and for any purposes, including without limitation commercial purposes. These owners may contribute to the Commons to promote the ideal of a free culture and the further production of creative, cultural and scientific works, or to gain reputation or greater distribution for their Work in part through the use and efforts of others. 
+For these and/or other purposes and motivations, and without any expectation of additional consideration or compensation, the person associating CC0 with a Work (the "Affirmer"), to the extent that he or she is an owner of Copyright and Related Rights in the Work, voluntarily elects to apply CC0 to the Work and publicly distribute the Work under its terms, with knowledge of his or her Copyright and Related Rights in the Work and the meaning and intended legal effect of CC0 on those rights. 
+1. Copyright and Related Rights. A Work made available under CC0 may be protected by copyright and related or neighboring rights ("Copyright and Related Rights"). Copyright and Related Rights include, but are not limited to, the following: 
+ i. the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work; 
+ ii. moral rights retained by the original author(s) and/or performer(s); 
+ iii. publicity and privacy rights pertaining to a person's image or likeness depicted in a Work; 
+ iv. rights protecting against unfair competition in regards to a Work, subject to the limitations in paragraph 4(a), below; 
+ v. rights protecting the extraction, dissemination, use and reuse of data in a Work; 
+ vi. database rights (such as those arising under Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, and under any national implementation thereof, including any amended or successor version of such directive); and 
+ vii. other similar, equivalent or corresponding rights throughout the world based on applicable law or treaty, and any national implementations thereof. 
+2. Waiver. To the greatest extent permitted by, but not in contravention of, applicable law, Affirmer hereby overtly, fully, permanently, irrevocably and unconditionally waives, abandons, and surrenders all of Affirmer's Copyright and Related Rights and associated claims and causes of action, whether now known or unknown (including existing as well as future claims and causes of action), in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each member of the public at large and to the detriment of Affirmer's heirs and successors, fully intending that such Waiver shall not be subject to revocation, rescission, cancellation, termination, or any other legal or equitable action to disrupt the quiet enjoyment of the Work by the public as contemplated by Affirmer's express Statement of Purpose. 
+3. Public License Fallback. Should any part of the Waiver for any reason be judged legally invalid or ineffective under applicable law, then the Waiver shall be preserved to the maximum extent permitted taking into account Affirmer's express Statement of Purpose. In addition, to the extent the Waiver is so judged Affirmer hereby grants to each affected person a royalty-free, non transferable, non sublicensable, non exclusive, irrevocable and unconditional license to exercise Affirmer's Copyright and Related Rights in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "License"). The License shall be deemed effective as of the date CC0 was applied by Affirmer to the Work. Should any part of the License for any reason be judged legally invalid or ineffective under applicable law, such partial invalidity or ineffectiveness shall not invalidate the remainder of the License, and in such case Affirmer hereby affirms that he or she will not (i) exercise any of his or her remaining Copyright and Related Rights in the Work or (ii) assert any associated claims and causes of action with respect to the Work, in either case contrary to Affirmer's express Statement of Purpose. 
+4. Limitations and Disclaimers. 
+ a. No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document. 
+ b. Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law. 
+ c. Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person's Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work. 
+ d. Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work.</spdx:licenseText>
+        <rdfs:seeAlso>http://creativecommons.org/publicdomain/zero/1.0/legalcode</rdfs:seeAlso>
+        <spdx:name>Creative Commons Zero v1.0 Universal</spdx:name>
+        <spdx:licenseId>CC0-1.0</spdx:licenseId>
+      </spdx:License>
+    </spdx:dataLicense>
+    <spdx:specVersion>SPDX-2.1</spdx:specVersion>
+    <spdx:name>SpdxDoc for conduit-node</spdx:name>
+  </spdx:SpdxDocument>
+  <spdx:PackageVerificationCode>
+    <spdx:packageVerificationCodeValue>cf23df2207d99a74fbe169e3eba035e633b65d94</spdx:packageVerificationCodeValue>
+  </spdx:PackageVerificationCode>
+  <spdx:CreationInfo>
+    <spdx:licenseListVersion>2.5</spdx:licenseListVersion>
+    <spdx:created>2021-03-27T21:37:16Z</spdx:created>
+  </spdx:CreationInfo>
+</rdf:RDF>

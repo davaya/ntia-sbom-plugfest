@@ -1,0 +1,24 @@
+# Test files with three fields, <pathname>, <sbom format>, <file format>
+
+# Cybeats/iot-device.cyclonedx.json, cyclonedx, json
+Cybeats/iot-device.sbom.json, spdx, json
+# Cybeats/node-express-realworld-example-app.cyclonedx.json, cyclonedx, json
+Cybeats/node-express-realworld-example-app.sbom.json, spdx, json
+# Cybeats/time.cyclonedx.json, cyclonedx, json
+Cybeats/time.sbom.json, spdx, json
+
+# LLNL Longclaw/time-1.9-static.sbom.spdx, spdx, tag-value
+# LLNL Longclaw/zephyr_hello_world.sbom.spdx, spdx, tag-value
+
+# OSS Review Toolkit/node-express-cyclone-dx.xml, cyclonedx, xml
+# OSS Review Toolkit/node-express-spdx.spdx.yml, cyclonedx, yaml
+
+# SourceAuditor/node-express-realworld-example-app.spdx, spdx, tag-value
+SourceAuditor/node-express-realworld-example-app.spdx.json, spdx, json
+# SourceAuditor/node-express-realworld-example-app.spdx.rdf.xml, spdx, xml
+# SourceAuditor/node-express-realworld-example-app.spdx.yaml, spdx, yaml
+# SourceAuditor/node-express-realworld-example-app.spdx.xlsx, spdx, xls
+SourceAuditor/time-1.9.spdx.json, spdx, json
+# SourceAuditor/time-1.9.spdx.rdf.xml, spdx, xml
+# SourceAuditor/time-1.9.spdx.xlsx, spdx, xls
+# SourceAuditor/time-1.9.spdx.yaml, spdx, yaml

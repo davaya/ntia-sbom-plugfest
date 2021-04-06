@@ -1,0 +1,131 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:3fea3cdd-8be2-48c5-90ae-a1d56aacf8c4",
+  "version": 1,
+  "components": [
+    {
+      "type": "application",
+      "name": "time",
+      "version": "1.9",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0-or-later",
+            "url": "https://spdx.org/licenses/GPL-3.0-or-later"
+          }
+        }
+      ],
+      "cpe": "cpe:/a:gnu:time:1.9",
+      "components": [
+        {
+          "type": "library",
+          "name": "ld-2.19.so",
+          "version": "2.19",
+          "licenses": [
+            {
+              "license": {
+                "id": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only"
+              }
+            },
+            {
+              "license": {
+                "id": "LGPL-2.1-only",
+                "url": "https://spdx.org/licenses/LGPL-2.1-only"
+              }
+            }
+          ],
+          "hashes": [
+            {
+              "alg": "MD5",
+              "content": "701f4316d3b7e19969bd2f6a92912dbc"
+            },
+            {
+              "alg": "SHA-1",
+              "content": "cf5502039c527112eafe1999871a085c2f4d961a"
+            }
+          ],
+          "cpe": "cpe:/a:gnu:glibc:2.19"
+        },
+        {
+          "type": "library",
+          "name": "libarmmem.so",
+          "version": "0.5",
+          "licenses": [
+            {
+              "license": {
+                "id": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause"
+              }
+            }
+          ],
+          "hashes": [
+            {
+              "alg": "MD5",
+              "content": "75214700b901d17963032d4a85b36cc3"
+            },
+            {
+              "alg": "SHA-1",
+              "content": "d99df1adc461820461bd644fa3749bfc278f0653"
+            }
+          ]
+        },
+        {
+          "type": "library",
+          "name": "libc-2.19.so",
+          "version": "2.19",
+          "licenses": [
+            {
+              "license": {
+                "id": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only"
+              }
+            },
+            {
+              "license": {
+                "id": "LGPL-2.1-only",
+                "url": "https://spdx.org/licenses/LGPL-2.1-only"
+              }
+            }
+          ],
+          "hashes": [
+            {
+              "alg": "MD5",
+              "content": "3441abf9b9f7dc9f9406b347b026a71d"
+            },
+            {
+              "alg": "SHA-1",
+              "content": "2d382b1f5a3afb01492c40c21bad784663d91e81"
+            }
+          ],
+          "cpe": "cpe:/a:gnu:glibc:2.19"
+        },
+        {
+          "type": "library",
+          "name": "time",
+          "version": "1.9",
+          "licenses": [
+            {
+              "license": {
+                "id": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later"
+              }
+            }
+          ],
+          "hashes": [
+            {
+              "alg": "MD5",
+              "content": "d197b6638984124d64efc0703eb65c95"
+            },
+            {
+              "alg": "SHA-1",
+              "content": "5f4f3cce8adf07b8477a69f0c54ba63bee10075e"
+            }
+          ],
+          "cpe": "cpe:/a:gnu:time:1.9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4701 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "name": "VLVXC60-32.8.017",
+  "documentNamespace": "https://portal.cybeats.com/sbom/spdx/54a8f6d0e5e77eb4081e26c08f5a53df5607ad3d",
+  "creationInfo": {
+    "created": "2021-04-02T00:42:51.546Z",
+    "creators": [
+      "Tool: Cybeats SBOM Studio",
+      "Organization: Cybeats Technologies",
+      "Person:Vladislav Kharbash (vlad@cybeats.com)"
+    ]
+  },
+  "packages": [
+    {
+      "name": "agetty",
+      "SPDXID": "SPDXRef-Application-agetty",
+      "versionInfo": "2.25.2",
+      "filesAnalyzed": false,
+      "homepage": "http://en.wikipedia.org/wiki/Util-linux",
+      "downloadLocation": "https://github.com/karelzak/util-linux",
+      "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later AND LGPL-2.0-or-later AND LGPL-2.1-or-later AND MIT AND CC0-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:kernel:util-linux:2.25.2",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    },
+    {
+      "name": "atop",
+      "SPDXID": "SPDXRef-Application-atop",
+      "versionInfo": "1.26",
+      "filesAnalyzed": false,
+      "homepage": "http://www.atconsultancy.nl/atop/home.html",
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "name": "avahi-daemon",
+      "SPDXID": "SPDXRef-Application-avahi-daemon",
+      "versionInfo": "0.6.31",
+      "filesAnalyzed": false,
+      "homepage": "http://avahi.org/",
+      "licenseConcluded": "GPL-3.0-or-later AND GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:avahi:avahi:0.6.31",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    },
+    {
+      "name": "bluetoothd",
+      "SPDXID": "SPDXRef-Application-bluetoothd",
+      "versionInfo": "5.23",
+      "filesAnalyzed": false,
+      "homepage": "http://www.bluez.org",
+      "licenseConcluded": "GFDL-1.3-or-later AND GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:bluez:bluez:5.23",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    },
+    {
+      "name": "cron",
+      "SPDXID": "SPDXRef-Application-cron",
+      "versionInfo": "3.0pl1",
+      "filesAnalyzed": false,
+      "homepage": "http://ftp.isc.org/isc/cron/",
+      "licenseConcluded": "Artistic-2.0 AND GPL-2.0-or-later AND ISC",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:cron_project:cron:3.0pl1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    },
+    {
+      "name": "dbus-daemon",
+      "SPDXID": "SPDXRef-Application-dbus-daemon",
+      "versionInfo": "1.8.22",
+      "filesAnalyzed": false,
+      "homepage": "http://dbus.freedesktop.org/",
+      "licenseConcluded": "AFL-2.1 AND BSD-3-Clause AND BSD-3-Clause-Attribution AND MIT AND GPL-2.0-or-later AND AFL-2.1 AND TCL",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:freedesktop:dbus:1.8.22",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    },
+    {
+      "name": "dhcpcd",
+      "SPDXID": "SPDXRef-Application-dhcpcd",
+      "versionInfo": "6.7.1",
+      "filesAnalyzed": false,
+      "homepage": "http://roy.marples.name/projects/dhcpcd",
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:dhcpcd_project:dhcpcd:6.7.1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    },
+    {
+      "name": "hciattach",
+      "SPDXID": "SPDXRef-Application-hciattach",
+      "versionInfo": "5.23",
+      "filesAnalyzed": false,
+      "homepage": "http://www.bluez.org",
+      "licenseConcluded": "GFDL-1.3-or-later AND GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:bluez:bluez:5.23",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    },
+    {
+      "name": "ntpd",
+      "SPDXID": "SPDXRef-Application-ntpd",
+      "versionInfo": "4.2.6.p5",
+      "filesAnalyzed": false,
+      "homepage": "http://support.ntp.org/",
+      "licenseConcluded": "unknown",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:ntp:ntp:4.2.6.p5",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    },
+    {
+      "name": "packagekitd",
+      "SPDXID": "SPDXRef-Application-packagekitd",
+      "versionInfo": "1.0.1",
+      "filesAnalyzed": false,
+      "homepage": "http://www.packagekit.org",
+      "licenseConcluded": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:packagekit_project:packagekit:1.0.1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    },
+    {
+      "name": "polkitd",
+      "SPDXID": "SPDXRef-Application-polkitd",
+      "versionInfo": "0.105",
+      "filesAnalyzed": false,
+      "homepage": "http://www.freedesktop.org/wiki/Software/polkit/",
+      "licenseConcluded": "Apache-2.0 AND LGPL-2.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:michael_biebl:policykit:0.105",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    },
+    {
+      "name": "rsyslogd",
+      "SPDXID": "SPDXRef-Application-rsyslogd",
+      "versionInfo": "8.4.2",
+      "filesAnalyzed": false,
+      "homepage": "http://www.rsyslog.com/",
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause AND GPL-3.0-or-later AND LGPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:rsyslog:rsyslog:8.4.2",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    },
+    {
+      "name": "sh",
+      "SPDXID": "SPDXRef-Application-sh",
+      "versionInfo": "0.5.7",
+      "filesAnalyzed": false,
+      "homepage": "http://gondor.apana.org.au/~herbert/dash/",
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:dash:dash:0.5.7",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    },
+    {
+      "name": "sleep",
+      "SPDXID": "SPDXRef-Application-sleep",
+      "versionInfo": "8.23",
+      "filesAnalyzed": false,
+      "homepage": "http://gnu.org/software/coreutils",
+      "licenseConcluded": "GPL-3.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:coreutils:8.23",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    },
+    {
+      "name": "sshd",
+      "SPDXID": "SPDXRef-Application-sshd",
+      "versionInfo": "6.7p1",
+      "filesAnalyzed": false,
+      "homepage": "http://www.openssh.com/",
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:openbsd:openssh:6.7p1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    },
+    {
+      "name": "systemd-journal",
+      "SPDXID": "SPDXRef-Application-systemd-journal",
+      "versionInfo": "215",
+      "filesAnalyzed": false,
+      "homepage": "http://www.freedesktop.org/wiki/Software/systemd",
+      "licenseConcluded": "CC0-1.0 AND MIT AND GPL-2.0-only AND GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:freedesktop:systemd:215",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    },
+    {
+      "name": "systemd-udevd",
+      "SPDXID": "SPDXRef-Application-systemd-udevd",
+      "versionInfo": "215",
+      "filesAnalyzed": false,
+      "homepage": "http://www.freedesktop.org/wiki/Software/systemd",
+      "licenseConcluded": "CC0-1.0 AND MIT AND GPL-2.0-only AND GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:freedesktop:systemd:215",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    },
+    {
+      "name": "thd",
+      "SPDXID": "SPDXRef-Application-thd",
+      "versionInfo": "0.3.4",
+      "filesAnalyzed": false,
+      "homepage": "http://github.com/wertarbyte/triggerhappy",
+      "licenseConcluded": "GPL-3.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "name": "time",
+      "SPDXID": "SPDXRef-Application-time",
+      "versionInfo": "1.9",
+      "filesAnalyzed": false,
+      "homepage": "http://www.gnu.org/software/time",
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:time:1.9",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    },
+    {
+      "name": "wpa_supplicant",
+      "SPDXID": "SPDXRef-Application-wpa_supplicant",
+      "versionInfo": "2.3",
+      "filesAnalyzed": false,
+      "homepage": "http://w1.fi/wpa_supplicant/",
+      "licenseConcluded": "BSD-3-Clause AND GPL-2.0-only AND ISC AND CC0-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:w1.fi:wpa_supplicant:2.3",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-Library-ld-2.19.so",
+      "fileName": "/lib/arm-linux-gnueabihf/ld-2.19.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "701f4316d3b7e19969bd2f6a92912dbc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cf5502039c527112eafe1999871a085c2f4d961a"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:glibc:2.19",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.19"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libc-2.19.so",
+      "fileName": "/lib/arm-linux-gnueabihf/libc-2.19.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "3441abf9b9f7dc9f9406b347b026a71d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2d382b1f5a3afb01492c40c21bad784663d91e81"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:glibc:2.19",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.19"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libnsl-2.19.so",
+      "fileName": "/lib/arm-linux-gnueabihf/libnsl-2.19.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "cdc544a8e6f89233aa4aec4a7aee1d03"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "48cd77b651d8352a3261def942b71210b2157dbc"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:glibc:2.19",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.19"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libnss_compat-2.19.so",
+      "fileName": "/lib/arm-linux-gnueabihf/libnss_compat-2.19.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "38af67019d6b3c280b83e9d099775f3c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "70b0ad31e109d3dc4d3a1cf99b25d36fc91be601"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:glibc:2.19",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.19"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libnss_files-2.19.so",
+      "fileName": "/lib/arm-linux-gnueabihf/libnss_files-2.19.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "c9dc09c38ee9fc2f842b27253928aa2e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "13cfaa3170db7ec57fd082be8d2fb07dd9b16020"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:glibc:2.19",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.19"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libnss_nis-2.19.so",
+      "fileName": "/lib/arm-linux-gnueabihf/libnss_nis-2.19.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "fc6c387c65c639b160ab24284a8f1dd5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b42480f92d7475e62094cc50dd250ae8882f9f44"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:glibc:2.19",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.19"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-agetty",
+      "fileName": "/sbin/agetty",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later AND LGPL-2.0-or-later AND LGPL-2.1-or-later AND MIT AND CC0-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "14b73f5eaa84744b13b6483abe707df4"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6b5cb2261e0109f556685f69cc7623763314a773"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:kernel:util-linux:2.25.2",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.25.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libarmmem.so",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libarmmem.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "75214700b901d17963032d4a85b36cc3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d99df1adc461820461bd644fa3749bfc278f0653"
+        }
+      ],
+      "versionInfo": "0.5"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libdl-2.19.so",
+      "fileName": "/lib/arm-linux-gnueabihf/libdl-2.19.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "7d2b00068fc7a8fba6e3e9645155a972"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d1564863f1b10c2f0b6fd08cdf309fb10b4e4bb4"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:glibc:2.19",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.19"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libgcc_s.so.1",
+      "fileName": "/lib/arm-linux-gnueabihf/libgcc_s.so.1",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "Artistic-2.0 AND GFDL-1.2-only AND GPL-3.0-or-later AND GPL-2.0-only AND GPL-3.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "5e483e921e93aee1f252a726a18b876a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "79fe281c3ba923bd40433607f96c77316e63a735"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:gcc:4.9.2",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "4.9.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libm-2.19.so",
+      "fileName": "/lib/arm-linux-gnueabihf/libm-2.19.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "6b13765e3d69455ec87124c1a9e769e1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6d75750dd5a860086fabfe7d324934b185302f4b"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:glibc:2.19",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.19"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libncurses.so.5.9",
+      "fileName": "/lib/arm-linux-gnueabihf/libncurses.so.5.9",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "unknown",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "8a6a1c9b10087c1f274ed2c6e04e6656"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c21d483afbd26a791b63c0316c2eb4a76d7d7c6b"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:ncurses:5.9",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libtinfo.so.5.9",
+      "fileName": "/lib/arm-linux-gnueabihf/libtinfo.so.5.9",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "unknown",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "493336664ca00b48a78aabb77081aff0"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a2b8dae328bd35e5cb7c857651efe4a7a24d2330"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:ncurses:5.9",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libz.so.1.2.8",
+      "fileName": "/lib/arm-linux-gnueabihf/libz.so.1.2.8",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "unknown",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "f239242750b34cd0a28e3afaf72ee1a5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9dfd9a4a909c39ba8b66b86e0f00b8447d667b76"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:zlib:1.2.8",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.2.8"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-atop",
+      "fileName": "/usr/bin/atop",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "2a42a9c9b6aea91ee162bda7127bd52b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9d417ff2fb7f67c5456ee3cfd24badcd5f7f7e6d"
+        }
+      ],
+      "versionInfo": "1.26"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libattr.so.1.1.0",
+      "fileName": "/lib/arm-linux-gnueabihf/libattr.so.1.1.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "284799a3d2e90de6f0337a27cdfbb504"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1f8aa9da435825d5aee754caf80e0692dc2d97d8"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:attr_project:attr:2.4.47",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.4.47"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libcap.so.2.24",
+      "fileName": "/lib/arm-linux-gnueabihf/libcap.so.2.24",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "BSD-3-Clause AND GPL-2.0-only AND BSD-3-Clause AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-2.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "cf81323fe0787ac302cbf792bc02230f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "13ac1e5fb0af0a2f6d26824db77f5d9c48679d35"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:libcap_project:libcap:2.24",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.24"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libdbus-1.so.3.8.14",
+      "fileName": "/lib/arm-linux-gnueabihf/libdbus-1.so.3.8.14",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "AFL-2.1 AND BSD-3-Clause AND BSD-3-Clause-Attribution AND MIT AND GPL-2.0-or-later AND AFL-2.1 AND TCL",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "9380c6886d5c123df764e1da0fda5381"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "07611b1aecdbed9a36c4d81c5e188494e13e8865"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:freedesktop:dbus:1.8.22",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.8.22"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libexpat.so.1.6.0",
+      "fileName": "/lib/arm-linux-gnueabihf/libexpat.so.1.6.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "unknown",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "22ce232a9bf40fd38fe75e9b9b6fa99f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b4c7614d434196f4d4e8bb979df0d5ff310bf5f6"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:libexpat:expat:2.1.0",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.1.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libpthread-2.19.so",
+      "fileName": "/lib/arm-linux-gnueabihf/libpthread-2.19.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "a3baa863fe8a0ea7e7e82e8f82cc0a90"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "78cb3c7f009bf4f1cc666957c98ab674b4266dd8"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:glibc:2.19",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.19"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libavahi-common.so.3.5.3",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libavahi-common.so.3.5.3",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later AND GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "3955dc26e2e65f6626e21a1a597bcfb6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fc846717e0e5f5c204af27d1c87ae84d60a712ad"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:avahi:avahi:0.6.31",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "0.6.31"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libavahi-core.so.7.0.2",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libavahi-core.so.7.0.2",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later AND GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "a23c37092b59d6d8958cb362dc77e28d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f1daf8ece7907bea96b08f5c0c382c77e3df59c0"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:avahi:avahi:0.6.31",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "0.6.31"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libdaemon.so.0.5.0",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libdaemon.so.0.5.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4ba82631c223b963a4dd16835700856b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8c2eefa9ac9b3900e2bd1d0017c83c8b4ed74bdc"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:libdaemon_project:libdaemon:0.14",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "0.14"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-avahi-daemon",
+      "fileName": "/usr/sbin/avahi-daemon",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later AND GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0a734d109e58b0422090a111b6a8a37f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5dae5a0ae5f23323f42e65f4a69f16e101464552"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:avahi:avahi:0.6.31",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "0.6.31"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libglib-2.0.so.0.4200.1",
+      "fileName": "/lib/arm-linux-gnueabihf/libglib-2.0.so.0.4200.1",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "LGPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "3f5adbf1dc9ae7a04276cad6af98926d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4ba8526d40c9da8a1c632a0e01af52b8a1997d27"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnome:glib:2.42.1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.42.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libpcre.so.3.13.1",
+      "fileName": "/lib/arm-linux-gnueabihf/libpcre.so.3.13.1",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "BSD-4-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0af2becacd4acc3e029aee0d931e943a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f9c63cca35aeba08d12d33d26d4eec63f4764b9a"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:pcre:pcre:8.35",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "8.35"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-librt-2.19.so",
+      "fileName": "/lib/arm-linux-gnueabihf/librt-2.19.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "54c036d15bbaf2c2806e10d5dd980739"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f09160119b02d98359b74151713a46fc75b4c5c8"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:glibc:2.19",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.19"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libudev.so.1.5.0",
+      "fileName": "/lib/arm-linux-gnueabihf/libudev.so.1.5.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "CC0-1.0 AND MIT AND GPL-2.0-only AND GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "621af134fcd6d4ea01ba25b16be9e154"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "00fa541dae362a99e16cd43bc45dca42b02e8857"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:freedesktop:systemd:215",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "215"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-sixaxis.so",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/bluetooth/plugins/sixaxis.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GFDL-1.3-or-later AND GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "5635fa51ec91d1680adae10d7d2ff57e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ff385ccb4c0ce870d96de782268948b95827869c"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:bluez:bluez:5.23",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "5.23"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libgthread-2.0.so.0.4200.1",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libgthread-2.0.so.0.4200.1",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "LGPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b7b32187e6dcb34de07f1437310ca9d9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "af27125bf91437d481a5afbff63a4148344a53de"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnome:glib:2.42.1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.42.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-bluetoothd",
+      "fileName": "/usr/lib/bluetooth/bluetoothd",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "GFDL-1.3-or-later AND GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "5ca00690ce37031d30a8af246037c1b9"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "37dfbf361245c75aafe30671aa7b7afbf6821d5c"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:bluez:bluez:5.23",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "5.23"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libaudit.so.1.0.0",
+      "fileName": "/lib/arm-linux-gnueabihf/libaudit.so.1.0.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "114a13f300b958dc9e8a6f8831de9843"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2dcc4b1f6066f21901f3ef3ff3159dc20f48c69c"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:linux_audit_project:linux_audit:2.4",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libpam.so.0.83.1",
+      "fileName": "/lib/arm-linux-gnueabihf/libpam.so.0.83.1",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "3cb75b97abae0a517991e277bf7ca142"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a4ddceae4b755449a1fb2a4e3fe89b5cd5183c86"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:pam:pam:1.1.8",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.1.8"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libselinux.so.1",
+      "fileName": "/lib/arm-linux-gnueabihf/libselinux.so.1",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "d634d5530e7fc8985f05aeffbf8ce18a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "359084f1a6e7f48bfa59dd13d558f8de5de2e630"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:selinuxproject:libselinux:2.3",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.3"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-cron",
+      "fileName": "/usr/sbin/cron",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "Artistic-2.0 AND GPL-2.0-or-later AND ISC",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "dc2eb253c7892e2c7313340420e19f50"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3965ab96ff84042e47882a17d8a9a8db303d921b"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:cron_project:cron:3.0pl1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "3.0pl1"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libgcrypt.so.20.0.3",
+      "fileName": "/lib/arm-linux-gnueabihf/libgcrypt.so.20.0.3",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "93db6801c5026b591add61136beb8400"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "31da3a21305e250f52d2fa351fc028816118ce48"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnupg:libgcrypt:1.6.3",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.6.3"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libgpg-error.so.0.13.0",
+      "fileName": "/lib/arm-linux-gnueabihf/libgpg-error.so.0.13.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0d64a5ad91b90290c5005f4bf9de149c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "164ff5446d60f918ef1f62331fa7bbfb4015dc5d"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnupg:libgpg-error:1.17",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.17"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-liblzma.so.5.0.0",
+      "fileName": "/lib/arm-linux-gnueabihf/liblzma.so.5.0.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-or-later AND GPL-2.0-only AND GPL-2.0-or-later AND LGPL-2.1-or-later AND CC0-1.0 AND CC0-1.0 AND FSFAP",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "f0c0fcce22b318a4cae09cfc5d575c88"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e276e85fb7e6fbd7a1bc37cf38badd3625ad08ce"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:tukaani:xz:5.1.1alpha",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "5.1.1alpha"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libresolv-2.19.so",
+      "fileName": "/lib/arm-linux-gnueabihf/libresolv-2.19.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "755450e3baa1e121fee5fb9bbe25a443"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8b207dc18b5e22d1cb345be0b2269226c8c51160"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:glibc:2.19",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.19"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libsystemd.so.0.3.1",
+      "fileName": "/lib/arm-linux-gnueabihf/libsystemd.so.0.3.1",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "CC0-1.0 AND MIT AND GPL-2.0-only AND GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "ef55f5a290c6d3c2be06f191f2a49af1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a4ab6ac1900908b785f567a2e72185f652390819"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:freedesktop:systemd:215",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "215"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-dbus-daemon",
+      "fileName": "/usr/bin/dbus-daemon",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "AFL-2.1 AND BSD-3-Clause AND BSD-3-Clause-Attribution AND MIT AND GPL-2.0-or-later AND AFL-2.1 AND TCL",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "05575b814c18a2dd7482b53ba76e26d1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a08c4711a3e42debcb2ba451b01a3fad8a99c6d7"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:freedesktop:dbus:1.8.22",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.8.22"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libcap-ng.so.0.0.0",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libcap-ng.so.0.0.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND GPL-3.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "ae9ed309a0dc6a065ce94d9967de446b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "be7a2a39518b12803e846d88a860c6d645dd6b5d"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:libcap-ng_project:libcap-ng:0.7.4",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "0.7.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-udev.so",
+      "fileName": "/lib/arm-linux-gnueabihf/dhcpcd/dev/udev.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "47918b2ca82ae5c6b87404b89012a75a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f8d3744e3c098988b34c4084b384f04273c0a4c7"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:dhcpcd_project:dhcpcd:6.7.1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "6.7.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-dhcpcd5",
+      "fileName": "/sbin/dhcpcd5",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "c08ff9bb0d6163e0f1ef312d26216628"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "17b4ad7bfdc07e86001f22d9a54e45aaebefe131"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:dhcpcd_project:dhcpcd:6.7.1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "6.7.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libnss_dns-2.19.so",
+      "fileName": "/lib/arm-linux-gnueabihf/libnss_dns-2.19.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "8a24050052b5db3f1cf10a80abe6cb7f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ab957500636b15d9f3c86d7d6f090091a50a0cb7"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:glibc:2.19",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.19"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libnss_mdns4_minimal.so.2",
+      "fileName": "/lib/arm-linux-gnueabihf/libnss_mdns4_minimal.so.2",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "LGPL-2.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "86427fc20010e3aefc041603b944bbcb"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3142edd513a39eb7dd43e51861be7627dd7c0c8f"
+        }
+      ],
+      "versionInfo": "0.10"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-hciattach",
+      "fileName": "/usr/bin/hciattach",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "GFDL-1.3-or-later AND GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4baa6220040703ac9d4235eead66023b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c4fee6ad5159f0983698565738d99c2d529f1373"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:bluez:bluez:5.23",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "5.23"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libcrypto.so.1.0.0",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libcrypto.so.1.0.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "BSD-4-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "5fd634793c745f52e4a888377267a145"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "63fd3794d578a17979d7636fd3ece224500826f0"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:openssl:openssl:1.0.1t",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.0.1t"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libopts.so.25.16.0",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libopts.so.25.16.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-or-later AND LGPL-3.0-or-later AND BSD-3-Clause AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-or-later AND BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4e5af58199ff8a7407200cc1f9dc4e03"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ee2cfcb155e5b537aaaaa6341a3295f7a4794381"
+        }
+      ],
+      "versionInfo": "5.18.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-ntpd",
+      "fileName": "/usr/sbin/ntpd",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "unknown",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4abbb39d6f8f215bb2740b425798fcf6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "85f3ec82d737106b373350117c244bc80b951abb"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:ntp:ntp:4.2.6.p5",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "4.2.6.p5"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libbz2.so.1.0.4",
+      "fileName": "/lib/arm-linux-gnueabihf/libbz2.so.1.0.4",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "6974853b87548ef6ddcf5b16dc4dbdcb"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7e9adfdb12c9ce4b854ca24f4a6f06bf817546e9"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:bzip:bzip2:1.0.6",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.0.6"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libutil-2.19.so",
+      "fileName": "/lib/arm-linux-gnueabihf/libutil-2.19.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "148a506b96600fd61486110f0069e9af"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0ee52ad6cdf3839303b503289a155e284a9b970e"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:glibc:2.19",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.19"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libapt-inst.so.1.5.0",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libapt-inst.so.1.5.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "495fadbeb4e318eb0744dcba0aaa650a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8f2b270911905bfb414682abd327dd0a4c0b82e3"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:debian:apt:1.0.9.8.4",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.0.9.8.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libapt-pkg.so.4.12.0",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libapt-pkg.so.4.12.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "a3c158521f6e50a0563eb1aa4380a00b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4a5034bd66912cd4730d81109fa0247a00b1b62b"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:debian:apt:1.0.9.8.4",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.0.9.8.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libffi.so.6.0.2",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libffi.so.6.0.2",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "dbdf8d618f8f165daf5e48f23979a3af"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "77f3c50b10d75de38b02af8316ca0a100d3ca6d9"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:libffi_project:libffi:3.1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "3.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libgio-2.0.so.0.4200.1",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libgio-2.0.so.0.4200.1",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "LGPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "e88a9b77c7d9f538363c2904718fb93f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4bf6e3fbb589c6521cff6a71cfa5042ac53a09f1"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnome:glib:2.42.1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.42.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libgmodule-2.0.so.0.4200.1",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libgmodule-2.0.so.0.4200.1",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "LGPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "f085d8d91167c6fd3a6b9e2b2042d106"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f2f3a7d645a628b17dd2424f324290db3149b84d"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnome:glib:2.42.1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.42.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libgobject-2.0.so.0.4200.1",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libgobject-2.0.so.0.4200.1",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "LGPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "49de8dc27a9acbeee6587de1b2522ab7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e58a3ae02a98c3cf9b2936ebc724c2211aa21c20"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnome:glib:2.42.1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.42.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libgstbase-1.0.so.0.404.0",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libgstbase-1.0.so.0.404.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "LGPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "f38214e981b294c01349557b25574fdb"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8c17e83b146007177b88d50d374263ac9af08c89"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gstreamer_project:gstreamer:1.4.4",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.4.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libgstreamer-1.0.so.0.404.0",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libgstreamer-1.0.so.0.404.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "LGPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "49b4519c8d3bc98cfa3ac5e68c2f4189"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7c58e1b5878927fb3d9944591379573faeca1337"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gstreamer_project:gstreamer:1.4.4",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.4.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libpackagekit-glib2.so.18.0.1",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libpackagekit-glib2.so.18.0.1",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "42965b6b943caf738aebb1a100d7d595"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "067397df18169a21d21de6c98f72bf005f00b159"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:packagekit_project:packagekit:1.0.1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.0.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libpolkit-gobject-1.so.0.0.0",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libpolkit-gobject-1.so.0.0.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "Apache-2.0 AND LGPL-2.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "8351f3dd1878037cb791510b3081bb86"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b4fa53d5356bc9b7d63862b623f3fdb7b6e4fa71"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:michael_biebl:policykit:0.105",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "0.105"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libsqlite3.so.0.8.6",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-or-later AND CC0-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "799268c0eff25f9859a6f31b0b31edbe"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "896db552ce89893fcf8b03d41469b137ff1d1355"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:sqlite:sqlite:3.8.7.1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "3.8.7.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libstdc++.so.6.0.20",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libstdc++.so.6.0.20",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "Artistic-2.0 AND GFDL-1.2-only AND GPL-3.0-or-later AND GPL-2.0-only AND GPL-3.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4a3151f9b6bb7ebb894b14f45ebb20e2"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8d71a534fdec73358f12eb5b0725cb8958fe6303"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:gcc:4.9.2",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "4.9.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libpk_backend_aptcc.so",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/packagekit-backend/libpk_backend_aptcc.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "f531f4841a3ecfdede27958e4b95019c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5d5f3a848a1aa450a25eac1bb3005fd4198b5ff9"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:packagekit_project:packagekit:1.0.1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.0.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-packagekitd",
+      "fileName": "/usr/lib/packagekit/packagekitd",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "f01685a4b517c19b8658563aef799c5b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cdccb1f97af386ead5cfa78d06ec498dfea2b93e"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:packagekit_project:packagekit:1.0.1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.0.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libpolkit-backend-1.so.0.0.0",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libpolkit-backend-1.so.0.0.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "Apache-2.0 AND LGPL-2.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b8a8e7146ddd0b85b9132991ec409b35"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "452783fc08dcc8bbee01c116e7a4e10b08fbb5f2"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:michael_biebl:policykit:0.105",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "0.105"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-polkitd",
+      "fileName": "/usr/lib/policykit-1/polkitd",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "Apache-2.0 AND LGPL-2.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "5c2dc6581eda665c16225fa41df6fe28"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "06408eb24652614e1c9c1e737400466bea6f4b5e"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:michael_biebl:policykit:0.105",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "0.105"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libjson-c.so.2.0.0",
+      "fileName": "/lib/arm-linux-gnueabihf/libjson-c.so.2.0.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "9c0cfa9f0f8a6c607b260771697d01df"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4a2572523ee399211da44712024ec9215d6325a7"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:json-c_project:json-c:0.11",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "0.11"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libuuid.so.1.3.0",
+      "fileName": "/lib/arm-linux-gnueabihf/libuuid.so.1.3.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later AND LGPL-2.0-or-later AND LGPL-2.1-or-later AND MIT AND CC0-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "cea5ab94170ce4de97383324a6f36784"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b57b207bfcf04271d7ef0d9cca038ca2b800db20"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:kernel:util-linux:2.25.2",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.25.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libestr.so.0.0.0",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libestr.so.0.0.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "b28b33976ec43e3040d5a19e155cd95b"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "52431544f4e677a96cc69b8b8adb9353ee05c00d"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:adiscon:libestr:0.1.9",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "0.1.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-liblogging-stdlog.so.0.0.0",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/liblogging-stdlog.so.0.0.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "70fd3c96547e4054322465d415697be6"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "72fbb95a9ffaa87e82c3df1682ac1ff362a930a8"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:adiscon:liblogging:1.0.4",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.0.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-imklog.so",
+      "fileName": "/usr/lib/rsyslog/imklog.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause AND GPL-3.0-or-later AND LGPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4b6ff4152e6eabf09d2370f6fdccebf3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ea3609dfee5437ff06f77f9d4c447be9b61f781c"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:rsyslog:rsyslog:8.4.2",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "8.4.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-imuxsock.so",
+      "fileName": "/usr/lib/rsyslog/imuxsock.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause AND GPL-3.0-or-later AND LGPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "720cd29835d13cc7df84fccd7afddcf3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ded0e0b06021303597f01fa6fb85b25164f994b9"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:rsyslog:rsyslog:8.4.2",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "8.4.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-lmnet.so",
+      "fileName": "/usr/lib/rsyslog/lmnet.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause AND GPL-3.0-or-later AND LGPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "9ca3737f4c878b6b61a34fe25c4f3af1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "09bbcfa62cf4779bec5f38e75446719104b403cf"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:rsyslog:rsyslog:8.4.2",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "8.4.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-rsyslogd",
+      "fileName": "/usr/sbin/rsyslogd",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "Apache-2.0 AND BSD-3-Clause AND GPL-3.0-or-later AND LGPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "31b20d566d893a12ca8497c246f5c0f5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f13e1284b3dae2e0c7a1440756aa05d33780d35a"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:rsyslog:rsyslog:8.4.2",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "8.4.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-dash",
+      "fileName": "/bin/dash",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0b03c0fe291075902f832adcfd74bc66"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "64f17ba1d5b5e4461f657d747370d0f792e81adb"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:dash:dash:0.5.7",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "0.5.7"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-sleep",
+      "fileName": "/bin/sleep",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "GPL-3.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "e0f98c73c2472e2da19d1c5fbbbbb6ca"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "457c7da74585ef9cdaf2b6e12ad19665e2936a4f"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:coreutils:8.23",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "8.23"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libcom_err.so.2.1",
+      "fileName": "/lib/arm-linux-gnueabihf/libcom_err.so.2.1",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "8a14e4419722a0002862da2132e32146"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8907a959b265b668e797f662ed068705931cdb13"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:e2fsprogs_project:e2fsprogs:1.43.3",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.43.3"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libcrypt-2.19.so",
+      "fileName": "/lib/arm-linux-gnueabihf/libcrypt-2.19.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "418317f09c8ec21caf2824189da622ef"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "30d130b18a28da78b958baf9be324349c88f89d6"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:glibc:2.19",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.19"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libkeyutils.so.1.5",
+      "fileName": "/lib/arm-linux-gnueabihf/libkeyutils.so.1.5",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-or-later AND LGPL-2.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "d8f0f721246a02d9a8c68cff07fd29fc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3d82bfe5895840bb09c67c9a85bc2ce8effae0d7"
+        }
+      ],
+      "versionInfo": "1.5.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libwrap.so.0.7.6",
+      "fileName": "/lib/arm-linux-gnueabihf/libwrap.so.0.7.6",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "unknown",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "ef71bec16fc56130f7b7f2c6a1e61fce"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ed2022915b64cc27cd9b13a40303a75d03bc3e7f"
+        }
+      ],
+      "versionInfo": "7.6.q"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libgssapi_krb5.so.2.2",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libgssapi_krb5.so.2.2",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "unknown",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "c26795c68c386991e90159c4a3cf70c7"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "04a7a94c6ca506a85d2f55b02e048e2d6170e404"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:mit:kerberos:1.12.1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.12.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libk5crypto.so.3.1",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libk5crypto.so.3.1",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "unknown",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "d2357535ddf0226f04b9cb984ace3706"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "35b6b936de82d07512449fa7e446f9cc7b6a74ec"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:mit:kerberos:1.12.1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.12.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libkrb5.so.3.3",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libkrb5.so.3.3",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "unknown",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "44ed3690af80ac41ba76f2de1dc4d40f"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9b31dadafc5de9cfac14ac3ac75669aca1ade7d1"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:mit:kerberos:1.12.1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.12.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libkrb5support.so.0.1",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libkrb5support.so.0.1",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "unknown",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "1211fe872f074b6694c26af1e6e25d23"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fe35d81ae7a693905843f0e7b5e93a2a58749cfd"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:mit:kerberos:1.12.1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.12.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-sshd",
+      "fileName": "/usr/sbin/sshd",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "ecc7ebeb92c739bf965246e81e32d983"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c879b60da825f159deb1fab90cdeb7fc8aea8c96"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:openbsd:openssh:6.7p1",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "6.7p1"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libacl.so.1.1.0",
+      "fileName": "/lib/arm-linux-gnueabihf/libacl.so.1.1.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "229f2faac6b42a8052a1a2624b16378c"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "898176dae6e7a1de86703aa6f2760ec4ba7a3c1a"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:acl_project:acl:2.2.52",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.2.52"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-systemd-journald",
+      "fileName": "/lib/systemd/systemd-journald",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "CC0-1.0 AND MIT AND GPL-2.0-only AND GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "2ab6fa5631fb61add43cd9c71582b7a8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "83bf560b1c5d02fbc7233e309182c7c1f9d5d401"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:freedesktop:systemd:215",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "215"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libblkid.so.1.1.0",
+      "fileName": "/lib/arm-linux-gnueabihf/libblkid.so.1.1.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later AND LGPL-2.0-or-later AND LGPL-2.1-or-later AND MIT AND CC0-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "895ab4dd1a0e16f1caa6491fa495e934"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0fff5272d81092c765c8a806a14463a595d5c340"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:kernel:util-linux:2.25.2",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.25.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libkmod.so.2.2.8",
+      "fileName": "/lib/arm-linux-gnueabihf/libkmod.so.2.2.8",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "414575b739e7b204301dffd6cec8257a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "314cdb29637d26f559c47b010a68c1b1265ced7e"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:kernel:kmod:18",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "18"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-systemd-udevd",
+      "fileName": "/lib/systemd/systemd-udevd",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "CC0-1.0 AND MIT AND GPL-2.0-only AND GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "71f4df422c66c7d8fca5b6516ec33898"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2ffee58654f94ee3e2d73a62e7350e4fa3744956"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:freedesktop:systemd:215",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "215"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-thd",
+      "fileName": "/usr/sbin/thd",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "GPL-3.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "de2b2367e5f66c45487d45bd60531920"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0bee93d2b8a7d9760d8d032876d5fee31bf7fc1f"
+        }
+      ],
+      "versionInfo": "0.3.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-time",
+      "fileName": "/home/pi/Desktop/time",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "d197b6638984124d64efc0703eb65c95"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5f4f3cce8adf07b8477a69f0c54ba63bee10075e"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:time:1.9",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libnl-3.so.200.19.0",
+      "fileName": "/lib/arm-linux-gnueabihf/libnl-3.so.200.19.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0e0713789b276f5df6d5bbbd8dfb26b1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6f8dea4a68e0a707acd73322d9522870af892a4b"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:libnl_project:libnl:3.2.24",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "3.2.24"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libnl-genl-3.so.200.19.0",
+      "fileName": "/lib/arm-linux-gnueabihf/libnl-genl-3.so.200.19.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "e09227dca196f244142b19bde47cd630"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "58e3ed82bb4bc6ca6093f0835c75fed0d8c32241"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:libnl_project:libnl:3.2.24",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "3.2.24"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-wpa_supplicant",
+      "fileName": "/sbin/wpa_supplicant",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "BSD-3-Clause AND GPL-2.0-only AND ISC AND CC0-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "e57fd24d3ec0dd880dec23ca28a21b68"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e9a8962b7ca79b3c383e62d1139f664a9482eecb"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:w1.fi:wpa_supplicant:2.3",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.3"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libpcsclite.so.1.0.0",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libpcsclite.so.1.0.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "BSD-3-Clause AND MIT AND GPL-3.0-or-later AND ISC",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "62acee81cf82f1d04c86e97c439dcbd1"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c77d911b542a5ccdf252e6d2c6d43067b6f3bdde"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:muscle:pcsc-lite:1.8.13",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.8.13"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libssl.so.1.0.0",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libssl.so.1.0.0",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "BSD-4-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "ba9adf260fd6024207a97e8ac5fd2ea8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "879a136160d38fd545a787bd66827061e2160178"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:openssl:openssl:1.0.1t",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.0.1t"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-agetty",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-agetty",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-agetty",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-agetty",
+      "relatedSpdxElement": "SPDXRef-Library-libnsl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-agetty",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_compat-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-agetty",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_files-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-agetty",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_nis-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-agetty",
+      "relatedSpdxElement": "SPDXRef-Library-agetty",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-agetty",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-atop",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-atop",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-atop",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-atop",
+      "relatedSpdxElement": "SPDXRef-Library-libdl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-atop",
+      "relatedSpdxElement": "SPDXRef-Library-libgcc_s.so.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-atop",
+      "relatedSpdxElement": "SPDXRef-Library-libm-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-atop",
+      "relatedSpdxElement": "SPDXRef-Library-libncurses.so.5.9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-atop",
+      "relatedSpdxElement": "SPDXRef-Library-libtinfo.so.5.9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-atop",
+      "relatedSpdxElement": "SPDXRef-Library-libz.so.1.2.8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-atop",
+      "relatedSpdxElement": "SPDXRef-Library-atop",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-atop",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-avahi-daemon",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-avahi-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-avahi-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libattr.so.1.1.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-avahi-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-avahi-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libcap.so.2.24",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-avahi-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libdbus-1.so.3.8.14",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-avahi-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libdl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-avahi-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libexpat.so.1.6.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-avahi-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libgcc_s.so.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-avahi-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libnsl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-avahi-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_compat-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-avahi-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_files-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-avahi-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_nis-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-avahi-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libpthread-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-avahi-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-avahi-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libavahi-common.so.3.5.3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-avahi-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libavahi-core.so.7.0.2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-avahi-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libdaemon.so.0.5.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-avahi-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-avahi-daemon",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-bluetoothd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-bluetoothd",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-bluetoothd",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-bluetoothd",
+      "relatedSpdxElement": "SPDXRef-Library-libdbus-1.so.3.8.14",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-bluetoothd",
+      "relatedSpdxElement": "SPDXRef-Library-libdl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-bluetoothd",
+      "relatedSpdxElement": "SPDXRef-Library-libglib-2.0.so.0.4200.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-bluetoothd",
+      "relatedSpdxElement": "SPDXRef-Library-libpcre.so.3.13.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-bluetoothd",
+      "relatedSpdxElement": "SPDXRef-Library-libpthread-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-bluetoothd",
+      "relatedSpdxElement": "SPDXRef-Library-librt-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-bluetoothd",
+      "relatedSpdxElement": "SPDXRef-Library-libudev.so.1.5.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-bluetoothd",
+      "relatedSpdxElement": "SPDXRef-Library-sixaxis.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-bluetoothd",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-bluetoothd",
+      "relatedSpdxElement": "SPDXRef-Library-libgthread-2.0.so.0.4200.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-bluetoothd",
+      "relatedSpdxElement": "SPDXRef-Library-bluetoothd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-cron",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-cron",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-cron",
+      "relatedSpdxElement": "SPDXRef-Library-libaudit.so.1.0.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-cron",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-cron",
+      "relatedSpdxElement": "SPDXRef-Library-libdl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-cron",
+      "relatedSpdxElement": "SPDXRef-Library-libnsl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-cron",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_compat-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-cron",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_files-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-cron",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_nis-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-cron",
+      "relatedSpdxElement": "SPDXRef-Library-libpam.so.0.83.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-cron",
+      "relatedSpdxElement": "SPDXRef-Library-libpcre.so.3.13.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-cron",
+      "relatedSpdxElement": "SPDXRef-Library-libpthread-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-cron",
+      "relatedSpdxElement": "SPDXRef-Library-libselinux.so.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-cron",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-cron",
+      "relatedSpdxElement": "SPDXRef-Library-cron",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-dbus-daemon",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libaudit.so.1.0.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libdl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libexpat.so.1.6.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libgcc_s.so.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libgcrypt.so.20.0.3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libgpg-error.so.0.13.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-liblzma.so.5.0.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libnsl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_compat-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_files-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_nis-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libpcre.so.3.13.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libpthread-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libresolv-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-librt-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libselinux.so.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libsystemd.so.0.3.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-dbus-daemon",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dbus-daemon",
+      "relatedSpdxElement": "SPDXRef-Library-libcap-ng.so.0.0.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-dhcpcd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dhcpcd",
+      "relatedSpdxElement": "SPDXRef-Library-udev.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dhcpcd",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dhcpcd",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dhcpcd",
+      "relatedSpdxElement": "SPDXRef-Library-libdl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dhcpcd",
+      "relatedSpdxElement": "SPDXRef-Library-libpthread-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dhcpcd",
+      "relatedSpdxElement": "SPDXRef-Library-librt-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dhcpcd",
+      "relatedSpdxElement": "SPDXRef-Library-libudev.so.1.5.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dhcpcd",
+      "relatedSpdxElement": "SPDXRef-Library-dhcpcd5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-dhcpcd",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-fwup.agent",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-fwup.agent",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-fwup.agent",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-fwup.agent",
+      "relatedSpdxElement": "SPDXRef-Library-libgcc_s.so.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-fwup.agent",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_dns-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-fwup.agent",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_files-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-fwup.agent",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_mdns4_minimal.so.2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-fwup.agent",
+      "relatedSpdxElement": "SPDXRef-Library-libpthread-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-fwup.agent",
+      "relatedSpdxElement": "SPDXRef-Library-libresolv-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-fwup.agent",
+      "relatedSpdxElement": "SPDXRef-Library-librt-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-fwup.agent",
+      "relatedSpdxElement": "SPDXRef-Library-fwup.agent",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-fwup.agent",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-hciattach",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-hciattach",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-hciattach",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-hciattach",
+      "relatedSpdxElement": "SPDXRef-Library-libpthread-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-hciattach",
+      "relatedSpdxElement": "SPDXRef-Library-hciattach",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-hciattach",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-ntpd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ntpd",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ntpd",
+      "relatedSpdxElement": "SPDXRef-Library-libattr.so.1.1.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ntpd",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ntpd",
+      "relatedSpdxElement": "SPDXRef-Library-libcap.so.2.24",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ntpd",
+      "relatedSpdxElement": "SPDXRef-Library-libdl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ntpd",
+      "relatedSpdxElement": "SPDXRef-Library-libm-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ntpd",
+      "relatedSpdxElement": "SPDXRef-Library-libnsl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ntpd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_compat-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ntpd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_dns-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ntpd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_files-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ntpd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_mdns4_minimal.so.2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ntpd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_nis-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ntpd",
+      "relatedSpdxElement": "SPDXRef-Library-libresolv-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ntpd",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ntpd",
+      "relatedSpdxElement": "SPDXRef-Library-libcrypto.so.1.0.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ntpd",
+      "relatedSpdxElement": "SPDXRef-Library-libopts.so.25.16.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-ntpd",
+      "relatedSpdxElement": "SPDXRef-Library-ntpd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-packagekitd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libbz2.so.1.0.4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libdl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libgcc_s.so.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libgcrypt.so.20.0.3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libglib-2.0.so.0.4200.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libgpg-error.so.0.13.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-liblzma.so.5.0.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libm-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libnsl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_compat-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_files-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_nis-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libpcre.so.3.13.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libpthread-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libresolv-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-librt-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libselinux.so.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libsystemd.so.0.3.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libutil-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libz.so.1.2.8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libapt-inst.so.1.5.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libapt-pkg.so.4.12.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libffi.so.6.0.2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libgio-2.0.so.0.4200.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libgmodule-2.0.so.0.4200.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libgobject-2.0.so.0.4200.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libgstbase-1.0.so.0.404.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libgstreamer-1.0.so.0.404.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libpackagekit-glib2.so.18.0.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libpolkit-gobject-1.so.0.0.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libsqlite3.so.0.8.6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libstdc++.so.6.0.20",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-libpk_backend_aptcc.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-packagekitd",
+      "relatedSpdxElement": "SPDXRef-Library-packagekitd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-polkitd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libdl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libexpat.so.1.6.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libgcc_s.so.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libgcrypt.so.20.0.3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libglib-2.0.so.0.4200.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libgpg-error.so.0.13.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-liblzma.so.5.0.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libnsl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_compat-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_files-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_nis-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libpcre.so.3.13.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libpthread-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libresolv-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-librt-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libselinux.so.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libsystemd.so.0.3.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libz.so.1.2.8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libffi.so.6.0.2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libgio-2.0.so.0.4200.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libgmodule-2.0.so.0.4200.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libgobject-2.0.so.0.4200.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libpolkit-backend-1.so.0.0.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-libpolkit-gobject-1.so.0.0.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-polkitd",
+      "relatedSpdxElement": "SPDXRef-Library-polkitd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-rsyslogd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-libdl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-libjson-c.so.2.0.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-libnsl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_compat-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_files-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_nis-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-libpthread-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-librt-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-libuuid.so.1.3.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-libz.so.1.2.8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-libestr.so.0.0.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-liblogging-stdlog.so.0.0.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-imklog.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-imuxsock.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-lmnet.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-rsyslogd",
+      "relatedSpdxElement": "SPDXRef-Library-rsyslogd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-sh",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sh",
+      "relatedSpdxElement": "SPDXRef-Library-dash",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sh",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sh",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sh",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-sleep",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sleep",
+      "relatedSpdxElement": "SPDXRef-Library-sleep",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sleep",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sleep",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sleep",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-sshd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libaudit.so.1.0.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libcom_err.so.2.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libcrypt-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libdl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libkeyutils.so.1.5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libnsl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_compat-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_files-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_nis-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libpam.so.0.83.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libpcre.so.3.13.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libpthread-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libresolv-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libselinux.so.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libutil-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libwrap.so.0.7.6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libz.so.1.2.8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libcrypto.so.1.0.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libgssapi_krb5.so.2.2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libk5crypto.so.3.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libkrb5.so.3.3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-libkrb5support.so.0.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-sshd",
+      "relatedSpdxElement": "SPDXRef-Library-sshd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-systemd-journal",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-journal",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-journal",
+      "relatedSpdxElement": "SPDXRef-Library-libacl.so.1.1.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-journal",
+      "relatedSpdxElement": "SPDXRef-Library-libattr.so.1.1.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-journal",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-journal",
+      "relatedSpdxElement": "SPDXRef-Library-libdl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-journal",
+      "relatedSpdxElement": "SPDXRef-Library-libgcrypt.so.20.0.3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-journal",
+      "relatedSpdxElement": "SPDXRef-Library-libgpg-error.so.0.13.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-journal",
+      "relatedSpdxElement": "SPDXRef-Library-liblzma.so.5.0.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-journal",
+      "relatedSpdxElement": "SPDXRef-Library-libpcre.so.3.13.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-journal",
+      "relatedSpdxElement": "SPDXRef-Library-libpthread-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-journal",
+      "relatedSpdxElement": "SPDXRef-Library-libselinux.so.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-journal",
+      "relatedSpdxElement": "SPDXRef-Library-systemd-journald",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-journal",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-systemd-udevd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-udevd",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-udevd",
+      "relatedSpdxElement": "SPDXRef-Library-libacl.so.1.1.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-udevd",
+      "relatedSpdxElement": "SPDXRef-Library-libattr.so.1.1.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-udevd",
+      "relatedSpdxElement": "SPDXRef-Library-libblkid.so.1.1.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-udevd",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-udevd",
+      "relatedSpdxElement": "SPDXRef-Library-libdl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-udevd",
+      "relatedSpdxElement": "SPDXRef-Library-libkmod.so.2.2.8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-udevd",
+      "relatedSpdxElement": "SPDXRef-Library-libnsl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-udevd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_compat-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-udevd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_files-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-udevd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_nis-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-udevd",
+      "relatedSpdxElement": "SPDXRef-Library-libpcre.so.3.13.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-udevd",
+      "relatedSpdxElement": "SPDXRef-Library-libpthread-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-udevd",
+      "relatedSpdxElement": "SPDXRef-Library-libselinux.so.1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-udevd",
+      "relatedSpdxElement": "SPDXRef-Library-libuuid.so.1.3.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-udevd",
+      "relatedSpdxElement": "SPDXRef-Library-systemd-udevd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-systemd-udevd",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-thd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-thd",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-thd",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-thd",
+      "relatedSpdxElement": "SPDXRef-Library-libnsl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-thd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_compat-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-thd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_files-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-thd",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_nis-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-thd",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-thd",
+      "relatedSpdxElement": "SPDXRef-Library-thd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-time",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-time",
+      "relatedSpdxElement": "SPDXRef-Library-time",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-time",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-time",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-time",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-wpa_supplicant",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-wpa_supplicant",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-wpa_supplicant",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-wpa_supplicant",
+      "relatedSpdxElement": "SPDXRef-Library-libdbus-1.so.3.8.14",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-wpa_supplicant",
+      "relatedSpdxElement": "SPDXRef-Library-libdl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-wpa_supplicant",
+      "relatedSpdxElement": "SPDXRef-Library-libm-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-wpa_supplicant",
+      "relatedSpdxElement": "SPDXRef-Library-libnl-3.so.200.19.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-wpa_supplicant",
+      "relatedSpdxElement": "SPDXRef-Library-libnl-genl-3.so.200.19.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-wpa_supplicant",
+      "relatedSpdxElement": "SPDXRef-Library-libnsl-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-wpa_supplicant",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_compat-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-wpa_supplicant",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_files-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-wpa_supplicant",
+      "relatedSpdxElement": "SPDXRef-Library-libnss_nis-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-wpa_supplicant",
+      "relatedSpdxElement": "SPDXRef-Library-libpthread-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-wpa_supplicant",
+      "relatedSpdxElement": "SPDXRef-Library-librt-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-wpa_supplicant",
+      "relatedSpdxElement": "SPDXRef-Library-wpa_supplicant",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-wpa_supplicant",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-wpa_supplicant",
+      "relatedSpdxElement": "SPDXRef-Library-libcrypto.so.1.0.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-wpa_supplicant",
+      "relatedSpdxElement": "SPDXRef-Library-libpcsclite.so.1.0.0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-wpa_supplicant",
+      "relatedSpdxElement": "SPDXRef-Library-libssl.so.1.0.0",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

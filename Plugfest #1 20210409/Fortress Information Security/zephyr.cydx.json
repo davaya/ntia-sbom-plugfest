@@ -1,0 +1,193 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:04d99fc8-0b6f-4f36-9ce9-3bf4f3118b0d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2021-03-31T17:20:54Z",
+    "tools": [
+      {
+        "vendor": "Fortress Information Security",
+        "name": "B29",
+        "version": "2021.03.31-1"
+      }
+    ],
+    "component": {
+      "cpe": "cpe:2.3:a:wind_river_systems:any:any:any:*:*:*:*:*:*",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8fe381da1066f38799ea4b1f3342e085"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2e516ef06ad17fec66759d0a15a7a2f6ba742f79"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5c11a55313c728b39bad9ac42dc5d9fc445f03c2415c6559072afde34ca09acc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f88ce79aaf3822b9ac048628a3a53a489f4702e7b59f6e4fd0e9c883ed03af6eda02385443a0ae7550dc9ff5fde564596d369ddab98765a6bf19857a868c6f42"
+        }
+      ],
+      "author": "Wind River Systems",
+      "type": "file",
+      "name": "zephyr_hello_world.zip",
+      "version": "unknown",
+      "mime-type": "application/zip"
+    },
+    "author": {
+      "name": "Fortress Information Security, LLC.",
+      "url": [
+        "https://fortressinfosec.com/",
+        "address://US/32801/FL/Orlando/189 S. Orange Avenue, Ste 1950"
+      ],
+      "contact": {
+        "name": "External Contact",
+        "email": "sales@fortressinfosec.com",
+        "phone": [
+          "407-573-6800"
+        ]
+      }
+    }
+  },
+  "components": [
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1149d3354c69cd275fe5810017ad5d0b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9a016956d5a20cf3b32a8221785e7051c27edec6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "70f631047cd844bc2c749f7e2786b29daa020bfbd5d34108de7f99b3cdcb037f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2066e9fe66480826e8db36ea539bb7653f10c203a06bc4dabd8cd2a77ba2d505d6391aaf669f332bf58c2411fb3b7087dac9f246f0afd235140a230507031ace"
+        }
+      ],
+      "type": "file",
+      "name": "sample.yaml",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "bef1ec069baae7feccefe18cce046435"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e3376fb5fac0dc7c52a27db53d2e2c410f6c9d1e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "81661c2d549ab252e266fcaad53350640c58a6d4d17dad54268e3cfc1166b6b3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0feb30c9e5a6655ee13a2502d396120b0db3388baa36f0051dea5ed015b2ad6a0dbf44ce37cc98f4ceea5df13cc080388e40155f7c4bd9a46e8e88b41a473d36"
+        }
+      ],
+      "type": "file",
+      "name": "prj.conf",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "06691d960b45a805c40da7d018194360"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "afbcc69ab3032f90872fb6e25dbfe49910a0e937"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0c430649569ff984f49eee033c6e6b2d896cab93f9c5a5a713f2f7125b76bdbb"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6ad9affc099e1074906fbad27d268c502bc8484a87ca0b756883b55af54f7671e3b9ee8797cff3abe19c456c28521f5c36342f78d957a08fa9994963f549418e"
+        }
+      ],
+      "type": "file",
+      "name": "CMakeLists.txt",
+      "version": "unknown",
+      "mime-type": "text/plain"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1a33216f57130f8275ffce74bd6c35af"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "baea08c0fc97a96d0290491014c0ef2b38f4d223"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cee6b3dd78fb42d93d7990aaf3e39b7c49cde1a6540ced01346fe8669e535a20"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7db99e0901a98af6c812f62a8357ad905cedaa808f9b65d21832e8de232157d6de13f426038f19723e36f411b9cf87aff4284c14af0ebf5a0697ab6ad4b55abe"
+        }
+      ],
+      "type": "file",
+      "name": "README.rst",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "338b991b112c6738e8bc215b5b9ad5f6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "42ec6def920d00148712b0021f3a2eb5f2721a10"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4421041a62b6525af2ea10960d9441cbe533adf8c20d204cdb1000287f427d58"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c0991f757c458d9aba9358c22b6b4c5797d962ee73cc8e2096a6d4715932584d12c31e0e40b425321848c1059002658a2357a64a8e6ad5a64ddf04db3b88b47a"
+        }
+      ],
+      "author": "Wind River Systems",
+      "type": "file",
+      "name": "main.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    }
+  ],
+  "dependencies": [
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "zephyr.h",
+      "ref": "cstyle://zephyr.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "sys/printk.h",
+      "ref": "cstyle://sys/printk.h?flavor=c"
+    }
+  ]
+}

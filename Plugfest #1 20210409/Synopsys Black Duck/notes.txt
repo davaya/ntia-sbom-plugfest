@@ -1,0 +1,22 @@
+
+Notes from SBOM generation:
+
+- Each of the attached were automated detections from Black Duck by pointing at the files provided (tar.gz file for time, .c file for zephyr, git repo for node-thinkster, and single file for blinky.ex)
+- Blinky sample was not detected, although could have been added either by scanning the top-level project OR as manual component if required - we chose not to do this
+
+
+Black Duck includes many other data fields for each component. 
+The exporter can be easily modified to include any of these on demand. 
+
+Some examples of information not included, but could be added:
+
+- How was the component detected? File signature, package manager, etc
+- Was this a detected component, or a manually added one? (e.g. COTS or in-house development)
+- Was the component modified or used in its original form?
+- Metadata fields from OpenHub.net - package supplier, originator, etc.
+- Custom metadata field entries provided by the user
+- Comments made whilst reviewing components
+
+
+If you are trying to import the SBOM and would find any of these useful, please let us know.
+

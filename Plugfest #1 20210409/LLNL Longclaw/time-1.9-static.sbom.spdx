@@ -1,0 +1,73 @@
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentName: time-1.9
+DocumentNamespace: https://longclaw.llnl.gov/sbom/cc3e65d9a03d1608a27565745f6bb206870dbffd
+SPDXID: SPDXRef-DOCUMENT
+Creator: Tool: Longclaw
+Created: 2021-04-02T01:34:27Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-time-1.9
+
+
+PackageName: time
+SPDXID: SPDXRef-time-1.9
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: gnu
+PackageOriginator: Organization: gnu
+PackageChecksum: SHA256: 48786d79f25ca4b9e234b0da54066d3dbada3b8fa2cb087e73c805b580063cac
+PackageVerificationCode: cc3e65d9a03d1608a27565745f6bb206870dbffd
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+Relationship: SPDXRef-time-1.9 STATIC_LINK SPDXRef-glibc-2.31
+
+FileName: time
+SPDXID: SPDXRef-time-1.9-time
+FileType: BINARY
+FileChecksum: SHA1: cc3e65d9a03d1608a27565745f6bb206870dbffd
+FileChecksum: SHA256: 48786d79f25ca4b9e234b0da54066d3dbada3b8fa2cb087e73c805b580063cac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+PackageName: glibc
+SPDXID: SPDXRef-glibc-2.31
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: ubuntu
+PackageOriginator: Organization: gnu
+PackageChecksum: SHA256: c8a54ba74845c63753cf45b5ef9d5e6e759d82aa3c59d6747d70d4de3bfc0488
+PackageVerificationCode: f1e25f6c836252db5e7d63f3081fc36c0b61f574
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+FileName: libc.a
+SPDXID: SPDXRef-glibc-2.31-libc.a
+FileType: BINARY
+FileChecksum: SHA1: aa3b65444ca96b289280fe2c002b2bf8dc1d4375
+FileChecksum: SHA256: 546f43cc7098134537f581b90b67255553523e307c7d86b6c9c435466743d1dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: libpthread.a
+SPDXID: SPDXRef-glibc-2.31-libpthread.a
+FileType: BINARY
+FileChecksum: SHA1: 6b94a9a0b585be88aa98fb549f189d1a78126d40
+FileChecksum: SHA256: 644ca7a5ba1e222ae6476eb42d59d29f2393885e90277b02c567e43d55b25f94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: librt.a
+SPDXID: SPDXRef-glibc-2.31-librt.a
+FileType: BINARY
+FileChecksum: SHA1: a2fe9b9f89b38d3198b28272119b438cdab2a9df
+FileChecksum: SHA256: 3626504459678d333cdda257dd6b42a616f6f5638855176b6d067ec0bfc2d541
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+

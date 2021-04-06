@@ -1,0 +1,72 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: https://poc39.blackduck.synopsys.com/api/projects/5ee0c7dc-4242-4bd5-b4e2-934f3379f8ee/versions/85945bc1-f295-4146-bd7f-17a0601cad81
+DocumentName: plugfest-zephyr/Default Detect Version
+SPDXID: SPDXRef-DOCUMENT
+## Creation Information
+Creator: Tool: Black Duck SPDX export script https://github.com/matthewb66/bd_export_spdx
+Creator: Person: matthewb
+Created: 2021-03-25T14:10:07Z
+LicenseListVersion: 3.9
+## Relationships
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-plugfest-zephyr-Default-Detect-Version
+
+## Black Duck project
+PackageName: plugfest-zephyr
+SPDXID: SPDXRef-Package-plugfest-zephyr-Default-Detect-Version
+PackageVersion: Default Detect Version
+Relationship: SPDXRef-Package-plugfest-zephyr-Default-Detect-Version OTHER SPDXRef-Package-zephyr-v2-0-0-rc1
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+
+## Black Duck project component
+PackageName: zephyr
+SPDXID: SPDXRef-Package-zephyr-v2-0-0-rc1
+PackageVersion: v2.0.0-rc1
+PackageFileName: src/main.c
+PackageDescription: NOASSERTION
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: Apache-2.0
+FilesAnalyzed: false
+ExternalRef: SECURITY cpe23Type NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/zephyrproject-rtos/zephyr@v2.0.0-rc1
+PackageCopyrightText: <text>&copy;) for that character
+(C) Copyright ..." is shown in the HTML footer. Default is True.
+COPYRIGHT 2016
+COPYRIGHT SIGN
+COPYRIGHT--*/
+Copyright (2) 2019 Vestas Wind Systems A/S
+Copyright (C) 1996-2018 Free Software Foundation, Inc.
+Copyright (C) 2006 Bertrik Sikken (bertrik@sikken.nl)
+Copyright (C) 2006-2015, ARM Limited, All Rights Reserved
+Copyright (C) 2006-2016, ARM Limited, All Rights Reserved
+Copyright (C) 2008 The Android Open Source Project
+Copyright (C) 2012 - 2017 Texas Instruments Incorporated - http://www.ti.com/
+Copyright (C) 2012 William Swanson
+Copyright (C) 2013 - 2015 Texas Instruments Incorporated - http://www.ti.com/
+Copyright (C) 2015 - 2017 Texas Instruments Incorporated - http://www.ti.com/
+Copyright (C) 2015 Texas Instruments Incorporated - http://www.ti.com/
+Copyright (C) 2015 by Intel Corporation, All Rights Reserved
+Copyright (C) 2016 Atmel Corporation
+Copyright (C) 2016 Texas Instruments Incorporated - http://www.ti.com/
+Copyright (C) 2017 Intel Corporation
+Copyright (C) 2017 Intel Deutschland GmbH
+Copyright (C) 2017 Texas Instruments Incorporated - http://www.ti.com/
+Copyright (C) 2017 by Intel Corporation, All Rights Reserved
+Copyright (C) 2017-2019 Texas Instruments Incorporated - http://www.ti.com/
+Copyright (C) 2018 Linaro Ltd
+Copyright (C) 2018 Texas Instruments Incorporated - http://www.ti.com/
+Copyright (C) 2018, Linaro, Ltd
+Copyright (C) 2018, Nordic Semiconductor ASA
+Copyright (c) %copyright_year
+Copyright (c) 1982, 1986 Regents of the University of California.
+Copyright (c) 1984-1999, 2012 Wind River Systems, Inc.
+Copyright (c) 1984-2008, 2011-2015 Wind River Systems, Inc.
+Copyright (c) 1989, 1993, 1994
+Copyright (c) 1990, 1993
+Copyright (c) 1992, 1993
+Copyright (c) 1997 - 2016 Freescale Semiconductor, Inc.</text>

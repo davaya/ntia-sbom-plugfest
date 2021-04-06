@@ -1,0 +1,54 @@
+## Document Header
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: sfractal-blinky-0.1.1
+DocumentNamespace: http://sfractal.com
+Creator: Person: sFractal
+Created: 2021-04-01T16:03:00Z
+CreatorComment: <text>For Plugfest</text>
+## Packages
+## 2.4 Primary Component (described by the SBOM)
+PackageName: Blinky
+SPDXID: SPDXRef-Blinky
+PackageComment: <text>PURL is pkg:supplier/sFractal/Blinky@0.1.1</text>
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/sFractal/Blinky@0.1.1
+PackageVersion: 0.1.1
+PackageSupplier: Person: sFractal
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Blinky
+Relationship: SPDXRef-Blinky CONTAINS NONE
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+## 2.4 All-Levels Components
+##
+PackageName: Logger
+SPDXID: SPDXRef-Logger
+PackageComment:  <text>PURL is pkg:supplier/Hex/Logger@v1.11.4</text>
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/Hex/Logger@v1.11.4	
+PackageVersion: v1.11.4
+PackageSupplier: Organization: Hex
+Relationship: SPDXRef-Blinky CONTAINS SPDXRef-Logger
+Relationship: SPDXRef-Logger CONTAINS NOASSERTION	
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+## 2.4 All-Levels Components
+##
+PackageName: Nerves.Led
+SPDXID: SPDXRef-Nerves.Led
+PackageComment:  <text>PURL is pkg:supplier/Hex/Nerves.Led@0.8</text>
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/Hex/Nerves.Led@0.8	
+PackageVersion: 0.8
+PackageSupplier: Organization: Hex
+Relationship: SPDXRef-Blinky CONTAINS SPDXRef-Nerves.Led
+Relationship: SPDXRef-Nerves.Led CONTAINS NOASSERTION	
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION

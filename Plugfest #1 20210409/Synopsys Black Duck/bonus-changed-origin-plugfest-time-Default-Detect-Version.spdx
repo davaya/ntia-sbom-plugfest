@@ -1,0 +1,132 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: https://poc39.blackduck.synopsys.com/api/projects/861bedcb-9b56-4da5-aeeb-7b7bfa5899f4/versions/787eb6e9-cd15-4a68-ab32-d0e16cf597d0
+DocumentName: plugfest-time/Default Detect Version
+SPDXID: SPDXRef-DOCUMENT
+## Creation Information
+Creator: Tool: Black Duck SPDX export script https://github.com/matthewb66/bd_export_spdx
+Creator: Person: matthewb
+Created: 2021-03-25T14:07:45Z
+LicenseListVersion: 3.9
+## Relationships
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-plugfest-time-Default-Detect-Version
+
+## Black Duck project
+PackageName: plugfest-time
+SPDXID: SPDXRef-Package-plugfest-time-Default-Detect-Version
+PackageVersion: Default Detect Version
+ExternalRef: OTHER BlackDuck-Hub-Project-Version https://poc39.blackduck.synopsys.com/api/projects/861bedcb-9b56-4da5-aeeb-7b7bfa5899f4/versions/787eb6e9-cd15-4a68-ab32-d0e16cf597d0
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageDownloadLocation: NOASSERTION
+Relationship: SPDXRef-Package-plugfest-time-Default-Detect-Version CONTAINS SPDXRef-Package-time-1-9
+
+
+## Black Duck project component
+PackageName: time
+SPDXID: SPDXRef-Package-time-1-9
+PackageVersion: 1.9
+PackageFileName: /
+PackageHomePage: http://www.gnu.org/software/time/
+PackageSupplier: Organization: fedora
+PackageDescription: <text>The GNU time utility runs another program collects information about
+the resources used by that program while it is running and displays
+the results.</text>
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: (LicenseRef-Unknown-License AND GPL-3.0-or-later)
+PackageLicenseDeclared: (LicenseRef-Unknown-License AND GPL-3.0-or-later)
+PackageComment: <text>This is an open source component from the Black Duck Knowledge Base which was automatically detected as a direct file match, the PackageSupplier was based on the externalNamespace</text>
+FilesAnalyzed: false
+ExternalRef: SECURITY cpe23Type NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:fedora/time/1.9-1.fc29/x86_64
+ExternalRef: OTHER BlackDuck-Hub-Component https://poc39.blackduck.synopsys.com/api/components/5ed0853f-7fa4-4283-b86b-4e6ecef7849d
+ExternalRef: OTHER BlackDuck-Hub-Component-Version https://poc39.blackduck.synopsys.com/api/components/5ed0853f-7fa4-4283-b86b-4e6ecef7849d/versions/1b3ee950-70c7-4dde-8b8c-6289e8ea1a54
+PackageCopyrightText: <text>&copy;
+&copy;|©)';
+(C)" to the copyright symbol
+Copyright                                  \
+Copyright &copy; 90,2005,2007-2009
+Copyright (C)  @va
+Copyright (C) 1987-2018 Free Software Foundation, Inc.
+Copyright (C) 1989-2018 Free Software Foundation, Inc.
+Copyright (C) 1990, 1998, 2000-2001, 2003-2006, 2009-2018 Free Software
+Copyright (C) 1990, 1998-2001, 2003-2006, 2009-2018 Free Software
+Copyright (C) 1990, 2001, 2003-2006, 2009-2018 Free Software Foundation,
+Copyright (C) 1990-1998, 2000-2007, 2009-2018 Free Software Foundation, Inc.
+Copyright (C) 1990-2005, 2007-2009 Free Software
+Copyright (C) 1990-2018 Free Software Foundation, Inc.
+Copyright (C) 1993-2018 Free Software Foundation, Inc.
+Copyright (C) 1994 X Consortium
+Copyright (C) 1994-1996, 1999-2002, 2004-2016 Free Software
+Copyright (C) 1995, 2001-2004, 2006-2018 Free Software Foundation, Inc.
+Copyright (C) 1995-1996, 2001-2018 Free Software Foundation, Inc.
+Copyright (C) 1995-1997, 2003, 2006, 2008-2018 Free Software Foundation,
+Copyright (C) 1995-1998, 2000-2002, 2004-2006, 2009-2018 Free Software
+Copyright (C) 1995-2014, 2016 Free Software Foundation, Inc.
+Copyright (C) 1996-1998, 2001-2004, 2009-2018 Free Software Foundation, Inc.
+Copyright (C) 1996-2014 Free Software Foundation, Inc.
+Copyright (C) 1997-1998, 2006-2007, 2009-2018 Free Software Foundation, Inc.
+Copyright (C) 1997-2002, 2006, 2008-2018 Free Software Foundation, Inc.
+Copyright (C) 1997-2014 Free Software Foundation, Inc.
+Copyright (C) 1998, 2001, 2003-2006, 2009-2018 Free Software Foundation,
+Copyright (C) 1999, 2003, 2005, 2009-2018 Free Software Foundation, Inc.
+Copyright (C) 1999-2006, 2009-2018 Free Software Foundation, Inc.
+Copyright (C) 1999-2007, 2009-2018 Free Software Foundation, Inc.
+Copyright (C) 1999-2014 Free Software Foundation, Inc.
+Copyright (C) 1999-2018 Free Software Foundation, Inc.
+Copyright (C) 2000-2001, 2003-2007, 2009-2018 Free Software Foundation, Inc.
+Copyright (C) 2000-2001, 2004-2006, 2009-2018 Free Software Foundation, Inc.
+Copyright (C) 2001-2002, 2004-2018 Free Software Foundation, Inc.
+Copyright (C) 2001-2003, 2005, 2007, 2009-2018 Free Software Foundation, Inc.
+Copyright (C) 2001-2003, 2005-2007, 2009-2018 Free Software Foundation, Inc.
+Copyright (C) 2001-2003, 2005-2018 Free Software Foundation, Inc.
+Copyright (C) 2001-2003, 2006, 2010-2018 Free Software Foundation, Inc.
+Copyright (C) 2001-2003, 2006-2018 Free Software Foundation, Inc.
+Copyright (C) 2001-2004, 2006, 2009-2018 Free Software Foundation, Inc.
+Copyright (C) 2001-2014 Free Software Foundation, Inc.
+Copyright (C) 2001-2018 Free Software Foundation, Inc.
+Copyright (C) 2002, 2004-2005, 2007, 2009-2018 Free Software Foundation,
+Copyright (C) 2002, 2007-2018 Free Software Foundation, Inc.
+Copyright (C) 2002-2003, 2008-2018 Free Software Foundation, Inc.
+Copyright (C) 2002-2006, 2008-2018 Free Software Foundation, Inc.
+Copyright (C) 2002-2006, 2009-2018 Free Software Foundation, Inc.
+Copyright (C) 2002-2014 Free Software Foundation, Inc.
+Copyright (C) 2002-2018 Free Software Foundation, Inc.
+Copyright (C) 2003, 2006-2018 Free Software Foundation, Inc.
+Copyright (C) 2003, 2007-2018 Free Software Foundation, Inc.
+Copyright (C) 2003-2014 Free Software Foundation, Inc.
+Copyright (C) 2003-2018 Free Software Foundation, Inc.
+Copyright (C) 2004, 2006, 2008-2018 Free Software Foundation, Inc.
+Copyright (C) 2004, 2007-2018 Free Software Foundation, Inc.
+Copyright (C) 2004-2014 Free Software Foundation, Inc.
+Copyright (C) 2005, 2009-2018 Free Software Foundation, Inc.
+Copyright (C) 2005-2006, 2009-2018 Free Software Foundation, Inc.
+Copyright (C) 2005-2018 Free Software Foundation, Inc.
+Copyright (C) 2006, 2008-2018 Free Software Foundation, Inc.
+Copyright (C) 2006-2014 Free Software Foundation, Inc.
+Copyright (C) 2006-2018 Free Software Foundation, Inc.
+Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+Copyright (C) 2007, 2009-2018 Free Software Foundation, Inc.
+Copyright (C) 2007-2018 Free Software Foundation, Inc.
+Copyright (C) 2008-2018 Free Software Foundation, Inc.</text>
+
+
+Annotator: Person: Michael White (whitem@synopsys.com)
+AnnotationDate: 2021-04-02T09:07:15Z
+AnnotationType: OTHER
+AnnotationComment: Are you sure that this comes from Redhat?
+SPDXREF: SPDXRef-Package-time-1-9
+
+Annotator: Person: Michael White (whitem@synopsys.com)
+AnnotationDate: 2021-04-02T21:36:49Z
+AnnotationType: OTHER
+AnnotationComment: Manually changed to Fedora package instead
+SPDXREF: SPDXRef-Package-time-1-9
+
+
+## Custom Licenses
+
+LicenseID: LicenseRef-Unknown-License
+ExtractedText: <text>The license has not been identified.</text>

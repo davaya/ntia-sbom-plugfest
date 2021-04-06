@@ -1,0 +1,687 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:4229971a-9f7f-4e4e-b280-c62bf7b61ab7",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2021-03-31T21:44:48Z",
+    "tools": [
+      {
+        "vendor": "Fortress Information Security",
+        "name": "B29",
+        "version": "2021.03.31-1"
+      }
+    ],
+    "component": {
+      "cpe": "cpe:2.3:a:any:conduit-node:1.0.0:any:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d28506117ffef977f38cadbef8b91420"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "06c53011fdac2d5341440fa1f774462b338eb8f3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6408ec48cbb44c86ccd21d6446b95b12f8876599fe053c3af9b2e8f3e29105a8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d5e51196e9d6e981c532fd1169ee4985a614f096d3f9a31a92efd3d9c1fe2f1c2f40cfa5be126ef0ddae8a7b4ca640cf0cf44ae649d8e901b5d6cf29df1da013"
+        }
+      ],
+      "description": "conduit on node",
+      "type": "file",
+      "name": "node-express-realworld-example-app-master.zip",
+      "version": "1.0.0",
+      "mime-type": "application/zip"
+    },
+    "author": {
+      "name": "Fortress Information Security, LLC.",
+      "url": [
+        "https://fortressinfosec.com/",
+        "address://US/32801/FL/Orlando/189 S. Orange Avenue, Ste 1950"
+      ],
+      "contact": {
+        "name": "External Contact",
+        "email": "sales@fortressinfosec.com",
+        "phone": [
+          "407-573-6800"
+        ]
+      }
+    }
+  },
+  "components": [
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7a22954e758d5286ff8b4b26e42f4dd8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "adb3c92a7d5f1df1c1b9a2942a06cf2edd511782"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "05b6e58d6ab0c6044a48daf58a7cf6b01d4bb2179ff859d42c53df8d5b1bce85"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d1b47cd21d215c7e9282d2fd3315e1800fd63b576cb72bc7f64436fda6ae5ec4ca0ba115705bb89f78747b35b073ac06800b9b5f73054e41898f25ab46dedb68"
+        }
+      ],
+      "type": "file",
+      "name": ".travis.yml",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "80fbb86dfdf86c7d161bb6268aaef8a6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "376eaade121ba2e7134a883d42c286a874143b6b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0e86ea5caa21e44753dbcb3155c31f817f7413d4e87d836cdab487761700c91e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "24f0a6892907ae21b8b64638e343b75a3c3c671d1b61b578c232182f239550e1d56c6bc64f0561ed6d477752ca9936f1bbb6ab813b50935b1fc76f69f189c3bb"
+        }
+      ],
+      "type": "file",
+      "name": "project-logo.png",
+      "version": "unknown",
+      "mime-type": "image/png"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "cbd11c73af870c438bfee856fdb17d70"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d1e471b4271c259ae71c89de1ca4f74b4a9f70c0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a99bc0a2c647dc0e1fdfd752b0f3c7c36ccfb51e89791907255e4de48a512303"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3c1d2b93a2bd424ff0b0b66edeb8bf435716f567075a04b3f2868fb7f1f1fd74f0cdcd2fe5e210651167c8bdcc886faa2056761fc73d073c2556291b9ab10539"
+        }
+      ],
+      "description": "conduit on node",
+      "type": "application",
+      "name": "package.json",
+      "version": "1.0.0",
+      "mime-type": "application/json"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4b4508fdce3f8541c4f206792c99436f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a906d0adddb7b45b5ec1041802410107334134e4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7345ba0d26b529f75f0bd613544dfea5532bcff9366566d8c5b2cacaa0eeaa51"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4d50e04ff814ff263c6d843c4cc46f8c35fbe723b69a32a65042520553bb8d6047c4139cdd0f01138e93537164d2e0755048b614fec79ef59b37c7720478fdd7"
+        }
+      ],
+      "type": "file",
+      "name": "README.md",
+      "version": "unknown",
+      "mime-type": "text/markdown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f51e492e586845b0c454e57fe0e85069"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "57b97dde10f2ef9ec831c4f33a1a28c8f04bbee9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "59af459716e4512f9f1160b1703f10e0ab0a19d8502b72baf91a3654e37cc420"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4c99af8cb6dde3c225ad09183b63544e7d7c2dda6cd8ffa078ffb782d22e9dd6e330003af4e884932313630f9951cfe3fc9462ce8ebd65b4e65d1563da587c81"
+        }
+      ],
+      "type": "file",
+      "name": "app.js",
+      "version": "unknown",
+      "mime-type": "application/javascript"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "df5b6978d748fb4ca995e88b051ffe51"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7877bc31c8e11bcd3abc2b0e314516770389db3a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "53b1df1b6b05e7d5fe1e2502d792367e6da4a605853ee34ca10cb99bf4fe7502"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4a9e23efe89ed87e7ecbaaa994e8db5ed83912e29aa26fe188905f3d587bb47d8011031bbca6f4d0f4a98b709203f3b321f2ca621e5bd1c07cc82499280254d0"
+        }
+      ],
+      "type": "file",
+      "name": ".gitignore",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "77431a4018349bbe01469117aff2f30c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c869132139014d440059cfea4ecda92ee9808c39"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d93073151b43c0c375d6a7ca43de8d6b66e11cf2854ad17248ef69777dbc2ada"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "93cb0a7bd4a02dec58a898b6e830bf4cac3a9d057dec3e3aacbc9923e6555b9eb09e6718e076bea5bdb329ccfc5b153355ea8cca110a2386c93e75aa2240a50d"
+        }
+      ],
+      "type": "file",
+      "name": "yarn.lock",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0366a54d2c807a189dc2f89b867c6b79"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9d7460bf3bd24e0aa519aefc89236d3fa668b906"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "576d4f8f1b1312d485be17ff3b9bd94dc13321b9638b1d62025d45b49d32b46e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "55f36a916c54ff77b702f3189dd589658dcaa1638b5fc2ca3f0857551f9daa0f48d60340c778e8d5bd53c1bca663f1c7ff8d6a40ee6ec54bcddc754d758f51a2"
+        }
+      ],
+      "type": "file",
+      "name": "Comment.js",
+      "version": "unknown",
+      "mime-type": "application/javascript"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ac225866c60d845841b1da808c3ff5e7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8a069d573a6dc9a69b9ab298c9ff3f11b4b20ec6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "dbecc83519da87210f381c8dfb562917558b9cb125716b2b5172c933f0d30dcb"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b73fd0f2942bf6dd147874b94e062da63411bdea8bae843014ad1b887d1f18586b1caf1ae1774ea8999cf8f28a7245c460458e8eaff78521b2b8b42ffca80c31"
+        }
+      ],
+      "type": "file",
+      "name": "User.js",
+      "version": "unknown",
+      "mime-type": "application/javascript"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3eb85f378cf861888582b3c2c4a8fdc9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a7329998242344dbc70a51bb11caf88eda85a65d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e5d91f6cb7c6e18363f284a7f74335b2023790aee6847e4735c323f8fc851a2b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b3d6359665fb5fc3383ae7611c34861bdd34ceaee8d3c9774b44325204d738a47f42c5fc210f7496f9c2e0b3bb02460e2d378d9046716faee4c787a22cc2d009"
+        }
+      ],
+      "type": "file",
+      "name": "Article.js",
+      "version": "unknown",
+      "mime-type": "application/javascript"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0213b1b7f3ec9ce07a50553eab33331d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a65086e0abe7914482fe70d1411783218c134543"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "dd9d46b3098792a807d770c325a7572ce31d1af36e153fce4367c1608a77cf30"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9887adf291636254d8ecb703d946a27622c67e83eb2aaa7cfa2c22406dc21c2a2d5bc4962750d40753190f5c632e71249c7ae07b12207d00da65c3b1e28b3940"
+        }
+      ],
+      "type": "file",
+      "name": "index.js",
+      "version": "unknown",
+      "mime-type": "application/javascript"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b7a1c52489fefd9b1bbc46d393ba3b2d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "669a5450a4f793db88f44a20a0dc2c832213ff31"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f571a26528a396d6f703aec45ac46b4d6f06ff42664d1f3daba12f4a8530f639"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7582f8cf1ba551b6ad0339b19c492bd48087ebe84d5dc387aef6d8368b162e102de40f02eca7e4eb7c6489630687f82c83856c4483a829ba10379c330cfaa4b7"
+        }
+      ],
+      "type": "file",
+      "name": "auth.js",
+      "version": "unknown",
+      "mime-type": "application/javascript"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6a869fe86c5bfc56ddf2c17a2d1f3077"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "004a9afe71da1a6035120ac7f76f5c53ec968e5b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ff581427df755ba960488eb24b95f47180db2945f9a4b69781ffe1ee4aa39522"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "25723339b21b999753e01ef6d1049faba6c4663942d15a1a9cbaa19b7b5a51b7b2993934d704ac86e39a53110e2f9f424fd5e5ad6b7c6e1811b9c71ffadcd020"
+        }
+      ],
+      "type": "file",
+      "name": "users.js",
+      "version": "unknown",
+      "mime-type": "application/javascript"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5f36db0abb86d20d053410c7092870ac"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b9e24843c8ab2012541fe54007b6214742cb6d42"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ad6e82700fe048f144e7412bed7fe0aefaf7f1e5dcd3c84d7a356e493e42ab92"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "864b5e0c0af26be09f07c4da229ff21381be140826712d1d03a774dbad806545d0b3faf6e893443a00f42314fee9ec858cefdf4ad92814aef0c92e8a662219ca"
+        }
+      ],
+      "type": "file",
+      "name": "articles.js",
+      "version": "unknown",
+      "mime-type": "application/javascript"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "68052aca8a5e51d50c61744c02e3cff4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4c4ff0dea0457ef7bd521d51581820e39e817c9b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "73da10fe6effc72703b2620614c3de5681ea5bde0c8e1988745a4e3aee3183d4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "468a1285fdea8918403c5d0b5df14bcc7a6c615f70ef3b3ef9776685cb53188f749a392c2a4b125d3c3682680c1508707920726e00e1647191f54c9641627d09"
+        }
+      ],
+      "type": "file",
+      "name": "tags.js",
+      "version": "unknown",
+      "mime-type": "application/javascript"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2e934ac9314d0cd2927a40e2faa1d674"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b6e524831f5f148bc002e7a4d8f072da56178e9f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "08901f5e4619adb6ba07d32b44bd2416fe16dcfa2c100fad650597a218ad7cd7"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a46dd854e8e259ef424b0c01931797feb438467f1e40374036bf4b6c707514a8b5df608aecd4afb42e7acdbb0e484892a3a9085892f3e7c5b128e28a46a65618"
+        }
+      ],
+      "type": "file",
+      "name": "profiles.js",
+      "version": "unknown",
+      "mime-type": "application/javascript"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1b5b744aecd764cc5018d39b477d46f4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4e0201ab470350388e933b5f105157d8946bab7d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5f12c78196a357f6e060f1953bc17f84984c0a5064375cde98944e0c7633e53f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ba3ce9b078987386a4d7a57fd3138ee0b89182ebeae7fddb662bdda7a52cd21a64548050baeb7c699315f8ed5e3633fa902f3b550e4d5e50a3eb223da8984758"
+        }
+      ],
+      "type": "file",
+      "name": "config.yml",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b4c086eee4bac0d3887b84ac8712b917"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d8f4df257996361e74cd41bcffd208066c82c9d1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c124297a6ec9974b4d3bc633836144e411c87a36b16c864126bea567c311e6ed"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f68d74b2fa9e0e67248d5c24df28486b6269683b17f629a1a71cbd24ff8313f8b3703098b21a06d22e7a69ea28698bb0adcb2ea2ebb0da98616c8d5d5781a883"
+        }
+      ],
+      "type": "file",
+      "name": "env-api-tests.postman.json",
+      "version": "unknown",
+      "mime-type": "application/json"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "75667cb84c776f05d6a50897d2fd5b7e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e63e4a8b9280b46b0f470f7b42e5095c20819783"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7d0b428c063358c6e7524641b8b8e1c49381c4a7096586ba377a825950f25568"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0f2cf6f6315a76306db499a51d71cd3bd98cca5aa6743c91b937e501755687d475fceea1045d15d97952aa1fe27ba219d085c79ec3b97242beb26314361b8713"
+        }
+      ],
+      "type": "file",
+      "name": "api-tests.postman.json",
+      "version": "unknown",
+      "mime-type": "application/json"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d41d8cd98f00b204e9800998ecf8427e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e"
+        }
+      ],
+      "type": "file",
+      "name": ".keep",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6aebcc8582c110fde7048c7645300b12"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9361bf4119d99a5f6f7dcfa5f4670a743b220961"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e2c261bb88ab04205a503e0ed1d606c08656ffa88c216602a43deeb80018c3ed"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "72842e3f61faf65d6b5a6db809b450cf6852d3e8a93795fd6f4660ad937c3aa07a5d39c06b6a01b2b19ef913398bcaa0f488a926cfee49d1ab8bff9b41c45620"
+        }
+      ],
+      "type": "file",
+      "name": "passport.js",
+      "version": "unknown",
+      "mime-type": "application/javascript"
+    }
+  ],
+  "dependencies": [
+    {
+      "type": "npm",
+      "format": "npm+ver",
+      "title": "body-parser: 1.15.0",
+      "ref": "https://stackoverflow.com/search?q=%5Bnpm%5D+body-parser"
+    },
+    {
+      "type": "npm",
+      "format": "npm+ver",
+      "title": "cors: 2.7.1",
+      "ref": "https://stackoverflow.com/search?q=%5Bnpm%5D+cors"
+    },
+    {
+      "type": "npm",
+      "format": "npm+ver",
+      "title": "ejs: 2.4.1",
+      "ref": "https://stackoverflow.com/search?q=%5Bnpm%5D+ejs"
+    },
+    {
+      "type": "npm",
+      "format": "npm+ver",
+      "title": "errorhandler: 1.4.3",
+      "ref": "https://stackoverflow.com/search?q=%5Bnpm%5D+errorhandler"
+    },
+    {
+      "type": "npm",
+      "format": "npm+ver",
+      "title": "express: 4.13.4",
+      "ref": "https://stackoverflow.com/search?q=%5Bnpm%5D+express"
+    },
+    {
+      "type": "npm",
+      "format": "npm+ver",
+      "title": "express-jwt: 3.3.0",
+      "ref": "https://stackoverflow.com/search?q=%5Bnpm%5D+express-jwt"
+    },
+    {
+      "type": "npm",
+      "format": "npm+ver",
+      "title": "express-session: 1.13.0",
+      "ref": "https://stackoverflow.com/search?q=%5Bnpm%5D+express-session"
+    },
+    {
+      "type": "npm",
+      "format": "npm+ver",
+      "title": "jsonwebtoken: 7.1.9",
+      "ref": "https://stackoverflow.com/search?q=%5Bnpm%5D+jsonwebtoken"
+    },
+    {
+      "type": "npm",
+      "format": "npm+ver",
+      "title": "method-override: 2.3.5",
+      "ref": "https://stackoverflow.com/search?q=%5Bnpm%5D+method-override"
+    },
+    {
+      "type": "npm",
+      "format": "npm+ver",
+      "title": "methods: 1.1.2",
+      "ref": "https://stackoverflow.com/search?q=%5Bnpm%5D+methods"
+    },
+    {
+      "type": "npm",
+      "format": "npm+ver",
+      "title": "mongoose: 4.4.10",
+      "ref": "https://stackoverflow.com/search?q=%5Bnpm%5D+mongoose"
+    },
+    {
+      "type": "npm",
+      "format": "npm+ver",
+      "title": "mongoose-unique-validator: 1.0.2",
+      "ref": "https://stackoverflow.com/search?q=%5Bnpm%5D+mongoose-unique-validator"
+    },
+    {
+      "type": "npm",
+      "format": "npm+ver",
+      "title": "morgan: 1.7.0",
+      "ref": "https://stackoverflow.com/search?q=%5Bnpm%5D+morgan"
+    },
+    {
+      "type": "npm",
+      "format": "npm+ver",
+      "title": "passport: 0.3.2",
+      "ref": "https://stackoverflow.com/search?q=%5Bnpm%5D+passport"
+    },
+    {
+      "type": "npm",
+      "format": "npm+ver",
+      "title": "passport-local: 1.0.0",
+      "ref": "https://stackoverflow.com/search?q=%5Bnpm%5D+passport-local"
+    },
+    {
+      "type": "npm",
+      "format": "npm+ver",
+      "title": "request: 2.69.0",
+      "ref": "https://stackoverflow.com/search?q=%5Bnpm%5D+request"
+    },
+    {
+      "type": "npm",
+      "format": "npm+ver",
+      "title": "slug: 0.9.1",
+      "ref": "https://stackoverflow.com/search?q=%5Bnpm%5D+slug"
+    },
+    {
+      "type": "npm",
+      "format": "npm+ver",
+      "title": "underscore: 1.8.3",
+      "ref": "https://stackoverflow.com/search?q=%5Bnpm%5D+underscore"
+    }
+  ]
+}

@@ -1,0 +1,6754 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:ad042632-d225-4401-b42b-959bcecf4801",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2021-03-31T17:30:03Z",
+    "tools": [
+      {
+        "vendor": "Fortress Information Security",
+        "name": "B29",
+        "version": "2021.03.31-1"
+      }
+    ],
+    "component": {
+      "cpe": "cpe:2.3:a:x_consortium:any:1.9:any:*:*:*:*:*:*",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d2356e0fe1c0b85285d83c6b2ad51b5f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "75068c26abbed3ad3980685bae21d7202d288317"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fbacf0c81e62429df3e33bda4cee38756604f18e01d977338e23306a3e3b521e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5c6dabbbe71e9103a47b892b86bb914c1704122d4fe7dff1e2cbd28503297163118d295077d8e062b035d673a1f91c36f8a45c7383f374fd766942b32bde4406"
+        }
+      ],
+      "author": "X Consortium",
+      "type": "file",
+      "name": "time-1.9.tar.gz",
+      "version": "1.9",
+      "mime-type": "application/x-tar"
+    },
+    "author": {
+      "name": "Fortress Information Security, LLC.",
+      "url": [
+        "https://fortressinfosec.com/",
+        "address://US/32801/FL/Orlando/189 S. Orange Avenue, Ste 1950"
+      ],
+      "contact": {
+        "name": "External Contact",
+        "email": "sales@fortressinfosec.com",
+        "phone": [
+          "407-573-6800"
+        ]
+      }
+    }
+  },
+  "components": [
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c388a1332ca1e96f2f6d8cfa646f12d8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2dc6b69d572ae23f6b8f9dae77feea7260db639b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7314cda2b70cb320c3c4d1ade755de877583a4b0b0371c56fc3b188629aab948"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "554eab725015ec320570cd0dffd021a7d4950b863ba66941f0d8cbcb5f9b90d84e29bd07b5caf26eb96c6e78252f1cddd4284b004b5f1307e483533f3e9b7c29"
+        }
+      ],
+      "type": "file",
+      "name": "time-1.9.tar",
+      "version": "1.9",
+      "mime-type": "application/x-tar"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c9b26a327e81e4c8b465954fe12a507c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f87147d15b32b10d44a4df040037bb1cc15c87e8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d1665e188a9ceb040c9ae2de22080e098b0bf1b96a298fe0a9764409e7eb378f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d80c589d3c87312e7c461c08a5aca6882a056d7f3142722de9afa5d70f3f8f2db985afcf3bec7b27650e52de9d8e2f6abd257a054b02c69efcdecb1372630c2e"
+        }
+      ],
+      "type": "file",
+      "name": "README",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "bdcb7264e2a39941264afa5dfa3758c6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ae3b07644500912b2bed3cc39bdcf53f2e1c26f4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "94b66c236593445c3d1c6945e1c49eaa442d425519f9cf70f51f134c64403d0c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "df2e29e0fe319159ac4070f800feec0b702d9cb52fa76a3c3ea3f5b889992ada5249a442470e498dacfe5805f1e5b54a64649912afaa506028fd46a8a62f27ad"
+        }
+      ],
+      "type": "file",
+      "name": "NEWS",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8a241d508b33c06839c38c1dce6851a2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1517b8d574225cf2dba4d484984004983b324dcd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2ea4e5d9cb17ad5aedc89ac042b4b80b055b33dca897baecefe87b34c17a2385"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8329267d7cbd3e7e35e98badd66bc70b34d2ae5e32f599547342a1222406aab957487347628d177fd712dedc71180f83dd31ccd907de7769e419c7633f8f6ca9"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "Makefile.in",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "51d898b710e27d408cc75ee9273d839b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "564ec5e88fd08269c512141b1df1257eb1583e15"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b87274570364145094dae2691c6f826ab288101f893655190aedcb7d9503f190"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1270f9bd0887cb44337c03952142d6d7e76eef49c91ccc285af92571c34672407c47823591abb180285c57b75fb9d0a32f3afdc9a0e92db84ae313cad9a387e6"
+        }
+      ],
+      "type": "file",
+      "name": "configure",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c6414f370b5906b342334436d68a4349"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0a3a0e1ab72b7c132f5021c538a7a3ea6d539bcd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "810f62682648695db43226bf70de8c2dcb0ef9c9f77326341d2389355a05529f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "981500f7dcb5ae6f7dd03f6a0818e8a39fdb7fc6397cf7e7b10e5179b9fabab7ed1b7a8b0f879b11d2c2c4c39f9df7bc84a0faa8fbd3faba0a97433fa83c1624"
+        }
+      ],
+      "type": "file",
+      "name": "ChangeLog",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "410125842a6c70c7dbda5aad7902e248"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "561b14718c07c9663ea30749d57b2c71160dcd42"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "13b66e4b57991e8190ecaf29fcf2a72a1c8934bb74545557922acb9ab5b40b87"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "69fd1a1f89e9978e0e50418c329e3a6b1685ff7b4d685c703671bd93f87b43df914c129ad3b0d95ce0ae849151c82da95d199063d201a450e24c6ee382aed760"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "maint.mk",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b0038f24ff2e70e711fad64e4e41fb83"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b108e706ea53ff8a81adb3e0f812882db4735f05"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "39fef26e7498d3ff5b706bc6f4d4823da506b7ddbcc61707d9c3a0aea6a9a0f1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "92a40fc0192ea8f1d9d06e3862ec30f4a93ba9f597e79a33fd05c38880e8ba5ffaede4c14828b9b916109a7695cab5386f7c7e04d762073bbbd3b1c2d7fba635"
+        }
+      ],
+      "type": "file",
+      "name": "Makefile.am",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a9408c6ccf7d9dae6aecfc7476af0326"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8cc0a9e05e94ebcb65085d8be9c2d335facbbbcc"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d746e481fd65f197211efb76fcfdad3859eaf00ca0bf380c7a414449e4ae3259"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a66c1706365e4f140cf0ed68dd320d55f9526a45a29be44900abdc01a35c2c78a59f13d7ca8416a929bb0cd9f56fc396305c3063a29d4c8933229799c6e924d4"
+        }
+      ],
+      "type": "file",
+      "name": "GNUmakefile",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f2766448e74c24bd1c1c5d12466093ae"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ed90eb318bd3ebb4ae1a2bd352f106786a2923f4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "54be5efe708bd5a7b433ab227130c5548221151698d17eb7eb142f640cf291ec"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0a52efa22c55547801b1abf13207b62b1b1bdbc9142a3ec59221e9f83e2d3ce75b9f300394fc7de40415728c62619cd0c342bd653362e9fef94b2d7262c98847"
+        }
+      ],
+      "type": "file",
+      "name": "INSTALL",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "396839a3ec49dba5357e70fa517d9943"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7ff96aba93c8885a48dda73d892dda8b0063e73c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ed613dfd89188b289329ec3f9852937c7643fef686514628df2e506a10852742"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e559f8575fc1282a357129846d3d205ee83cb8fea81962759325e9f0d65b68273f54ded83b1130c3cceb17e368ecf38befc0d3ff51dc8be135d1f9daf9e29f66"
+        }
+      ],
+      "type": "file",
+      "name": "configure.ac",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "84098a263e9fdda6f7c0234c0a744e8c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6d92b5aec8fdaff9d61dd8b041413657bce9910a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5b25ec9b8e26416ac861fe296089a9de68d55e9a2c0a0b311da044a774f9b601"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f4cb2f34fee0941d21874505fd6cfefb11ae9d22265d66a0e35c255cc19adf66504a60ecd7ecc729615f55144e1aec081b1a15fe63b3ee62115cab8cd69df292"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "aclocal.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d32239bcb673463ab874e80d47fae504"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8624bcdae55baeef00cd11d5dfcfa60f68710a02"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7633623b66b5e686bb94dd96a7cdb5a7e5ee00e87004fab416a5610d59c62badaf512a2e26e34e2455b7ed6b76690d2cd47464836d7d85d78b51d50f7e933d5c"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "COPYING",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "99ef6da89f10497cc3c14e8f197a0cd1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7951f4ceffdb030ec617eddf7bba22523cc1a67f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "00736429e6c818e30c469ee5576812e1294f6b0862711ce29203e0ee467e025d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "721ec0a4a293b8279451bba84a98982f75ab71d842ea0244557cb98a47e5f427f4bfbfdf6b52a81a8260040fc299e8c5685963fa3b23a2a7c64b101df22b0a7f"
+        }
+      ],
+      "type": "file",
+      "name": "AUTHORS",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b6c8adf1f9c3ff84fda4616801843ab4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a3ee869fd47d2e99f5d7b98b201ef4a7e9309542"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5fe7ba024c64b2dfcb572170cd3e578728740aa6957699e9cdccd6405a57b4f4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ecc1da2065ae1e7e9375d0a0486ae27a27144f8274cbea3f4775a3588c9d03c9286288fd67b0728646c181ee42e91c6fe2ad4d2339d7f5048ee34e8aa350a5ce"
+        }
+      ],
+      "type": "file",
+      "name": "config.in",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "276e31d4baf239a59c52b23a3133af19"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "587cf63cce3b3b09dca557a482b5d0255cfa0dfa"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9ad7d2dc3dbe023e940b287395ed71d121914dc0bd99ffb3cc816ae56b4e5bfd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5382102b1fc91bb940d800a37040ae798d37d28029c95963fcb9978b339c4784412802f3c015001b758f86e52bfe83ec98c179d4307e06502dd9fde5ce8b2e19"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "time-max-rss.sh",
+      "version": "unknown",
+      "mime-type": "text/x-sh"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2211a48e84edeece21a1750248b5c57e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f1b6784c00fe8e44c66690f22a2729a23111cec7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cf7047f00047ab0ee608a966a92b31ae119efc96b0042b9385d82e16b2f07f39"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "13888dc4914c2b854bad21bf3cf8f98bb67e1ab0b43575a5dc6e03b4c8a022c8e893e44f355164f84cb6a4591322c2b7c1873d8fd18836f8b65e8234207193c3"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "init.sh",
+      "version": "unknown",
+      "mime-type": "text/x-sh"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5c1cbb9c929401efd451d4266b1a0e2b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "30b3973b22ddbcd9e8982a06c5a2440fcb315013"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f5b8aab8089ff5de5f92bc037e23c1c18e8968db4c60848d71d42dbe818ba174"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a2d33cdf799d558ad4c87a07cac14eed17da51587d12832b6fa5b4eb9d766afc813f2889345c55de4ca797447fe2e002dbad873f7a2cd0179489cf97f394236c"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "help-version.sh",
+      "version": "unknown",
+      "mime-type": "text/x-sh"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "31b2b46a2bd0e358663429daba884fc8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0890026279d3bd045bbd9a896ac3ec3533e3079c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "15b50998ea1dbe478908e2694f020f3fc388ce99a9ec96e53727c657701db466"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c94ba7d086c3812e3236daef31cff90ece45ec37280ef53cdcc072c5139a0a010defd779d9f6d8e4984199be55e616233e34190cc1486e134626e5daf765383f"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "time-posix-quiet.sh",
+      "version": "unknown",
+      "mime-type": "text/x-sh"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b5f94a3cda9ea0012818007cb6e9913c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3ee07020d4e3c6c123dfdc22f44d203ef3a80431"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cca1dd29520a20bef989f6c043a7cb3a74f1c0f4019e56b7f85da595147b56cd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8acb9107abf3c85fe83d88893f4407cf39428aeea32dfd63097c88adba9303b614d3a205a8f476fc9220423e044130fd4dd257cb60937756da6831c30af5ef7b"
+        }
+      ],
+      "type": "file",
+      "name": "time-aux.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8c96ec13cdf0bd804c432f80503142fb"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a2274d739390a1f5fdd92cf2287c3e6a51f6e555"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "146e0e94d360e87d34514810d38da240bb0dfe7ad067711f3871512173c484d5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "683c345cad78fca0127738c7de45c539fa8c82f5b24f59c75174273e338df41bc73f260c16e1675c60bafa491237ffa5edf1cd1a52e6b40d575ddac4955fce14"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "time-exit-codes.sh",
+      "version": "unknown",
+      "mime-type": "text/x-sh"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3fe086a3873d52da9c4643f1455647c4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b8704559c36de165e01c23b7a084035cd757ed39"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0973c182c0cfa76b7c97caff22df7c495a388918cb3aca5a31918297ae84c058"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1511a12dc258f034203908b7258759741bb0ae25ca8a36ee0e561b65c37dffe73f939e5c1d41d72acae81a0410885dd7c5ba6e84b94cd229e20b202fed17e6c1"
+        }
+      ],
+      "type": "file",
+      "name": "stamp-vti",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3fe086a3873d52da9c4643f1455647c4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b8704559c36de165e01c23b7a084035cd757ed39"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0973c182c0cfa76b7c97caff22df7c495a388918cb3aca5a31918297ae84c058"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1511a12dc258f034203908b7258759741bb0ae25ca8a36ee0e561b65c37dffe73f939e5c1d41d72acae81a0410885dd7c5ba6e84b94cd229e20b202fed17e6c1"
+        }
+      ],
+      "type": "file",
+      "name": "version.texi",
+      "version": "unknown",
+      "mime-type": "application/x-texinfo"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "133776c244cf188eb9c35edcb4f3617e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b11d29e1de8f333ca0839a4315d5c20d921fb67d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d1384a49fd4b301494cdc06eb1d9733a042c1a98b7d4a34a95dda867d7df20ba"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "20f272d2e0a72df86e93a1c46d133219d2e7e84da8934ccf7c50bd5153ce0a4fed2deed89fb0e37f7fe6524a0cac2cdf34cce0d961acb4640f905ab810dccf2c"
+        }
+      ],
+      "type": "file",
+      "name": "time.info",
+      "version": "unknown",
+      "mime-type": "application/x-info"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f5af04dd5c0c359db850aa6343cc33c6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b325d74cd9fcecf5e9472248c2ce93ba2bda2c16"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "69c7e482859498bd4e06d0420f90c4c4a74ad1152ddfff8f13f9bcc892da35c5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9ddae6aaa7dec286c213e009030cb702c13c0e867b0c77110fcb82d31046b420d93c91a42a4df6fa35c4344f71ad34a3a6613e7a570372c89731b7ea0b202c86"
+        }
+      ],
+      "type": "file",
+      "name": "fdl.texi",
+      "version": "unknown",
+      "mime-type": "application/x-texinfo"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GFDL-1.1-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GFDL-1.2-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GFDL-1.3-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GFDL-1.1"
+          }
+        },
+        {
+          "license": {
+            "id": "GFDL-1.2"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1fc07b604778a9cfe7133b321693ea7b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8a9b21d1d5d8fac7d4343457cb930f376f415b48"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6559e5280f45d7df4adf5b39d4adc12aa716dab4eb98b55ac50e38c57d03253a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3f24b49165146f06a1d1e2628d973d7960d5866c95efa8f524c4bb69dbc342c03ccebd674fd6880a138b9e4ec1d96c7b0b24305ef2956506a40c57bafbedfe8c"
+        }
+      ],
+      "type": "file",
+      "name": "time.texi",
+      "version": "unknown",
+      "mime-type": "application/x-texinfo"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f76fd83077b4c4586f50b9012c11fa80"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9df923fd706085677cb17f7fa58b851a3d1f74d0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5d4c2b356724aa52e219c76b86034b719938b9e7ea58529f0fe2a1dd77bbd0e6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "021a05a09d1a9120594075524beeb6cc79a54c676e3d2b400e1bb5bb41339a23280bf86a24daaa4437ae5bb7fcd2317c851af4000511fd3b1d74fe620c2cb1d3"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "resuse.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "10f2f2b227da13d28cdc789e7cbc7b1e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d377a5251c15cd6cfa29046748631749e10bc744"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d1be3fdee1579db9cfe1b6c10a135e5ea388704238dd5388af927e1b4c613c9b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8bfe48ac705a7f2fe5d0db30a621291041d80da7ce8e04d16a872f135d300b839f9f6035b5295216c25633af50805dc9a98cc41cf10db222ec370e9ff88ca14d"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "rusage-kb.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4b1dbbd8744fada335f987f2eede309f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e523df92851a6fd2d7dc03112f7e0b47b822531c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3fa8c0b3aa5bb0eeea8b1d9d32419cd1db13f1d46ffff5a30135669f49da5df4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f2dd0c2585dd3ee2b4b936fcad90eea59ac03eaa23e0e9fe646e87c1f6fffc1ef1d874cac377007827531dcfb1f6f186c59ab898ab9316c2194cdc55b653b0a8"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "time.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "412aa432b4d2a7a35e5ae20c01011305"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4ce8b714113da3055d0721f4b3639aa0f25ce47c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d23eb63b1550eb44448f571c9149945c55afc5bc01aeb735ed3b60f632a84e74"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9195e20f5de87bb7cf01d7a1990b8bd473bface6011bb2099d57f653755e07e3f6629e872342003511e6e50ba89b84526fa8ea0292c909b4a24b28f407b0ffe2"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "resuse.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "129200ac6cbf3f050c3ab0c3f3406a3e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3e6b7c41d9d21a64cc4c0fe8d8940fa34aaa7e15"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e7e6bb30b7120ccff2e670f454a91ec350c7cc97a30452354d8e5af91dc8a925"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "253d3da07adb9aa49aef2d697c2b54150f45814ab18cd34a7e6e2c9c4f2f7edda9e34d47947eb70ce78b408cf8d3815969d88009af64711acfc476be122f7599"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "rusage-kb.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e56bc1f1b8195fe8f329e823d1048637"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "95d39f2b33a700f674893faf568442c2f898999a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7b82f087d05c99ee1023aa50af27439168a62ddfa8f2faca309848e194e8b9a1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1401f3063d326dfdcea61cce4efe201c1fdaf6ddbee34a1e5304dec4a42d15a9398899034cc689b7d3e6909566825570534fe94e32cd63e8ecab8df111766d1c"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "mdate-sh",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c735c442474a483bd38719a03d56d728"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5c84fa19f8e181ad8100a1afecd03426318834c1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5b075cf337b7f5ae0fee6882f46d94dd7fa4045b24ca9d71ba0169f979f868ad"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "25fc608173c5ac5b04551c53a1d16c4ccc086b1e1c41918140aef8592fb3cf79ccb4404f3c001f34531a9c5d312928a8158ea12e4e7e453219f8f8077f118b68"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "config.guess",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e5f9da8b55623ead67f2bcfee03fb4d4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "81388f72975aa969aae12bb81472ade0d5f62c10"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "561b133cbb3d0806480302a72ef4fda57e3546107dec6bc570f01c8e52ded09f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ac6e95768be8ace288dce3925d7860ed38ae06e90ac5b3a3efe09a2e0da0892a8458d7d28ce489a6cfd1163215970f212307b3660cb849c2bf301b45a8796603"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "depcomp",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5f2a276ee7b8decec541391229d03591"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fced81554799feb0f10fb56e3a06acb92c7ce7b0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b1a337b731bbb58846d31ca2f5143c293a455fa41b481e236e89a9016d96b034"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "665a4c151d87f7dbad121085539f9d7a6d7bfb70d6713f7138423157f94015a8fa4c129c9887024f3403d4eca4b57edaf2ec851a9e6d6663714c1901362280b2"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "missing",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6a2a87669211b517227bff8f2bc71926"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d3b0652874bfa83f7519ca90b82710e7fa76cc00"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "09d69c15d3501a5f8255bdf1f6f042bfe16e975e998678d18d14f6b18dcc5926"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "15fcc970b8a793a012431c3961c4f0c903f77d2f4c64949bb14434cf3dfd4a4ba28f381154b29ff463461a185b07649fcbb45e69b137ee54cd0733311e2aa723"
+        }
+      ],
+      "type": "file",
+      "name": "prefix-gnulib-mk",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "bac3fb7f33d1f10f02f0b6460d2eee12"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "45053d3e25fb26a5b3c4a00a23d6b572086a2445"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "618b9afe95659e12966f090232b2e713946f1c162915c8385dfff71f34eacd58"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a250f42caf1ded48fd02ff9c39de0344ea3cfa14d36727807a7ebc65df06f6c1d976419809395ae00667d6289e9aa1b4d6b5eb38b64b051c07e03c80c8ecddfd"
+        }
+      ],
+      "author": "X Consortium",
+      "type": "file",
+      "name": "install-sh",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e9b837f9f5e88317b7d3e26659778df2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "94d9d908140d39fc3f9a940c0398e86db479fe34"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1c44fca892a1a921174eca4403a4a1bc6a96d7091083412b540881cc63fdaf31"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e881ce01fee1cfa2406c1bb89d01a4082b0aa0c07239d4ca8222aad0d6c837967fd31737fa579c64dc628808f7b07920fb39aee2bacb39fd5c6e65ce8bc9853e"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "config.rpath",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "500b9244caa7a7ab23ece1db37efa76d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "03a05e37267c2f1c9fea4f2a6a15f8a7beb91c0d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "41856428226c049fa0ea4ca7a574c28416de2769b55ed7feea4ab5e60283af16"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9e10c7197471b1b3ca825378a4184570c145b38d6edeab9bc6d16feafd7d66ce776b4e9959c8d304858d4f833754eec52fbbbea1a3aa5cdcb66c1c47107676b2"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "compile",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7162cde4f40bc6263f5416f38f441305"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "85493d1ff3bccecb5e09634b779acc65f2250d83"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ed42683dd431d7f27340017a309ff05409845710f1d7bb91b02421c5bebf772c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8160b97bb23854face8a19c0fa418cff2daabf8ffd1111466973f0e5707904b6783b00e5791c03d4f9a628dbd69007cc167f22962c82ca9fbf7266d1ccbe394b"
+        }
+      ],
+      "type": "file",
+      "name": "texinfo.tex",
+      "version": "unknown",
+      "mime-type": "text/x-tex"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "fef8ac1566df5f131b301be779746871"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "07ff1cb1250c2d91aff08a8f5e872933c6523de4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4da94c3f755f32ef8621da4625c169e6284cd2ff2cec187b9b012fd316adf2f5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0d3df04940ee8e23a48bfba36f5bddec59a08a11b827e6229d9268d89f84c8a441974ccf65d4b858489d0ada67d76b629ac095f3ce0126ca6e8d15e81ffc9cea"
+        }
+      ],
+      "type": "file",
+      "name": "update-copyright",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3e168125720b752596f9247925c884c1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d42f8fbf99b9d9967c976f4501dca68266768aae"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b4f3f06c9500755923d86a066d537d90178e332fa7e2e3fd4246d1c2ea590e55"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2b7315384d38d929c99f2c552d0022aa2b60e46080e7b2dbf25d61c3270a7dd87c571f30a6abeb9cb969204078e911403db889f8048801e3670a4ba42efb1c47"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "gitlog-to-changelog",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7ce923f582b49637d13847c49fff9490"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ebabeb373c5af3b8606b510a2494955e34325d8a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7c1ae35455771ae32050c2ed109e3d297160b6d1a2f70b0278cf6968e5e7e98c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c8c7d5938c00fb669b22979321a91768c48f66c0229b6a911b3fb54ff7dd9f54ff0cecb0cc09c563daf3cf82e3097ddeb0544611d6213115460c776118cca084"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "test-driver",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b9b692bfa9df01fbd36bb74d13610613"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9145fb9ee80ba23ed781baf42f08b32e53c5c384"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fb42a72cbd550cf640e58564e3b07ddae79f5282753369a48d3689a887056806"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "494060ee6867572013865f575f956b9ab28f291d9727295132f8b5d149f5f49ac77f3208c5c100c50840437bba94a184ab6a6f9e90290b6729bbd3fd32cf4cac"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "git-version-gen",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a991b4fa5c242e489946b8acf410d8e8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8bc335752c95905823f68cc74fff9b100b211e62"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6b93a44744d10fb60bfb53da1b14ae70acbcc583519806f1241aaf2fef36afed"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cdcd7da3b3c2d56c73f67f8eed86253cd250290c2741ef73717980bd11cb3a17ba48f61ddb955e767af230a7f8fc76986de23f273cfbadd14eb2e6ea4bedca43"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "useless-if-before-free",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5e3624407a523c0b1466cc1e827721e1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "847084fc5a4190626624f6629e3782614414973c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2cf32747ef7d6b24138c77a53f8bf5ec2a11fcd962e5a5f62ed5c55e05f3be54"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1514eb1abdb002cee77bd92b7454f9ef96a084a6a8097d8b024e085f6de1ecadb2049ba88d95af141c6c2e87e4db5ab43163362a0575bfb37d0274fc102bb809"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "config.sub",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4ca600453f65df6f61cc5def566a634a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8f030960a3b263f581ca7f85b172bcaee7378380"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a6717adc8dbf2dd59205a72d06da515649f7cb6d44ee90aa1a2e9685c994964d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "18d615edef6f809c98a311c857dcca542731e2d2d588af41d8c7f5fdb75d9ee7f92647698e7add7f70d54dff5ff38697f00fb9075fbb0a13e9d95bbc60d04385"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "vc-list-files",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "58c4fb618e730ddf2500a5574aa274d2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0e053bd9fa3c2eac0d1ca052abc00508fa1d1744"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "970a372b134fe21a4c40e68aba9d7ae53895d85045aa3e43ba4bb3eda723ba65"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b577f1d82352d226bb7444bc52eea0d5ffa4f20883289e1e7ee4685b70d96ec65e01280c190bc88697d0d31eac5d7833dc524c1c7123b1523f976798bc0029cb"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "non-recursive-gnulib-prefix-hack.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6a20758d55f3705153cf5ebc8e771746"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "45e41f67310a6028b409c10da8f78f3ff783d0f0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d3b63b6e8fad2d60699149fb451c655c4a21c1ed8d8bdbdc1bca3ffbfd69f507"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3c1bd4f0c4b4b88f5cf20f47bb1c96852cb6cd4d2aa46a5220704932d7b9809e2fdbcdf72557b6e514e598a4f381476a5c403c6346fb87297a1a3d23f920062c"
+        }
+      ],
+      "type": "file",
+      "name": "malloc.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f60388737988f20448ac6465be6e6f73"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "55ee29c74307d5e4d3f3bcff2827d41402c0f97f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5113218e11271068d1642a581970d5c952270c5547f1c43ff5a34c6243793e43"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "64cca4c535d8effa4aaea8c59dd10303c633edd380bce8d13f8fd517ff0a498462132639bba1d6e20fce23dba11764908fd5e6fcfbb02ea02c4eab2e80e669b5"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "localtime-buffer.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "aaf29675fe286172219bf30d2b231626"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0f15c737dfbcc1a56b3c730f83aa77dddc8c1fb4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b8b30d0914bb9141110ccdf35fd9ce0d25233564e2779bf08b34ff86d7aae732"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "45367d920c9a53c76f0d5760a78a87b29a7bcc9070b5d2b084124e388fd94a2dd27be84a26841c4c15be709b97466b960f56281604ef7ef7bdfcb16f03f80e08"
+        }
+      ],
+      "type": "file",
+      "name": "strerror.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "85c61e57ac2bef557980cd468e46bad0"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "61e10ebf66a35728c5913f253f897167ea41e37a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ecf22008a797fc704ca122e6fc999d57ce339d7c15c8be94aa793221770a5583"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5757d22b4024b072252ce37e5bae030a88c56d48004e4b6b4d5c45a37c35e1a46aa6838de81838e1d8cd5118b45d3f7dfb7a230f4dce82fb3d37db68f37c4a4a"
+        }
+      ],
+      "type": "file",
+      "name": "stdarg.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "eafa6a23ed00cc45653dfd951d81a37d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fdfde6e09de0b09c2d6dfc52257079459705708f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1b079729fb968bd7be9e131f4b257c3e1fb6a32329642defeb776560420a3a56"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1f83383051c4a43be51d755914305104c70537ff46979907abf3e727a8317a51e3d975630807042ac80dbdbba9aabd6fa81dafbd6fe2cc98aa012fd48c73dcd4"
+        }
+      ],
+      "type": "file",
+      "name": "wchar_t.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "fda88322637dd6bb65f836080f12f511"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "51e5370363f45cc98dee7b8c9c34d394f7ce7f30"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e2dbc7d04187364a4ecb5ac506ef192d703ba025ebca785d0befde33b60e623e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8216217c2c55ea6924db48a6c5fec51c344aac7f60addb5064f9234dbd6f762ac58abdfb5ba0d85120b7f4b3575e2d078a38fe205d00a7f734bb35a1f36a1599"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "warn-on-use.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f11a0b689731a5911b1364075bb3c61b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c90d4002ec2962aa6dd0df0bc4373efa14c0afff"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7bfd794a89ad8fc686670ff5187cb318984e3aaf1e6f782a9ba7c04c5351a6dc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9d70686c5e866b071ae3faf27db31886fd86eb8f7152eefaa8884d594df8634d1c11dc0e45797d553492efa4f6bd64646dea8979fa248c57aa8b6fdb77990bb7"
+        }
+      ],
+      "type": "file",
+      "name": "stdbool.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a7d676984d19ee760535213d5aa142b7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5c2fda83d4dc5fe3bd2af51edba153864c310f57"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5490ea0558d57482d8060f36415b0c3a384fd45f94857e2306159b35ad522c39"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "34e78e39f572a6a54093183762bdce9b20671647edefcdb121e428c9967eb2f64e8b077bf24bca9fd053c5c6b316338a1d5003220127f74f115f831ac64730e2"
+        }
+      ],
+      "type": "file",
+      "name": "wint_t.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8b6fe1e83149085420727583e5ea9d45"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4444906ad68133b43c643685774defe73f193a92"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "18adb033b6cf384c76b01708fa5e2749e0d65de2fe026fc9e4a1730ce9e13b2e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "88eeea2826b54cdff7b392a2cbcf37193dda378f826dab4190c2ed729d8f8d1baba382a3655bb6ecd2f0ec0bfe17fb9c79605e167b4dc044c82ad083f55ec27e"
+        }
+      ],
+      "type": "file",
+      "name": "errno_h.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "654ea9909b7976420cf7e45897310f2c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "02e07ad1366d6eb67a27706e4beb03f05385a2a6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "51990d6ef49472b826523db8c71bb0ca71d4ed2d97ebfd8cc0cd43336bfe8329"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cb6f0278fe4bbcad2a7f9318927838bbd5d22d372ed8e1d50b88ac9728535b08b2b3d1e93a7bb1b5ccd2c5bbac909dbb0b1606419786cbbc4e3aa20a19d5f5a7"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "getprogname.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7cb4b34f885b95d1308c66556a270e0f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "06b096bb430aaa6602ca9f00bbb9825975fcbee3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "52c6917a7d3e6543dea64e918a1b8a71b11b3a783f4731f01541934c88463bfb"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "24ac03787eaf42ed84908711e0220a1ce1e6fe4584d999ce045ac0a3f1f19ba7666342c3872697ae75491eef65a559b0041b931e6d80666a5f5430bb60484b60"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "msvc-inval.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "501ce45176034291fdfce5ac1f4113f6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "aa9cd95639ddad70ac9cabe1512f5a6b7067a058"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e06dbe50cca5b319dd3f5fdbf26df4300c5c00671ca55edc581acea72dc5c96d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6327822ef4282f7448a9b5272c82a1938d3f360356cb2bf4da7edbbe9b38414d35c4e8b2939558c0da7d6cad1af1aced7f7ff85f2d9c4b9dc8baf94e5969df3d"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "unistd_h.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3d99f22b6718a8ecc7dad1f2cb0bd763"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "33118e382fed1142424c16f9fcac67997e3daad8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d556a4f5b3bca246bcca74685cc59d9bec5d51151daf966e92107993d87fa432"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "02d3936c501a4ad981095b785c3c82403dd0d936981c621ecdf05acaf5fb8008901bf7190a7b6d4415c9c2623e3c6d9a5eabc1ac29e85464e4f043cc2d6eb7a6"
+        }
+      ],
+      "type": "file",
+      "name": "time_h.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "83e7c38f13460cb7cf6ae7ff20db39ae"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "608114215d62715e149e4a61bdd23147cb58589f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7b8060be0abc356587ea0fdf8fd87847114da43a1d8e39d47fd3bb22ed7c3d37"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "58bfc0f701817d8bd9d13866386eccd22b65bfc9a61ca4d7264655bb1569dd9037b3f6988cfe0cc2d84da688633ff5c0c59410eced91fa88b1d75ef36cec749c"
+        }
+      ],
+      "type": "file",
+      "name": "sys_time_h.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "70a28b6690b52dfba6b88b1d4b9a4592"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "97cc057ef86104f4ef6c93e1189b56ef8677a79d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fe8e717ec5f987cdf796992e77e3c6990589cb381901a13659023f233f551ea9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2b2c3e0883642c84aef895bc2c40ca988602f4f652b52ce0ff7e2576d48924386475177eb1d4fc13ef71300eebf88a165d60800309d8332b8806131cfdf4795a"
+        }
+      ],
+      "type": "file",
+      "name": "extensions.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b6d1c6566a8b4861c1ef3406741343d0"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "391965566d9dd55927dca2b04b28117f1fe9da33"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "986ad1cfa7608316129eb0708f677284319061539c90bc71fdcb1413f1ab1126"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f0b980dcb6cbd3b2451267ea3fb166892c290488b413c68bd05cf6b79c7242de70acd5d7b0d87d436a430fecb9859ddbd4c50eda45b64eb7124007882582129f"
+        }
+      ],
+      "type": "file",
+      "name": "inttypes-pri.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b83e1dc43fbb28ea0a5686b5ba153b68"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ca3e39a440708511878b60640afbb2ae17a4c8e5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c046595cdb6d9f45bdd2b544747e5e02e1df0a5451aae05e002fa32fba34be90"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2dcb5e5a5176cd9ef7ad0f5685c97dd6ab22705675574b3880dd8f363ab5e8b4a24836a759c2867e314e873a5c21b4126fb1d4869444fc87ac80bbbbc2f07a7f"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "sys_socket_h.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "76b8e17f20dc7101e38568ce88eecc22"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a4ba397ec4fdc4edb97e2503831a3207eefd2de7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7fb97233554cdfb00fb49b9dda54413f694599130ca3cd9dbd5184fcc57ebd79"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "79aa055723ccb066ff8188b330e5461252fea5fc9027a59481d4d840376272ec0d8e43b8b03b760e25b41c9de3d228d79da4996a16459f283e41af06eac4ddf8"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "asm-underscore.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d3e81b5cd86a621e69e21472f98196a8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b705ad1eb8c5503cbee5a794be1bc81ed5f21ad2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1866a97d798247ecee465eadb3d400cf8fd55723195424700210f171e6ebf178"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b4abbe579034d1142b4915baf38bdff8d2bde8a22775023a41707fb6a3e4fea1de2e7190eeda6ef7ecd50c76c4c84f9acc90c6a72f6f46b8d3d3fd7bfce02746"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "host-cpu-c-abi.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4aaa9c284009dbf5cd21efd598e708ef"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "824208c655e55935bdb1567f062730df6d0a3bf6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1db70e7dd8b87d3701271d3ee40a76fad3a020f061e6908923592968e439194c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "361e4fc9984d2d92fc58b35a1234a1530d29ac41c2d58937f4eb4159cc63e76f0dea6fe101fb9bfd6c8cfa616020dd603d60a83b131122b44843b6576e2e3659"
+        }
+      ],
+      "type": "file",
+      "name": "error.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5a3553140ce3477c98180bcd878a9fbd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9b7c39d49b752a4f719c46b97461d6d0a1597769"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3a837a747dcb8964d92d64763c02f3dccdc75a1adb2bd5516e34f5639bd827c4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9b4156bd7b55ade117d95f6d7cf6bf818c32ab9cdc6e03160cae37dbac30e3aca5fad66cf8e35ffcb87d0ce14d1e00353aa9a1cf3bd1b6bac582742a58f84813"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "stdint.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "01a9fdce3aea3a1555b9430a9efa407b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "61f6dd39d8a5504c662bb95e1d2d2e7cb247250c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "dc84cad2c52a5b3360f5392b3d21bc8e0a9d403ee306f43d7f31590055df657e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6dc5b16f000033e22359a2ec627fec7e60bc1a5f3b0435e412377cde44d7170f03160500549396cae8fb9ab114f2949ec98468433863d23bbb7c1b8e53e33dd8"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "stdnoreturn.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2ce63ae3593899143da33303ad592357"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c89c44c324c662b09098f1d2193e32727cac33df"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "59f77fac40444e0d966b82aa76806780df9619798827d72a7646c77a8673c576"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b6bfe47ef698c6d9b9cdb0c5676d0769e74f882977b522899294514519a1c9dc381eb860dfdf8b4dcd6a9ed4d21839459a60deef805696a1b86e6db37a3f34f8"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "include_next.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "48259a6ef60802dbf3d3c4701b69dd19"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b7026df39567c215d2961618317820ab5838180f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "499d6eb1386bc6d5a896f12e62a7940dc5855a057da9b18b59b40101b23a1b1d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2ef2eac8b7b02b88fdfe75c703e867b507de267b6a79c1b5846dff064a4c46fffd2842354182a6a55ae90133d1ff44e2eecd6cd7396896f512fc96a55d52799c"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "signal_h.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6ee27e6156624f6b5d6c35fd9fa2f55a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ea3b2b9a47ab25338e144fd7233dbc6981966fc2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2b7eb2c50faf0af649790894eb43d68cc432b9313e7bab578cb6da4cd131edad"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7d327261307cf1c20ffa2c024802ed7dc08a7ed62b8a0bd123055d81f74191a3a7ae6e9b0e0777a699c6e2aab6d1bd3671718ec78734f76d57b3f225ea9868fa"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "stdlib_h.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "309f39b4718345598d052dd165381de1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4685f827c3b929d3683f27fc72e161fdffb2106f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8240f9cb6d21e323cee54434ace1345006a9e00af7422f167918eb09ff134ad2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "01dff7951cb93cdb03ff819e23631dee6ede58546ac6766cfb9ae982f285a9f28a25c28a490a008c738e86b90dd3cd3f0c9193f98f69b2510d2a4fe87d1355cc"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "getrusage.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "238a5f56b08be9ab5174b348d48d2add"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "587a85354d193b985b0e33f9ea6bb090ec217988"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8966eb64b3d84952ee959c1beb814bc96510c327951cbba6ca1fabbf059eae65"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "91d7011dfb4e9c51a2b4ab5e6ca055b41571b5f0bd74c72ba1e111cde21f5b94f97ce43c6ca6082a55e70d147da5f5bca3794f51106acb0f3add4befaaaa0799"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "gnulib-cache.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3c04dccab352e282795f9cbde7e5f3b0"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "aa151c9c8adab7c1eff8b90bf014950332f2a0d7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "59d60937c9c398515d4749b23209adcdf46be5a4e0bbcf5cb8ca5386a8db7eb8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "65294930f5df7e1eb8cb0d049939032efd3e21002d84588bf8d1f415a1fccded780daa3848a57b8d1453f50d8da252283e81c9e52591e04eda78ba4b85bf09f9"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "inttypes.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e59aa7eb6ff708deb4c14f4e1298b956"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8d26f70ddbc7eb04df51c2c0aa1b0959d73079d3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7ee66ba9c63913f8c7043d617626e1f12737d950270ef23a3f6e4935c15c33c3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7d72a5af37d65c74dbb5341fccefa4c57372246577ce6430da40c2b4574e7b2ec527b945db03f89e29866dee7b96f23021b6421b5821936ec0c46d1e1ecdd1fb"
+        }
+      ],
+      "type": "file",
+      "name": "dirname.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1d0f8b098e7b436ffd733863b707a4ae"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "faf8e5ce37681b60f7e06db5ccc22cd0009477f6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c4c372b12944ad56bb1f28b3d3da27bfcdf3183bf70f300c94b064c4a52c2bf4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "17ea0899381fe8b420b62ea4a8f0f9c8cb017a7677db0d7474fcbc7c6766a68b33d806af46f3b3c866ec4604945e18526fec0dd5b8caa5bac6037e2ad4cfb26c"
+        }
+      ],
+      "type": "file",
+      "name": "ssize_t.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6cf8f6e373208c377a69bd694ec66679"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "715903370b49ca9a63c5f1f47e6e486e200a583c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "47d0174add3d940fff1f6c4b4757468c2a9731aba675ac52c4314e12f365db3c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "08c88386fdd142423ee645c1aafd991608b79829f7a9397381e34d6e73b1e0a8cc72b79febbdfcffe930930754bcbf7f00b997b931d602367d96ff35a1fd5cca"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "off_t.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5d3b8dacd984458d6a15d81d27faa872"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a2dc0ad901c750e4d3a12ffd6f6181b4c22f5b66"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f6ddc9f81b518aabc7c1256ae4f6a6f8e81fa828c7df3ef2f6f104518974c283"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8c0ff6d47faa7c7ff1809a30818db7cb8ab8d561d70d319e9e2b166bf5c71e687f2c9fae0c1b8a6fa716ed7d4f9afe15c0799c0e2508e49515f379f20cec18a7"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "multiarch.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8af599419ddd82862d04f26bbed5eeb6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "707041985b226f0385a684346f15501438ff983d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f98f705e17a98e98f640a4c5333cea5b41e21a1740f0fbce9005a25950fb017d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "15b7dd4216a8e45a453b6f8c8fc48fab9c56986ef62e69a8587f5706eb1a253742a188877d538aa97687298d9f367fb8602f0c8626a73f5f3944edc783432629"
+        }
+      ],
+      "type": "file",
+      "name": "getpagesize.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "cc13630bfc872d3833719d94c98a74e3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "107627ca6794640b394f12c95dd39d4b2094014e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d577683aa100b9275505ca7836290dc190e2b8a1d441dd99a6431012ab5f56ee"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "de8338732ca9a7a4fd4acb1f793b038b89ff6cb61d68391f2687f5f54ce42c10636be60077fbcd67ffacce24be381dd893f1bbe9f7f370d95cb64887e265bb3b"
+        }
+      ],
+      "type": "file",
+      "name": "double-slash-root.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f259bbfcb9646482bed427deae9d42ad"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "229e2a129e3159ced22dd1083ac0dbe870e6483c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5bb3945511c5c8c00efff86d2e6674cf865791caa59acd3ef8930a6f656b4042"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "54ca78a16e05f0ede5b5f4632ebb5209933b262d95b9d935863793d98b063fc4468eb0868fb12bfd72dd5a005e041ec8ea33b73cd052c1cc93f3f39e837fdaad"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "string_h.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1f7311d172b33f955cf276e9c4e44741"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a72188b2609d6614aadc1681f83e2cd146d85cf5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c6e6ebba92b2e74109f1337c6e7a83703cefcad5883be7161e7f6f40db2b528e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ea9c9c72639c8913879860728f5a73563e1fe168b728e1f2b5f4e629a45d616638b704199f39b73b19eaae2495adb1cecabb4023afdab777dff0e7ce667fea2a"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "absolute-header.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8734422aabc981353fbce3cb13b5819d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e36c6476e8bb9e7666b547465b59a9f44db1cadf"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6db6a817b9826b29447ed8a4addc36fb3ec8567cdefb49ce6828a9e95b919f53"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3bf474ab0dadd3be18fc9c0200454f08c185f629c558762c4220022fd139877d8fc8cd6adcef1a76bc82eaea4b6091cb596d1b36fe1b74afd8c98f8e6a0578b8"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "sys_types_h.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9acbe199d9bb8875f76535916301230b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fe5097e87aae81d8dd2d5d735a83ac13e407b4fa"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6e040d7827c02979f58f5d60714b01cce1a4055d4061af2e97b3536d8ecd9cc3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "68e0d84edc0a2aeeb7740739f1c92df05c264f243527bf5fbb447e5b49282d9e63a8d039ef9f3065d000e0b4ed65149a4ecd7eaf647aed4991242ae32a2f4190"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "00gnulib.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "544ebf68756a7837f8c2cd756611d058"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "df8f6bc6c018dbc8d422d04f4997e5218851a907"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7ae1bdc57cdd611407e7114aefdc61c14fbd4885a56347c03e9e8b0e910b4abf"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b6de0e208c23d0a9a405c9d6a7783e25b0efb277400271cfe138c83eb114ae4b38ad6cd1df93d3011d80db8844ed4cdc12a660f706020c346fdd52546f41397a"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "msvc-nothrow.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ad19e1ce59af057477a1793ab0e4a4a9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b58c33a96f9063fe1500e29c26f31aae9c5a42e3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "babe2f16926a25964f2a458af91445eaeaebdb82afea9cd82fc5fb88b0839b13"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ed4b613c6d360fcad9ebf4ffe9652d649367cf795ab13ee4b7dbabbec3839a94d59b80402a9e183a629b56846b1cc3409ab8a737f69b07cf3e4342ecee83b5b2"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "version-etc.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.0+"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1+"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d9f1980e0539739b09f7c367004c921d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3ecb82b151002b56a1168f9f6c286dc5f7a9a585"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "abfd95d9a6eba788f8b816761b0312130218ac05c33cdf2788647345d9fe9e05"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a9b787592c4cd94d817f4492f3358dfb972084726ccfd922d47bce77d7927996fc1225ff9396a2252e22f652b619bc9b2bfab080072b4e9845baf398653dd33d"
+        }
+      ],
+      "type": "file",
+      "name": "po.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0fd6f2ef2a85c673e717b3650697169b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8085422d7d1ee961a9ef799940b4d029656736d6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0cc5397a4175b5b3ed3513feaea1f8cd9ee0d9e2b5295d950a668819ccfb8d06"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "349802444ce948e638bd45295dae6e9a213c27cd1b896a0b3ff02c32c94927a486397e8e1b2539444f4cc452af0813ca401ab4254105ba8a6525187933056a0d"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "sys_wait_h.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8a75f923a90515638d07af635f5f6c4d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2cd6fbe2ef40cd2b9d4acb281b9fa12c1b47a197"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e48d83de80037cd73895e341fe4d1a13efe6c26628eed022ffc8cd79dd781a70"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8df13d3b6b9d67b0c231600aaa1dfe72b2c321e14dbce7e14e3a3049a4941abf82c06e15d9562620b6d1b8439b5a16b3e2592440cb5e32d6bb5bac9c85c3e94b"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "warnings.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f836b9d40c06a4ef4e433100986d0c62"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e58801e80585e57cc0419965c6d551a204527500"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c7184022d91acf90ef1b003ef8c5fd08bab7391cf0acaedd45a14d16c6a942ee"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "05b44bc284f98aea9706a22559b9bbb159a97ca50f4a6b979361bf1b185b2f60d3b62714cbb9894e92a40c61370e9e5eb1656690e5f5b8a0c51a412201f219b2"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "gnulib-comp.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2db36f0446315da82afec8503df6c4f4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "372f442db3e9f974eebf3046732755259e2df1a5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "93712ed185193dcbc4a3f81b30982aef51acfec6b15977a22705143c2f0a29ca"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cb077f18ec0158fda388211b5ede378a1fad520d54943abe75219719342998e7d0858a3a757086432c5d7c427e10964dd8475d6c7cc61a0854e7ed858be1afb5"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "extern-inline.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b70c0f681f0bd8bfda8c9212e57991d1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a4f53891f2b680e37df4e127485ab9b53d43011a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "356843d0fe66960077cdce6f5751d4970503dbb396dbdf079aad91e65161b6aa"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "76cbcccab8c4e4eb2ea27d0e1ac5d65ce4ec2ffe06a40bc129e69c051bfb5597dcb3527073e0be8c96a27563988989e70a4c2612d62f7a6c8d64ae1ac41cef1d"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "stddef_h.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2ecbacf5caabad525760ad2e531a65ad"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a86231c5d11db1de4816e40a170840d7de741879"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cf7ba129fbb729a46ddf2da022ccb510d2a636c8d5d6905c428fec4d780daa6d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "29d5e1878faff589a4a0d28ae1ed370d6f7d5ffd8c441b5335a60537e66b0e29b1f77b03ef05ccb6edf6bf1460b0a97107d268a6ab56917d2e2603684a76c61f"
+        }
+      ],
+      "type": "file",
+      "name": "getopt.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8801d8a3270c856862118b05c3485c29"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "80fb87dd762a265ce9919b69a5da0f4b8f46bf96"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7782d34a6a585eaf88efcf39d6d669401f54767915697d9ce5e28f1b29fc7f75"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "00568f92ec5a7c0e24f079a96e673712f08b623373f133800218628eccbd6bcb146913e54c9d5855d2afdae0d5d6fb796546ed9fb995fad1681f82cb64899ead"
+        }
+      ],
+      "type": "file",
+      "name": "longlong.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e7999769b8a992a60faa322aa29e6fdb"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "81c420e632724d22ea54b5779054bc3c2297c428"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "14c1c0223d01ba543bc5749003939d79f5095b4bb29337d1b71909605340a241"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "21702ecc3c375de4bf4fc328af7ec71b746c22fdf7697c6ad1fdb1f9cc5b6017082074d8349adad1384da2f0cdd2b4d9c7fa2e660f2cc18b967459b78aea3b0e"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "stdio_h.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7408400326c7ac5cf9885b7531372943"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f182501fb19fb13f6ce5dc2a95cf5ea26cc0688a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f3af80e8307e4d2cabb3f722a1088cc4e01bdb045f0689d70b0b7b868c605b08"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0bc885c841730b80adfc129a2652647bb157e355b55dd68d2470e1c7ef3e9ad2222637f131b0ca0725dab84841914d2f42b5bf3915839ca16aaf7a0c26f3df32"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "sys_resource_h.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.0+"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1+"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7773dffb766fc09ac315e03ef9268507"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "411bb31a9f6544ac6fbaa7fda92fbeea05ff04e3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "05781043516ad3ce11ac9a0302dae8f2b82f0cde1c2f6711467bc24251dc5a17"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6b5b5ab11010f9147c4b2a1d1d0863c339627717d51792144afb56f1d96c13274e5d3255d1b8f7fe266cce76cce9f779b1e07f59cbcb494d902d1fee7a17642c"
+        }
+      ],
+      "type": "file",
+      "name": "gettext.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ecc48888d72dad23619edde9c34cb490"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4f5c421dda1b7dc84b3ba4622f6ec96f6ee355d0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b60cfff91154e4b356731ea352bba79070c27b7328912b27a1d12c610060a044"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f8185fa47c67c961428997a496bb26c547e6c479dfb2e6198e99096cc00800b09719477d1466f342fcf3452bd7407b1a7e399e8bfc2eab51349c5177398eabbc"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "limits-h.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "cac97b7769e7f56a81f0ddd59248d94a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "63ce1aeef3ec35710efa43b523435a2605098ba3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "665511ffed2088ef4f10b9bedcc8d6bfb136f91111bb16b2ce6e388baa8b3f04"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "23438c2d9cfb4839c6bb74066957c6523a1e6c886d030fd80c99b3f4af95070f407cf0705d0a170b53cac497c80a95bac723d5917f9b62a4441bc11219a2239b"
+        }
+      ],
+      "type": "file",
+      "name": "gettimeofday.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "03b5f3271cfb484fcb16a09ece8f3006"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "38c11628a7df3f1d7630af83e5874d8e19ede550"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3227b698d1bed973c1c2478deb0118daa59a18f2fe480288c00e8b4918b5f127"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8d04365559b662a069b3cf04ae0a043a0fdd7bc8481e6579f30977291df51947a77b96babecb405957a4dfb401f3cb0cacf85a11dcb8d9f5ae3e0832726f4951"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "gnulib-common.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "67283e10c4536117449f496e795e0104"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ea44004200391a17ce2b73bbf03777433557dff1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "744da146bbd70bc1aaa79e3ce3d84186b2d175110873e6ab6e50dd611df44eff"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5432301f7ac49b04f80de6a0694ad6518c51a24244dbcbe92af2d04af91b951221c2aab05a578f025f44dbce7b6d100884525ff89e1eec33178bab853a86a1b7"
+        }
+      ],
+      "type": "file",
+      "name": "nocrash.m4",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a6a221c78d21c8fe18167c8ccc32f1fd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7c87216625f1e6f54feaa7ff616d42ef7daf3bac"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e363c91183842b116f81ba420ec2027b602c697707ecd8d865552ddc5c409181"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "020dc30903f0bc31c3a777932288b02ec30d99186e106f0d062430d15af301cad6cce60057a7256a6052e6f4a716b8288fa7d75f55ab70161b28907957ee93b4"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "getopt1.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0b0e1c4ece6f4f4792083301a1ff6269"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "918c2068541ade82abad76a01f87f8c41345ade1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6253b75043422b6e6e3223859e2739ecdc156a2357d71948aae5824075774ddc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "074d915fe0141c5ec6b5a98b8bbdde476ff1f7ff174a90726cc2179edeb1e0d5abf8a8494fbaeeadbbdde4a781b985c4f6976783a4c63d24454016c690d24e05"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "limits.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4e7287f02d31f2b9b942f9f24f359790"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "727a5d1dab736ffd5d8c119f8e9c19f7d30f9b6e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d230e1b18ad1fd5c074ef01a8fbf481cf15ccf6900521a454df63fe32633c36a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b0ab072c5e50eab78dbb367eeeb2bc47027934b8750bf245e324e669cc3cb1742d3e8951c3bd3b1cd902c51a50846c4f804d464dc10cbb5eeaafd12e48708c9b"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "getopt-cdefs.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a68af0b90632717c89e783dbe5e47946"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "45c558e1d64e7077dd4109dc3f3bc354ec87d943"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d33b8f3e7a964ca74f44f76802c5612a7fb84dbeb20552d6ec904c297dccb3f8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "caa28a171f18078fc8daa2dd3663d4cbce573f3d20fe51f298d36f727a355255459d02e5ae736b9ea48c875e74223b53f8ecfc9fbb819839e0a5601a4851cb09"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "time.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "81188ea544514d8903b924bdb808b397"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b0e4116c6455283e8c9b0cfbb330de931263c07e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "124d6f17b58cdc62e245d280c1ae4c3839d58b693cda3c550cd2ab2173bff9c1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d38fd0962b12f05794ff6b01cd5dcda40b3659869bf8e416125ae9724492b8fd33c1e31545e8f406edbff55c70db1b73634b9e665d480185b88ea79c866edff5"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "unistd.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7c8f78112f71eab28dcd690eca74c47c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "aca56ede31f81aa3a3060321cf5d04c8bebe4e43"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "35029d6849f3732817208645bb8913fd95d40c46a75669d6ce89ea3d135d47d4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4f5ab60c5a290ff7a0a68894d29f37a5eeff62bccef2e7b5835ec94d86089b5fe8a27af4f09e2e726a76ad29c9d4ce6805dee178b785df2feeb53e94ab07364f"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "stdnoreturn.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ddd1418fd211a8dca189e2f8faf88163"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "86afd26e65fb000970bb96f2ee933683d7d25565"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b018478baf8af18a01b5dd66d325ff695fe1edb7929d95651d74ea265f23331b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2a55910a70692093cbe14fa4dd688e41663e78709cb999a2ef3cfce4b115527709adad98916fc37e34070d75964ff2392e84ab9267a936d70dde58741df94c7f"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "sys_types.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "913ad8eedb2efdb0f52d5351741fa4f3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4b512128688bfd1dfc158bf041f84663e30df8bd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7525a1926bc6f2da39c675283a0ae752268b79e98df3fa5e02f60ac64e612df4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7546998193c966d1c2501c3d7f6ea05606274bbdf2db5fc835748d651533dd9b419641fcd4deb6050faf6a38f56c94fb94f49422855af8581929c91f037ef170"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "sys_time.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b63b1e1f23d5b71048e2a488dd51ff65"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b05f82faa97ba024616da38a0979fbc904e3ba48"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3230212bf71efec26f215978e2c4dfeeaba8f193a0642896a78980eacd1842d8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "249fa825682550b4c2802f3eed0e6ed9b25aba2de9a0455b820b5f8e32253a69cff8de0afa9c0a315d74d33c0c94506241561fbeec33cebe5a61173b836c624f"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "getprogname.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e7cb50bc92e871df5a64be0c323fbda8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7f35c9801d38e8d80043a9992da9c9b59c8f7b68"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f4be164522206076ada4d9a2079efd8b14c8383f66f9a857a934fe29be0fad5c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1b1225f6abd1c549c05df00cf34bc115c28faee23c63aa804b6d23f8967399bec7ebc984f96047add027cea6fb5c010e9f15b66783c6a1c5eddd8562f4b8e1d3"
+        }
+      ],
+      "type": "file",
+      "name": "localtime-buffer.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c61a194fc4c3ccfa11c6328882f0989c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5d1efe3552ca65e1fb9e472f2527b1767dff472f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "882f01c5bf5a6653d0b4ba05c14d4212570981fae2a8b9498514a40cdf2e5678"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "114c3aa38eb90648180dcbe9c365c3324a782aef545d0f9adc03b329456f48cac43cb9ee2b31878d406c48a88396bf8b60683841c27a9b3f774b42230e935c50"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "strerror.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e228064a3c2755b1381df29c0f509c4d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1f64b11327ec515b28fa1e0300ec147259a98517"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cf82d688a68295f019619c6c09e69b43c431bc7c52ec7ddd9d2cd08ccac7d50a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3d92cb4f982a6c02878923d120ea533729af2fd5d82164cc7fcd86d2e0d7b758f11b85729cf5352a8c0ad1c0c6e308d432cee39e7e1919b346c98c7d2d06c75f"
+        }
+      ],
+      "type": "file",
+      "name": "_Noreturn.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9834b0da23f0b2beacca81c37502c19b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "81733e16c4ba6c6ed42fab6b820a84e859441647"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "32350432bf92c13b17e776adac70025eff789f922b45de4668743ea32e07aa42"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "acd6c841aba415c810a4ef8a7682c45379bb6e7ea206d537a89d371a843d9557cf75ed8148c9be9aef1a3709eab63b9685b18b7a6f1c68743780b558eaf7b48f"
+        }
+      ],
+      "type": "file",
+      "name": "progname.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c1c82fdaac2474cdb433939020c4f411"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "514be630aeda2883bf3e5f5e7a8223b0852e526d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "be4b57b2902ef67a54be1765650342c0c63c646dbfca750b77db3691c895cdef"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8040ec425857fd0956a84f3e9cc1a2d711be8436ff979972fcf856a94ed4521a53dffe52320a6f9bc9de3c1b2da21debd5216ff439daac70d46d2847f44d929c"
+        }
+      ],
+      "type": "file",
+      "name": "stdbool.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c117c42103a2b48094f37d2913299e96"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d9beea323c6e885ad2af38b958f90edab03ad791"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0bd00d0d49704eb8b2624be5313e9cef1100a31b9444480f9baa71148d07ed12"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e580afb6502b8659c7d26fb8450a7e000cd5ca97c7a158ab31a53553fcb8eb161d7a685c1f4ba3e3d1c5784c432d2a48146a536817d01ac9134310bef233c6ef"
+        }
+      ],
+      "type": "file",
+      "name": "dosname.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "49ad541b764fa1e99e1ef802e7e26c14"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f07b122e461940e6406062e047674916b23ec8dd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "39f26129b16a6bb17862f25884c9c0f87afe9f1dc99fb29841f5fbb9aed6bb57"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "73f4b4f69e40078d487b87bc0ad24aa96b74e17531197bbf30e9fd40ca04761e229dbdee1b4ffc463f41b9add0408b412926c2bdec2621c7f647ad154e8249c8"
+        }
+      ],
+      "type": "file",
+      "name": "version-etc.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "bed40f47bf500e14d7ec3a4277df9155"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1452ef675e215614b35dc42bec7e1ecf8d987ca3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "55c6eee279bb279fc51699f79f457f8f5c746b3a17be177016cc2ba5343cf719"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bca70f9933af8641424a239d0e30993d623560454883ac732d328614efe6823a0354347f7858ff28ff4176d2fe9a026cfd6f21a79c00d2347dde0583a75dff3e"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "getrusage.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f4129dac26baace52ee960ee8a70c3a7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b511b306705e62ffc0eacbfa7f4a4a3635f30d00"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f84ace13e6c143399ffca18c3fbd4d4abd46fc5100cb2e540d946b99735cc9a7"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1594cc2a74f75101c59a2298770ca1b045abc893abea7a80acaa43d5a69175f5c3754033fb48804f3b54963ef281283261a836ab949d31972ac3b84f0f2ca68c"
+        }
+      ],
+      "type": "file",
+      "name": "stdio.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e86fc043e96a5664cb949e4fd1be0ad5"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f9cf59b422a07d8cb6a6eaf90a355361c1245c6d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "df145c25b4db079a9a8d9cdd104a068d5c800e8e9eeb898ad8f266c90a3facf9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3df6808b933552a972f10e1865751de302d14c518ba817d9dff916224078284b6df1048b875225cd76a2bcf046e1701a86c4dda781b3242729d4af8b5e459e95"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "msvc-nothrow.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a553e213ffaccb9f8f1d0e65107520de"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e493392deaf3e3f2becbf89edb32e6b345eca135"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9ca138c52a14355de599397fc453956baf43c7c2c4f5b72d6666f86d0ff169d2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "025edc7a2da6ab97edf92ab06758ff2dfd86a56f64182a4aa57c7713ee5b294cbe69f1b5145ca67f48a2ecc643b374d93aee105458fc4638c2bf3a90b5fa2f87"
+        }
+      ],
+      "type": "file",
+      "name": "stripslash.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f282ab2dff2755a72e4ed1d35cda2143"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "226d36d7b01c3b204c25ba43ed4d66e31d84daf8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bf7b1f670dabf789f44734dde2dead02956cee80ebbf7ac117539deb541c141e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "339b56b965efd5388f32bcf39a57aa2607096ed2d3783b15641952137a86df4888463b235f81f8c442bd9d741806d7249d969ee2a5957840944b2fb56d33bfa7"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "intprops.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "fe5760d9cc4cd4e9185efc0634d8996c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e716c5d34d6271c3affdf9ef7cd0ba0b891b02ee"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "03f521e3fed511436c38059ca63fdc98d7716aefc0885122a4175f488774f454"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1bf4f21732b10d316c4d5d6ebc8de9d185b310d8e1c6803463a4a83532bfb994468d18e8d49a36ff14b91c020b7bd20caa1461ec2b6bd3dd4ee1fd477d2e7e03"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "inttypes.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8d407035c84bba952bf3000bc5a9a4a6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6221c6a5453d05fca62d76f9db5f36113a64de1a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1f46be4982dd9d51eb1b3135c23faa64c31ba2c443335c92fefdb872505b9c44"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c002cf8dfdd3b5184e8febca43857f7402ae5ca90f37951a64a3197295418aca3d29b66dfcbaaa7d7ca82779e1f69a9679b1a14f054180615f427274c27e28e4"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "getopt-pfx-core.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7d6ff744eab14b7e92de6908a65615ee"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f752a7ebdb34000af737217ffe133a95b9536392"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "df0b2da481fb2048d5217525558f49994283e15f812a9239de3d7d9a0d5778b9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0fac2c74aa6d5172534cd5d65832d8910edf995e02d93587ae1d863cc09e034fcac4f31fd42afad9dae5c570371d5584861bf14a8e887b88116e382fd607d884"
+        }
+      ],
+      "type": "file",
+      "name": "gettext.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "18e4ebeb6ebb53f84d76044726074098"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f3bf19e8ac996910db6a7d72585fb6ac6cdcd378"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b35b3e52b80f4b1ddfacce3681621c920088b2a02aad74ad0bbc2d08481ab2f3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2816f3d6ce9de457927c0d745d1e64091fbd6fc3e05675d5278cb36c4a0dec5fc676bc395369507daaee90375260ebb2f25304dfb717eb58870ac270312aa891"
+        }
+      ],
+      "type": "file",
+      "name": "basename-lgpl.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "261d75041829c45ad41fcdd22fd21e75"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1aa54660d37808bbf25157e641e98ddcc2abe233"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b138404aa8a9cd92e7278492ddd37cc7bba59288db76c9fe07b8485abc00a452"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1591a7a756d67ec314bb92fc01be731169b9adcd9cd11f6cd361509c6e325233447d0caea4e3c7364256f4f89b50bb21268961cdbbd25343fd3eb48f2ad45c38"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "msvc-inval.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ce565caf826854cd78dcdd3dfacbb928"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "001c127e9815767e19984dfe8ee52ee9778f3883"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d9138c7ad3882694063c4a92074a0f393757c6478208e4e7dc51443f0e9519e3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "976b8376f2ea3c3ad85995fd0fd856d51bc0feebcfe52290d0d14ec9e3aaa5aba8360da1f9344f50e05d5aba1cb62a392445d65565385e5d0912a44be0346efd"
+        }
+      ],
+      "type": "file",
+      "name": "unistd.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "59bafc1ebe959e0feb9dc6784a5ec235"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b070dfc0d6b59c15ef2a74e832cb3dd9a8a558b1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "eb4b567dcdd4e00fb76fdd402f862f7ccfa3e2bdabe8d8f55211f76eca512ac9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "585fee8873ef363a191d425d7680d3c1b7e1f030762b9146692c180956ac297249f758905c2041ef0e9ac4cdb78e27c1857e74b880cbb506a5104d5a11e831c0"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "stdarg.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a78d7f19dd98868a3770700c145a0336"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9d8ff6980c77aced82d8f5921caef3401d1a7203"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e6e1802166bf8767e8e54dd8d2731e479c7d9321a2c5be1c87950680389ce63d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "496dcb56d9cf286de444147abd25e1515eff4b2590c140f3f64da4fcb8006b95a9245d2721ffa10b2f1356637c503bea4b6e308f02b238d177890e37286753e1"
+        }
+      ],
+      "type": "file",
+      "name": "verify.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7cbfb4bd5723a6e6e80bfcb9a1c35488"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "583c5ee6c5ad345b13ee34f4a2f3fc7fab46fb71"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bd2519492a5633fe91d46731a23d6dc806b137abd34ed1577f6475ee2111b4e0"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0b7b4f768d538365154c0c88ba63a7d4061fc744f779e0b66b05e853daa745c97e1b167eefb0d917c98c8ae1cf156631d65bf02db7c6c7e8a253165b3c9df8b4"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "signal.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "952232154ce97069bda1e5fbddcf2139"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "034d761c619194a98e5bcc60093f848b932e8795"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "be965a965bee74de8038c01df426528f61bfa583d32f48fcc53582f4799029c6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ac65a8d36959af0cc9cd9802928dffff3f4ce8318b9d70c7638297107357e421b930f9fc39a67f02a3cbf1cd9c0c3117b24f65f942f27a61ff9290e75ee6326b"
+        }
+      ],
+      "type": "file",
+      "name": "stdlib.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "941544dc88193a17cb6523c72dc5f8e7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3ec73f7b08702d3388abb713626e3c5371f6161f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "95c2559e58d60f961e7e1cfbec1a62afa0a6aa4ddf01127a3f48f947bb8bbb7b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "da056095a211b9bfe9c88dab4f9c071e82fb4847756b12a9bbf1a4df071b7c24061a1a2240f134d84d0034c9a90a73f2656adb54928ba7100d1dab41a416151e"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "strerror-override.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "14f9bd07d2bf6f0be46d6281236af054"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "55401f622fda3e3f785d3060598f45955973489a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "15e061c89b09b75007fd3dbb950593e2ab177743456b51e123cecdf822e66432"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8e9f4049a4cb97a193bea9fdff07a3e959955033fe47d62defa680f33b2cc6bf3d74e92c65e8e88e153f2b78015bd03a28ddeb83acb0f3b44be7248a615b5092"
+        }
+      ],
+      "type": "file",
+      "name": "dirname.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "66430450095776159818976889ad9a23"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "08606eb61b4b4f7c8c8ed2fc37a32924abde3d5e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "864159854cc8769c204b901de10448a4885bba0bcffc33a436c60f781ee8165a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "69c15373c554eae9f8efdd449b42eb7439987b9a7c2164a9fbf427e904c7e272fe4a8111fcff332bc3285cca5c290f403289966e65a395c4b66947f15b7cf1fa"
+        }
+      ],
+      "type": "file",
+      "name": "error.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "591a13ac9a0514cc6a9edf7b6fdf102f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1707d5465726240aadde3564add387435b4b7d42"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "639b4ab1e04996a7a81a6edd2dcc11b9579e84e034ffbfe1c712e94aaefb5eaf"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d65fc46a7089d400abbb2eb117a3762ae624f5ad7ba89b7b693e2899d39262cecddffb8a4793854d9fc1e47968d2b43a90a6866d7645b384f92f31eb0483efaf"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "getopt.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "16989b2e75d6016541a380d3005941fa"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "51c5dbea1f25643589da0c47cccda59b406919d9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cd318cbbad93f2230b962e21c96430ba55b7a4234a2fe976751d1d4e1d326d6c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "70cfcd80c42595dcdb96c2cba776e1efe5562d2cf16f36fc34e35199da90d360f0e18120292a5557f3b2caec77229560eca5ebc2ae67b3de52ebc2a0550e90bb"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "errno.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "147e59f40eddf3898b93e322b80585ee"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "aa6727a9ae9a7da201c947f50e2551a655ea78c6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a6966c1030c42511263552cf5e413ad01c65100514c2b30152bb6d57d0e60a57"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "176973e59fb0d24dc0ef24bdb369b8bfb02c1de4280ad54b73b40c647826e0703e9d5197ae9d778ba9d2006f932d47a7f2c3f639fa7530d70cf66ee7f202c5af"
+        }
+      ],
+      "type": "file",
+      "name": "progname.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2a1b8c2c93ea16ab8c7a7cd1c4806a95"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ba8c225a8601ead39e8ebc493e9fee13428dead6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1d26e622aca386beeead07270e94cd282702aac25cf9d2df911a842336f65f15"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "aaa8bec803ab8976019ae54366422daa6c520dd75cad9c05beb2e7365b3513b43d09887b4fa64287c4c040d5b2ea9f33e4f9d12c18205a27ba000ca0363858a5"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "arg-nonnull.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3cdc8f090d78a3aa4ca4a3a6c23c540c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4812e217ecdbb32a4adb9c3c2724ceb8f4ebabc1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "78c8eeb06644829eaffc5dcd8814a43f64934438314bc7f0afc4c7a005de2a1a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a5fb5279c542b1b9a95ce0d5cefff6190afd1c06091e99c035cd97b92ec76e554f991979c0413f277d3bf6bf612c0158fed17a5ca55babf5cecd822a95a13342"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "c++defs.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "019ba0740bb8f17ed9c058696d4222f5"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c223bd7467ee633d0ca43ae9bcf04236b340743d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "633f7a7b8f65cb8a8853bc16a2c19030317e227cab175874005c4b70a66e313d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bb79f63a7a792562cc36b3ebcf86a1230602ca45c994b81e12101d346cac909e9a05155fb3834ea412179457a6986e73f9d7457880801c14cb4a6a72278f8ca1"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "getopt-ext.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f4072487c015f2567e059a876b1a8a3c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8d386e709ce374a988fe2b094d0fe6f988723b1a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "11739b8693195a2b641de36e026f9b4e6801b8f880ac15d20d2b732758ed9238"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1c58aaea01fd132fa430d4e5420e5453c013b8b618572328c619ef97eccc7768fdd95b759522b31005af6ff8fb9801ed190409a3cd45d9600820cf77c6b34a0b"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "getopt.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1d1f678d8c505243e02069ecf83fa6d8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "11d87efc44342830c115a655eba086c918137452"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d35ef953047cb6162323dde8766dd55062c8299332dbd9477caaedda95bdf229"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7c546e800e4f9f608e468ec5d3433f507bee8ee829ec402714a9526735457a085b80be1ceb50053e5982ba8a844cc9f8f68e9b3d9014c75d930423c1fa1dfa0a"
+        }
+      ],
+      "type": "file",
+      "name": "getprogname.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "31ce9e9708ed439193abfe6e16ac591b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e6cdf5fcc956ea9835a89f9ae0d9c27ced312206"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5b698285e879c9d360f27897860bd0cf3625e5d8b192d84a70e297d9c05f87ea"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "664656a4af77b1fe728e0dcf9ee8d016460857bdfd033eeb66d237b954242662cc0c7f36c51c951b22b8ab08ceaf6c7d6fc08db57d5e7446b6c1cb2d266224dc"
+        }
+      ],
+      "type": "file",
+      "name": "sys_wait.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "dc10ccc9c580b8f318d98f3202da2d5c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fba336def1e96907b4f5ef7764ccefcf6aa50e90"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6e7730d73b530ec8d2980947a502c3129fdf76ee0925a60551a9651d2aa9a143"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "523be0757015aaf57330b67b498cd09abb035346e1702a318e211060e0f10c8cd2a8b2da6dc217ad8ead378a61075735e358dd13326c558ba2b606d87d3e0617"
+        }
+      ],
+      "type": "file",
+      "name": "stdint.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "906435d16382dc1596dc40c8b82d016e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "91f0899f3c6b31c2908224bfa60f95c18e4383fc"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b45c03177900a81d193272d15a394edb552ba432b88fe1a01829343ad202ceb8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1d9cd1f7c2c1185a782f1d1bc50f5aafdf8511c9bf6e19db53c96fb7ae715863fdd54ac27907ec2d4ac87561610916e2b4e4c12a0dd2b3c47baa749995a910c8"
+        }
+      ],
+      "type": "file",
+      "name": "version-etc-fsf.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5ae0b9a8bea8d6c7d743b4d71f1d336b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f4b2b187b1eae545a8543dce5c3044c841ffa887"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "67f3702d23cce85fa5c11f7cdfd7cee5febcc6244a471822038149aed1590987"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a7ee64368057a558600fc38dd63c739dda348d70fd495cdf9f997a9c048d89047c8b2b7a24c6f609feec9cacf7223e1cc9fede806aeaa4770cc618591adcc486"
+        }
+      ],
+      "type": "file",
+      "name": "localtime-buffer.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3b47a7647cf078f9d45af3e817bcad80"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2317c47a955ec6b3e48101a80956dfcc2d206768"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "77133d741c906098d0e742080c0b3b3858184171e2bfb8cbbda69ece71d2865b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d98199d295755c98150c683fc96dc17f80546536183c685b63880cbb6203ef41ecaf09b968e5f67f6d2a21cab23e6cf2c86457cf915b4ad7c00dd8759adbd9aa"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "sys_resource.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ee7045f524ce2c4d7916f55ea5f51814"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d35bf98dff95deeec41e9c5bccb3f56d9b0ae768"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2e8abeef3ea8f26dd3e5efaf15d02a4061083f4a8506fc20bfd5dd570873200d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fcf52a79d3c5267aaacf11b82f4fbf9dc4faa0ad1f40b662f570d042ef5900d120fc0db630bcfb380c9c5850919c981b8e3ad1b407c39764cfb3221f03317b33"
+        }
+      ],
+      "type": "file",
+      "name": "getpagesize.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "984808110130966b37f9f96bf04ec563"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "11ad83677192c80f6428004154d9b8118c07b379"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e09b81084a927200ae22ce4445a16b3200e16334f928ac177da25ef9caf71e89"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a43065ceedbd1fb2eb58e1b5ed0cf46681e490a59748fb3fba35be6b68ed2f04a6eab547f91b13d441e210fc085c79d6edb66131bcae7ac39d59a53a3faae40e"
+        }
+      ],
+      "type": "file",
+      "name": "string.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5116783e7b0ded1f1bb6f8580e9c420d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1b8a62f2786a1489acfa70a5527fa4014b5ab166"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "53e9daccb27150e0ee3ae85ff1870def8ccac2c2e8b890e7c2963ddeb33f5ea1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5028655990ee1634276e630e7c5102cda99d141e8bfbc48d8a2be29aa1ff4f56f9623ea01c49b861a337cac501b7e382310ebe9ef20c918644dd2c6c6328bc89"
+        }
+      ],
+      "type": "file",
+      "name": "malloc.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "54a6d6d436cbabe9ab544b27f9cf9519"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "29e07e0a938ae7ee9b3248ed0d87efaf22fc8ff1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "921f33f6572036637f2484d0b21a183eda31f69fa4f6e5306c90c7a252cd92b4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9876413872ca441b7b23669ef19e86eff5c699817dc92fbe83f5132bf56b25754c40197cff6f7a958a3bbb54e71c4bec2f1683e04755722141054468c80c0155"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "warn-on-use.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "85e88d68d5d0f201ea5a96e420394c59"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f535bcc34c386889067f693654264b99ac1dd9ec"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c89779e083ab5477b943b418f626bfb9c154d0ab1365e68bf00ab04749885acf"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "39cb6159e3c7c56034b858be7be196683fe272949844f3c6322ad7b777263fc0c0d00ee31f5b6897ad9eacd8a8f18f9003567af56c653d3ec678f7861bd02c03"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "getopt-pfx-ext.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f1cb9667f5c6319ed0512c7d3a2816fe"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "68afa0efc8b8a0735ea33ccb9364dc7a18fb8f1c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "05699b078550064e713c3ab829d88ab82c1290ac6d8c9cbb5fb9e4565423970b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7991fe51e7ee67ae42d97834e759a657f580d7b5ee80ffc6f08245816d15a768f31b4e962f1627061c4d3768f22efd43a5fb731e0cf62893d0b721304f137134"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "strerror-override.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4905c06d58252d5274735f53fcf70a5a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4e75ae10609c86c0a1a9cfa6d02e1f7e9b5e6878"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c1411e50a04d4c539a9541385747d5e23b5062cd4fbc1cded3e801f85f7ed103"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6ca905bcea1b4284082cf659f89c82a38d64f89d3c7639ade304d800791c332308d276a29a452fe035aa3e0a631f0eb02dfd77d8d79f2d02356d12de412cda74"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "getopt-core.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "561c2e0746afbecc5508ef3ce862cb9b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "13274964ca99ef14e5e04d96e1c4a0d7b32e1b0c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bc6e5f143073153fab95633b1ae2f2d02229e0c14bad628b657300a5a3fc3cce"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a308c33de8a4ac052da7d1b47ebfeb33c086cefc14b186fbdaab6b98da8508ca9c5a5be509ba8344bbe8d3de98387c251fde274c981d54fecb0c6552deee367d"
+        }
+      ],
+      "type": "file",
+      "name": "error.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b6266a986b0b54aeb97727c23cb050bd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9d2d83239cc6f37b327a6a754f1beb5c9240b3bd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "97c56dd5b4d323f9b9d0b1033230800d8c51f79e1e9aa8cce4dda608a9575b0c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "dcf045bf051a418519051fc70fb1854a6db23962f17eb558e566597d44c8cf63eb3fbb0c7913071193f5ace1e7f30c2c18c69f274636f3eb75c3b46fe2a29e7b"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "gnulib.mk",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e420a7d808fe2b7a530d3a3ecb7a9187"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4f5801bf10900fdc389686accb97e1d257069b86"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "520083a8b22b40e3e4fdee21c1ea1285da98998bbe9af7fa4bb491ef440521d1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f9f031746d70e7911ab58814311356a28f35e1e6a38e70ff26fb8aaba2fc5546c4a7d6479eb256cd72f758e20c9829e0b1c4f8d5150f04d382bb3d1161db804a"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "getopt_int.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "82a3db04dcc95e71e37e64923c438596"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "494da9199a804eb9ac48a6e122830ea5e722993c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e0f90946e223fa032b4b1020a595c8718ed278bc937c98aa6d2b7241e5cc8d3f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ee4d37548879b9066d009a9563f42c104ded67dd8e9b547fa412ea77958ad8402b3cb3691a670927e49ceabfc7c6afe9ef24f7e6c30a1cd44f659c3ef68e388f"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "stddef.in.h",
+      "version": "unknown",
+      "mime-type": "text/x-chdr"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "040f729b3c526a7605b26753a2542c5c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1370e14716b4d97f84770520d7d924f436e50c73"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "af7fb01cd6b595551e0825995ba3e582746e6c6235df18c0c79b6aa2ae221679"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d1ea2d97ed924747308639a9c9ac721d8e7db3e03999d9e6da53d899264eb668ed8908e4767fa2df7a976c3eea5e64dcb7eb881d69b37a50f3132f0c8f57a8c7"
+        }
+      ],
+      "type": "file",
+      "name": "gettimeofday.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "fe0cc604494aa597b1dc73dc2fe93b3c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d651efa620a18a6e93440b68554d90d3458f4cfd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "01e44eab809b1601447ed007cdb7478c4fb361248a37937cf21056d5dfd91621"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7269bd4416d8b2c1ac638d7b41da80589afc794037454fe39aabf001a6d561994bfaf7013d7469fa22c22d041abb6e9440a6d834aa7d8ccd6517d1f92021054c"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "msvc-inval.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "bdf2570fd6d78aa9c6030e7259e3132c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d5f42477ac5f44d3f9fc3369e07fb838852a5f74"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c986c9f26ea1dd0c86f9a42f9f9fa36ec312b2680585bf840c058bb61b1aa002"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1f20d5d5d7877d46936525ee06b07d4260df4ec32dae8e3a84d73609dd3d87a3ae4d12fd99d41ba6b62ff7aa28f46dd7d8a042e67c8c536aafc1a30fc509dd3c"
+        }
+      ],
+      "type": "file",
+      "name": "dirname-lgpl.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "95879d925fa4fb0893cbba6efbe32a62"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3b506e038f9d6bcfd9329d7395272c91691566d2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "be546eb5fbc132b65c642e0cdb2f3c4648d551de59ac30ca91afbbd43a8ed27c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "eefd6a073829085684a9139deedfe82c5a506e75eeca20d4465728ff582f8f78fbb34cd948c31ac624d2a95fcd8c0c1a32d80ff656e5ed65fe2634b16094f193"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "version-etc.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    },
+    {
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-1.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2285e4bc8beea77b440bf25d13687e00"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f3369dda6a7489de1355d6d68c9b6198508cb19f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "777590372278362987b4e6448860270d5c85ca0738ded8c694ab419a371c3246"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1204d7b61eb76b3cf7fd86811d8ea6fd342efee3439243427f5eee1f93e1eae9fd7940d6a7f589719171aef3491c8ee13609ac51a4274664029ddc5c80f547d0"
+        }
+      ],
+      "author": "Free Software Foundation",
+      "type": "file",
+      "name": "msvc-nothrow.c",
+      "version": "unknown",
+      "mime-type": "text/x-csrc"
+    }
+  ],
+  "dependencies": [
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "sys/types.h",
+      "ref": "cstyle://sys/types.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "stdlib.h",
+      "ref": "cstyle://stdlib.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "stdio.h",
+      "ref": "cstyle://stdio.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "errno.h",
+      "ref": "cstyle://errno.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "time.h",
+      "ref": "cstyle://time.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "stdarg.h",
+      "ref": "cstyle://stdarg.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "unistd.h",
+      "ref": "cstyle://unistd.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "limits.h",
+      "ref": "cstyle://limits.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:localdeps",
+      "title": "config.h",
+      "ref": "cstyle://config.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "sys/time.h",
+      "ref": "cstyle://sys/time.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "sys/wait.h",
+      "ref": "cstyle://sys/wait.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "sys/resource.h",
+      "ref": "cstyle://sys/resource.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:localdeps",
+      "title": "resuse.h",
+      "ref": "cstyle://resuse.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "signal.h",
+      "ref": "cstyle://signal.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "getopt.h",
+      "ref": "cstyle://getopt.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "inttypes.h",
+      "ref": "cstyle://inttypes.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "stdbool.h",
+      "ref": "cstyle://stdbool.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "stdnoreturn.h",
+      "ref": "cstyle://stdnoreturn.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "string.h",
+      "ref": "cstyle://string.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:localdeps",
+      "title": "progname.h",
+      "ref": "cstyle://progname.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:localdeps",
+      "title": "error.h",
+      "ref": "cstyle://error.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:localdeps",
+      "title": "version-etc.h",
+      "ref": "cstyle://version-etc.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:localdeps",
+      "title": "rusage-kb.h",
+      "ref": "cstyle://rusage-kb.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:localdeps",
+      "title": "getopt.h",
+      "ref": "cstyle://getopt.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:localdeps",
+      "title": "getopt_int.h",
+      "ref": "cstyle://getopt_int.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "stddef.h",
+      "ref": "cstyle://stddef.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "config.h",
+      "ref": "cstyle://config.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:localdeps",
+      "title": "localtime-buffer.h",
+      "ref": "cstyle://localtime-buffer.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:localdeps",
+      "title": "intprops.h",
+      "ref": "cstyle://intprops.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:localdeps",
+      "title": "strerror-override.h",
+      "ref": "cstyle://strerror-override.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:localdeps",
+      "title": "verify.h",
+      "ref": "cstyle://verify.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "stdint.h",
+      "ref": "cstyle://stdint.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:localdeps",
+      "title": "dirname.h",
+      "ref": "cstyle://dirname.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "getopt-core.h",
+      "ref": "cstyle://getopt-core.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:localdeps",
+      "title": "unistd.h",
+      "ref": "cstyle://unistd.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "getopt-cdefs.h",
+      "ref": "cstyle://getopt-cdefs.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "getopt-pfx-core.h",
+      "ref": "cstyle://getopt-pfx-core.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "getopt-pfx-ext.h",
+      "ref": "cstyle://getopt-pfx-ext.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:localdeps",
+      "title": "getprogname.h",
+      "ref": "cstyle://getprogname.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "getopt-ext.h",
+      "ref": "cstyle://getopt-ext.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:localdeps",
+      "title": "msvc-inval.h",
+      "ref": "cstyle://msvc-inval.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:localdeps",
+      "title": "gettext.h",
+      "ref": "cstyle://gettext.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:localdeps",
+      "title": "msvc-nothrow.h",
+      "ref": "cstyle://msvc-nothrow.h?flavor=c"
+    },
+    {
+      "type": "CStyle Dependency",
+      "format": "c:sysdeps",
+      "title": "windows.h",
+      "ref": "cstyle://windows.h?flavor=c"
+    }
+  ]
+}

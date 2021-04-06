@@ -1,0 +1,54 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:52623cb0-1ed5-50b8-bfee-d2cc367b34b4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2021-04-01T16:03:00Z",
+    "authors": [
+      {
+        "name": "sFractal"
+      }
+    ],
+    "component": {
+      "type": "device",
+      "bom-ref": "32c46dab-5311-fae2-d178-a4b7a11e5a06",
+      "name": "Blinky",
+      "purl": "pkg:supplier/sFractal/Blinky@0.1.1",
+      "supplier": {
+        "name": "sFractal"
+      },
+      "version": "0.1.1"
+    },
+    "manufacture": {
+      "name": "sFractal"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "accaf60e-346b-7cc6-2496-3f3796cecf37",
+      "name": "Logger",
+      "purl": "pkg:supplier/Hex/Logger@v1.11.4",
+      "publisher": "Hex",
+      "version": "v1.11.4"
+    },
+    {
+      "type": "library",
+      "bom-ref": "e4d17704-0ef0-0d0a-14c7-8e603d2f5ae4",
+      "name": "Nerves.Led",
+      "purl": "pkg:supplier/Hex/Nerves.Led@0.8",
+      "publisher": "Hex",
+      "version": "0.8"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "32c46dab-5311-fae2-d178-a4b7a11e5a06",
+      "dependsOn": [
+        "accaf60e-346b-7cc6-2496-3f3796cecf37",
+        "e4d17704-0ef0-0d0a-14c7-8e603d2f5ae4"
+      ]
+    }
+  ]
+}

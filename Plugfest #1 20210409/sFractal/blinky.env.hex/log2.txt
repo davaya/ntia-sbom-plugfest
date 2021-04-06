@@ -1,0 +1,7 @@
+blinky $ atom .  ##sidenote - deps file edited to add hex/SBOM dependency
+blinky $ mix sbom.cyclonedx
+* creating bom.xml
+blinky $ ls
+README.md	bom.xml		deps		mix.exs		rel
+_build		config		lib		mix.lock	rootfs_overlay
+blinky $

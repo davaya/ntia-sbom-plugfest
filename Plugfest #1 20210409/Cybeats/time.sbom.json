@@ -1,0 +1,168 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "name": "IOTGW669",
+  "documentNamespace": "https://portal.cybeats.com/sbom/spdx/274ed393adea8066e05a1b720863e6ee9f2e6b24",
+  "creationInfo": {
+    "created": "2021-04-02T00:03:35.781Z",
+    "creators": [
+      "Tool: Cybeats SBOM Studio",
+      "Organization: Cybeats Technologies",
+      "Person:Vladislav Kharbash (vlad@cybeats.com)"
+    ]
+  },
+  "packages": [
+    {
+      "name": "time",
+      "SPDXID": "SPDXRef-Application-time",
+      "versionInfo": "1.9",
+      "filesAnalyzed": false,
+      "homepage": "http://www.gnu.org/software/time",
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:time:1.9",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-Library-time",
+      "fileName": "/home/pi/Desktop/time",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "d197b6638984124d64efc0703eb65c95"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5f4f3cce8adf07b8477a69f0c54ba63bee10075e"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:time:1.9",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "1.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-ld-2.19.so",
+      "fileName": "/lib/arm-linux-gnueabihf/ld-2.19.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "701f4316d3b7e19969bd2f6a92912dbc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cf5502039c527112eafe1999871a085c2f4d961a"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:glibc:2.19",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.19"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libc-2.19.so",
+      "fileName": "/lib/arm-linux-gnueabihf/libc-2.19.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.1-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "3441abf9b9f7dc9f9406b347b026a71d"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2d382b1f5a3afb01492c40c21bad784663d91e81"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:gnu:glibc:2.19",
+          "referenceType": "http://spdx.org/rdf/references/cpe22Type"
+        }
+      ],
+      "versionInfo": "2.19"
+    },
+    {
+      "SPDXID": "SPDXRef-Library-libarmmem.so",
+      "fileName": "/usr/lib/arm-linux-gnueabihf/libarmmem.so",
+      "fileTypes": [
+        "SHARED"
+      ],
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "75214700b901d17963032d4a85b36cc3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d99df1adc461820461bd644fa3749bfc278f0653"
+        }
+      ],
+      "versionInfo": "0.5"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Application-time",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-time",
+      "relatedSpdxElement": "SPDXRef-Library-time",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-time",
+      "relatedSpdxElement": "SPDXRef-Library-ld-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-time",
+      "relatedSpdxElement": "SPDXRef-Library-libc-2.19.so",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-time",
+      "relatedSpdxElement": "SPDXRef-Library-libarmmem.so",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

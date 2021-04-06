@@ -1,0 +1,73 @@
+
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentName: hello_world-2.5.99
+DocumentNamespace: https://longclaw.llnl.gov/sbom/988e3f4080f36f8c52635cbf62af1e0d76154cb0
+SPDXID: SPDXRef-DOCUMENT
+Creator: Tool: Longclaw
+Created: 2021-04-02T00:50:23Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hello-world-2.5.99
+
+
+PackageName: hello_world
+SPDXID: SPDXRef-hello-world-2.5.99
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: zephyrproject
+PackageOriginator: Organization: zephyrproject
+PackageChecksum: SHA256: 56252051928d19e9e4e3b27b24c71a15cb0918afeb2d57604f9b10cde2505e35
+PackageVerificationCode: 988e3f4080f36f8c52635cbf62af1e0d76154cb0
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+Relationship: SPDXRef-hello-world-2.5.99 STATIC_LINK SPDXRef-zephyr-sdk-0.12.3
+
+FileName: hello_world
+SPDXID: SPDXRef-hello-world-2.5.99-zephyr.elf
+FileType: BINARY
+FileChecksum: SHA1: 988e3f4080f36f8c52635cbf62af1e0d76154cb0
+FileChecksum: SHA256: 56252051928d19e9e4e3b27b24c71a15cb0918afeb2d57604f9b10cde2505e35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+PackageName: zephyr sdk
+SPDXID: SPDXRef-zephyr-sdk-0.12.3
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: zephyrproject
+PackageOriginator: Organization: zephyrproject
+PackageChecksum: SHA256: 54eb62e792e5c1da7fe7df9a771af7a2af0b22f4c88e02ab899b01649d2d6cf0
+PackageVerificationCode: 4464ac96da929aba95c64312f8581954a850542a
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+FileName: libgcc.a
+SPDXID: SPDXRef-zephyr-sdk-0.12.3-libgcc.a
+FileType: BINARY
+FileChecksum: SHA1: dda193af4ca83380b59d403dc1075437e7d0c8cc
+FileChecksum: SHA256: f805d5146fc7539a3043f8d07626de973bdf8c37e59990b4daf617f72d441497
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: libgcc.a
+SPDXID: SPDXRef-zephyr-sdk-0.12.3-libgcc.a
+FileType: BINARY
+FileChecksum: SHA1: cd40d0d62253653bdebb4d3f6ceafffe241a7715
+FileChecksum: SHA256: 60b9dbc697e4ca7c1d1cbb7132c4c155f26a57f605dbf0d37623dd034ed0ebc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: libgcc.a
+SPDXID: SPDXRef-zephyr-sdk-0.12.3-libgcc.a
+FileType: BINARY
+FileChecksum: SHA1: ecc2f0a61a63fe2279f922ee0f157a290230bbc6
+FileChecksum: SHA256: eacec2fdd90f808a8179a40862bf05ebfe5afc2f65a3d7830de0ff950eabba2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+

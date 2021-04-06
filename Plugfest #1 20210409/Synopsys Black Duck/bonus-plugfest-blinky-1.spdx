@@ -1,0 +1,52 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+DocumentNamespace: https://testing.blackduck.synopsys.com/api/projects/c3562c14-51ae-420e-a1db-765dc4c26a5b/versions/52d12bcb-c558-4bd2-b65f-46ec40075e40
+DocumentName: plugfest-blinky/1
+SPDXID: SPDXRef-DOCUMENT
+## Creation Information
+Creator: Tool: Black Duck SPDX export script https://github.com/matthewb66/bd_export_spdx
+Creator: Person: sysadmin
+Created: 2021-04-02T12:12:23Z
+LicenseListVersion: 3.9
+## Relationships
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-plugfest-blinky-1
+
+## Black Duck project
+PackageName: plugfest-blinky
+SPDXID: SPDXRef-Package-plugfest-blinky-1
+PackageVersion: 1
+ExternalRef: OTHER BlackDuck-Hub-Project-Version https://testing.blackduck.synopsys.com/api/projects/c3562c14-51ae-420e-a1db-765dc4c26a5b/versions/52d12bcb-c558-4bd2-b65f-46ec40075e40
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageDownloadLocation: NOASSERTION
+Relationship: SPDXRef-Package-plugfest-blinky-1 CONTAINS SPDXRef-Package-nervesproject-blinky-example-3d0a93fe4ec847c286a4f561ea3715b7fce9cd3e
+
+
+## Black Duck project component
+PackageName: nervesproject-blinky-example
+SPDXID: SPDXRef-Package-nervesproject-blinky-example-3d0a93fe4ec847c286a4f561ea3715b7fce9cd3e
+PackageVersion: 3d0a93fe4ec847c286a4f561ea3715b7fce9cd3e
+PackageFileName: NOASSERTION
+PackageHomePage:  http://nerves-project.org
+PackageSupplier: Organization: Nerves
+PackageDescription: <text>Craft and deploy bulletproof embedded software in Elixir
+</text>
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: LicenseRef-commercial
+PackageLicenseDeclared: LicenseRef-commercial
+PackageComment: <text>This is a custom component which was manually added, the PackageSupplier was populated in the component</text>
+FilesAnalyzed: false
+ExternalRef: SECURITY cpe23Type NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier:Nerves/nervesproject-blinky-example/3d0a93fe4ec847c286a4f561ea3715b7fce9cd3e
+ExternalRef: OTHER BlackDuck-Hub-Component https://testing.blackduck.synopsys.com/api/components/a94984ef-d0a5-4a71-8f94-6a201e8b6059
+ExternalRef: OTHER BlackDuck-Hub-Component-Version https://testing.blackduck.synopsys.com/api/components/a94984ef-d0a5-4a71-8f94-6a201e8b6059/versions/3e8f07f4-4907-4b26-b90c-bb29aeec10c7
+PackageCopyrightText: NOASSERTION
+
+
+
+## Custom Licenses
+
+LicenseID: LicenseRef-commercial
+ExtractedText: <text>sss</text>

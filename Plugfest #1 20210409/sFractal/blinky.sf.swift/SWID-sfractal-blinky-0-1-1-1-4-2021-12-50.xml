@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+	<SoftwareIdentity xmlns="http://standards.iso.org/iso/19770/-2/2015/schema.xsd"
+			  xmlns:xsi="htttp://www.w3.org/2001/XMLSchema-instance"
+			  name="Blinky"
+			  tagId="sFractal-Blinky-0.1.1"
+			  version="0.1.1">
+	  <Entity name="sFractal" role="softwareCreator"/>
+	  <Meta generator="SwiftBOM SBOM Generator v1.3" /> 
+      	<Link  rel="component" href="swid: Hex-Logger-v1.11.4"
+	       use="required" />
+      	<Link  rel="component" href="swid: Hex-Nerves.Led-0.8"
+	       use="required" />
+      
+</SoftwareIdentity>

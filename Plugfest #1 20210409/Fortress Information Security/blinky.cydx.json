@@ -1,0 +1,586 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:3b778828-1139-4841-be20-35dcf31dd943",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2021-04-01T06:40:59Z",
+    "tools": [
+      {
+        "vendor": "Fortress Information Security",
+        "name": "B29",
+        "version": "2021.03.25-0"
+      }
+    ],
+    "component": {
+      "cpe": "cpe:2.3:a:any:any:any:any:*:*:*:*:*:*",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8c7b7ef850d85caf5604946947ddc9bd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "80210e6a7a495eff83ef3551721761dca0ed02a6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3d2279dd10ac6ad4e4c0b4c79b2b7ef272f563b9f4336fd4e6237a24477caca2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a809fa92628ab026c63af44fbb2e6e09c112318a185518ac59e0e9daabdd95c761f8921749b8359b007eaf2cdf2f6abc394263614f2ccb9f724855de36d09239"
+        }
+      ],
+      "type": "file",
+      "name": "blinky.zip",
+      "version": "unknown",
+      "mime-type": "application/zip"
+    },
+    "author": {
+      "name": "Fortress Information Security, LLC.",
+      "url": [
+        "https://fortressinfosec.com/",
+        "address://US/32801/FL/Orlando/189 S. Orange Avenue, Ste 1950"
+      ],
+      "contact": {
+        "name": "External Contact",
+        "email": "sales@fortressinfosec.com",
+        "phone": [
+          "407-573-6800"
+        ]
+      }
+    }
+  },
+  "components": [
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "10e02f98df5af22d2d031ce8dc965ddd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6405c74e34fb55868816a8d61108b153fcf7ec67"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a39408ed2d4e4358d360ad14553e6466f1a12daa8e393a2f47e53f5910d7df82"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a5616b2c4e9b4f620a67052a078405bf6cb01c60de3cbe990e649b54084d20d94b03c27e16c35d2b2d5302756dd5da88a6e539dc9ea9b74b02c4a34644eb512b"
+        }
+      ],
+      "type": "file",
+      "name": "mix.lock",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "397c465011c1a1a222f9701f44c4659f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "844f63530d280878a5177b738779400b8633dbfc"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7a5d732c1762239d806760243e78a9accc7d04d0df8bc5bbc02fd714c9080b90"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a93294201c6e317b0341bee08b59a9fa705ded1894b357b1126b287e374e917e3f00a351944cbef36932d5bfe9b06b53e5b849be91b1079b58ee73803624ed45"
+        }
+      ],
+      "type": "file",
+      "name": "mix.exs",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f3e89e3b0a14aff047ab48fc1f671cf3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e43b3031f6428759e4be1c6cd0b57369a9206485"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "762cdd54c77e4cdc70af30d52444cf0f390ea2d60947cec191e88aa01931a0a4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "099f1d6709c6b79ddceb304f15379a8dc366bd35d352ba13eb1c7d29703f4418aea4e3ea4f31c5b0f8aa70289ded56ca2184ec64d92e33a904786d5e1f4a3edc"
+        }
+      ],
+      "type": "file",
+      "name": ".gitignore",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ff4b6f2aa4db50ee8b26e74a881c13b6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8e7259946b71b88788666ede8d60fbfb5983c1f1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d67d532855e4ec1a965b94a8dfdfefdaef513a33b4909d73109d8f935dfb3f23"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c1b708bc503cc08b1be730101a789bbadf7aa0cb02d08aa33e93ac73486a189d0cf5aa312a27ff48ca6a1967c6dc3f8342413035bbfd0bc036baded4b701e82e"
+        }
+      ],
+      "type": "file",
+      "name": "README.md",
+      "version": "unknown",
+      "mime-type": "text/markdown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7cc49448d524ed2c8d7945359d96ed23"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d8feb8ede9a511b2207225338f55bb84df9e7f20"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bb1dc14d7fcb0025a0f91f03b334627744905e66eaf71843dba3e8d5431c19a3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d32a54239161b7b3c46ec7b676bb39b350da9dc814eed784acaf8675539bd3625796eabeec4403ad6c461713a6537ba9d26a89e889837a66107be93aa42099bb"
+        }
+      ],
+      "type": "file",
+      "name": ".zip",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f56fd8601d9d3792ee7944596207e77c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "64e3288e9b1f3c540f57a0ffd3b86341091c6f32"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b2e3f0bbcbf37bd8538862cbaada7566fe78e9f8ecd1bd7452cc704f88dbb1f3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1507aa119d9322a0ec60b60a05ffd91fbc827e06efe7e8030c45e26b9893e06f9d7b7926e835794129e2aee9ae4496b5c2ca8c8ad748326f25d10c2c5192c91f"
+        }
+      ],
+      "type": "file",
+      "name": ".formatter.exs",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "88d0c04dea0c7ba9f780cb8ef2d88491"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "95bc75debcd8f564becf09a6eb05066714aa014a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "54004a7115ab3b6130e4c4e2ff4ddd902671e7e6cfe3e6800d8657b403133fba"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "39be5634f02b405caebf2217949f3379c9d50b214ec2c558abfd1e64b4635b6aacbfca48013afcc2a5576f1b3db4b17a8eec0f831e74e998f72516ed5eaab5b4"
+        }
+      ],
+      "type": "file",
+      "name": "vm.args.eex",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4c9c0737109118cf43fb97ed98878de2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "74975bc64c847f58c2dbdba7b35ff83b17bd7f55"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e8dc2085ef5b9b557bef6831c92ad9742e1a7d99c9ebf1d83aba191a37d6820e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b669969850b9192a496ebc5351064481c96b45fdb8006490082243d7996484edfab3ea7f55e975a7c48da1dd3e5f16869756e186dca1cacf5b23dc5b0e4789b7"
+        }
+      ],
+      "type": "file",
+      "name": "iex.exs",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e0b755ad2f129c0380e0652b6b22e394"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5a8f2ce0115e4a64671f3e5101fdcf1e8b34f917"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9309e78eed2837765652fc61d2d762ee19c763a3237c1edc0f427192b26d2d2a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "841fd2d26a6d12c8825a6fa1fbbdcdd88b8540997ae3806a39ffb06d7ad19cd1cd0cef627a7e133358141ac49c01bf464bda754553f56e110f67bebb50fedd22"
+        }
+      ],
+      "type": "file",
+      "name": "osd32mp1.exs",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "cf531e651a4e98f09ffca56aa7e981d8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1d8ce6f017b06b3c0b206a8f64a30cdc10e3482d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c0a350f00c9ddbfb4a96f49d9b15cc03000b613a6e7244b466aa05a506031f42"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d109672ccf894cc7a276ddc0c8e9ecbd810a8c5eaa746bc402b664cba9cd5196a939c76d4e0dbf4099f293dceab211a7b12cc3f9543c216c900e33c52dc2d0de"
+        }
+      ],
+      "type": "file",
+      "name": "config.exs",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "875ecfa5413c7ef86d6ff3350410e813"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "579cfc37d15ed9a2a05bc5f56dc4183547b4bb51"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "dc22d576b933424a1d4d209b9b9284a77664dd7d1246ed10b341d1c459e709e3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "aa18b2b61ab9942b0f620f87193eeba38675e2b3452a7a428fafd3cfc726903f27c18d32746a5ef841ab69f8748f015aa51c57c291fa37571ecc20da09474224"
+        }
+      ],
+      "type": "file",
+      "name": "host.exs",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "85e7a92b3605a0858b4e7e8ccaf82749"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "225ade9813e775c235e1d0befba76fb2606e938d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f78a1db6b51eba5361ec3435031c5cc943fa251be93b7b5336ab91d710fabdf8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "be91f911d9cbb4e9aefe4ac4ff12fbfa009e1f6f83f5a0c6377db1f792adc457ac534fb4cb3ee5d2290f4613d8b790088709e0431cc3de1c4f20d90d8c108859"
+        }
+      ],
+      "type": "file",
+      "name": "target.exs",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d5f33f3647d6d2008c6c581e416bdfb8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "032f96f09fc65003fd6b763ba74f09b9007765e3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "02c218e8497276b09ea88a0f32ebf5008dca01ebe1f256e78eb5065143af323d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c8809487067948d08e80100ec814e048b3afdecfa60aece07e0793306e5d30bb7be1242847a595f9ae2f101f31083fe456e65458f65e78e3f63f3470fc7cc4f8"
+        }
+      ],
+      "type": "file",
+      "name": "rpi4.exs",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "28ee20188c00e4a5a7a13ff388feb679"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "02cf5d5d4ecb7ffb10dc5ca24d52bf4a5d8934aa"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "733e788d141a1406f62df71a27349b4597125452a7ec5ff6af9b9c7cedcb41c5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "92c1e5ad9ea8b0f69c4df8fbb49115c232b3fd6365dcc5f1fea1af8e04c316bcce6503757a723fd5015518e4a938f9c91f7585d277e9d97962a959d7c2e49341"
+        }
+      ],
+      "type": "file",
+      "name": "ev3.exs",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1906f61cefd2a923908e7b37ecd713a8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6a77ac605a57f7c75a17b20907b20067c7cdbabf"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9704770e9dc3366bb101ae75c5fdc75b61de90068d086a5ed602a59b820f6c14"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "39a7c1bd8c162a7bab49da7d37efab13cee27edde54b780a607f457e18641c7ba6d946befa042983034bff73f9a15ca544c8d268d7425e16b46ca09a1e8f1846"
+        }
+      ],
+      "type": "file",
+      "name": "rpi.exs",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e0b755ad2f129c0380e0652b6b22e394"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5a8f2ce0115e4a64671f3e5101fdcf1e8b34f917"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9309e78eed2837765652fc61d2d762ee19c763a3237c1edc0f427192b26d2d2a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "841fd2d26a6d12c8825a6fa1fbbdcdd88b8540997ae3806a39ffb06d7ad19cd1cd0cef627a7e133358141ac49c01bf464bda754553f56e110f67bebb50fedd22"
+        }
+      ],
+      "type": "file",
+      "name": "x86_64.exs",
+      "version": "86_64",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "aed0324189680d797509da8a90b62927"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0717186c864f84b302753a01c57d7034a10fa6da"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b9406544621f117568bfbd9bd4c3136b0e0b764f1361e58fde18cdc0ad42bee4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "adcfd8b4706c99bd1263d91eae1a72965db3263e86c3813f1f27b7b93498b4f5df8c3e03ab65f83fd6b2b484d06c19928f91f8b010b22f54f7fc876ae9761f41"
+        }
+      ],
+      "type": "file",
+      "name": "bbb.exs",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "710407997f828d221a99affa27e5132c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e4eacc4b919ced9c1dfaa3af1f5f45bfd9933260"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7ac8c1ead8f43ede00789ab4ea463dc83f0c7b53ab11affe85d396c75269c171"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "789641788ad4f580b924abbf52a88f22c2c807da73eccc04b6704a0176f157c718e4145fba7a1b224ed54d7b74d1bb23412e6eaf6efd9c3641e5ed2ace37bc4d"
+        }
+      ],
+      "type": "file",
+      "name": "rpi0.exs",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4297480dac40cee08ececb2194dd9242"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b048c8efdd4489583dde20f27ac630dc5f3f79bf"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "641ad3be030c65a6c45eb748f3f172592fedafb6f02d181bc69ce7e6a6badcf4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6b6b349fe7155404420d72cf114b2cf30bd6a9b075c1f095cdbad6e6eb3583411a7562261e6ea110994995f58661624e3614523f0d3b68b3ad0059e9be28d03b"
+        }
+      ],
+      "type": "file",
+      "name": "rpi3.exs",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "873c13141d494ae6f17343b7006be226"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "54231597b0a793232d5dd20d11d6aad34f724ab0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ae206553c0ecdc8cba57398a5a3b120b36c48c655fafe9d164f8f350b879584f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "09af9b0add34089611ac891e5f5e77bc57ff1ca10e300aeb93c02b0572b63dbe76657086add89006acb879f1969312988087e85c54e1c1adc6b6cbe31568d1cb"
+        }
+      ],
+      "type": "file",
+      "name": "rpi2.exs",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "984eabb37d0dfa636dabfa5c67cd1e9c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "96826e2135ad9a20bc9a1cdf9af90ab9e26ce56d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f92b82803df5a566ca3d4abcb4c45844885b809dcefdc6464ff23cc56676e198"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7be18237544b6099d7c10e50306327149e886de1793912f0ad1a279469dcba2472d0e3f5c4dca6e9ceb5a1cf1162890de928c741363b14d3b84012eeb607d659"
+        }
+      ],
+      "type": "file",
+      "name": "rpi3a.exs",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "111250473b5968d4a816f2d138093869"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "830fcbaf736be2467625fd241c2965edc02521aa"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "eaa11b27f724b2aca0ee275ad371bc173ebafba9f9c78be6acfa5ab62798160e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d2cbe99a0a718693ec8031072a3c348be70bebed6f8683e310fb6acff9fcf84703266169b7a0f469b3b55c3f40bd1bea98471006ef927a5f9d2c23fe96162dac"
+        }
+      ],
+      "type": "file",
+      "name": "blinky.ex",
+      "version": "unknown",
+      "mime-type": "unknown/unknown"
+    }
+  ],
+  "dependencies": []
+}
