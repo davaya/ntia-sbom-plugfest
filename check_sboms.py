@@ -41,7 +41,7 @@ def translate(filename: str, odir: str) -> NoReturn:
     print('\n'.join([f'{k:>15}: {v}' for k, v in jadn.analyze(jadn.check(schema)).items()]))
 
     jadn.convert.dot_dump(schema, os.path.join(odir, fn + '.dot'), style={'links': True})
-    cols = {'desc': 50, 'page': 120}    # specify comment position and page width to truncate
+    cols = {'name': 24,'desc': 50}    # Specify type column and description length to truncate
     jadn.convert.jidl_dump(schema, os.path.join(odir, fn + '.jidl'), style=cols)
     jadn.convert.html_dump(schema, os.path.join(odir, fn + '.html'))
     jadn.convert.table_dump(schema, os.path.join(odir, fn + '.md'))
@@ -53,6 +53,8 @@ def translate(filename: str, odir: str) -> NoReturn:
 
 if __name__ == '__main__':
     print(f'Installed JADN version: {jadn.__version__}\n')
+
+    # Validate schema and translate to other formats
     output_dir = 'Out'
     css_dir = os.path.join(output_dir, 'css')
     os.makedirs(css_dir, exist_ok=True)
@@ -60,21 +62,23 @@ if __name__ == '__main__':
     for f in os.listdir('Schema'):
         translate(f, output_dir)
 
+    # Get list of SBOM files to analyze from Plugfest folder
     print()
     with open(os.path.join(sbom_folder, 'sbom_files.txt')) as f:
         for line in f.readlines():
-            if not line.startswith('#') and len(x := line.split(',')) == 3:
+            if not line.strip().startswith('#') and len(x := line.split(',')) == 3:
+
+                # Validate SBOM file against schema
                 file = os.path.join(*x[0].split('/'))
                 try:
-                    doc = check_sbom(file, sbom_f:=x[1].strip(), file_f:=x[2].strip())
+                    doc = check_sbom(file, sbom_fmt:=x[1].strip(), file_fmt:=x[2].strip())
                 except ValueError as e:
-                    raise
-                    # print(f' ERR: {e}')
-                # Analyze SBOM data
-                if sbom_f == 'spdx':
+                    print(f' ERR: {e}')
+
+                # Analyze SBOM data to identify which link associations are used
+                if sbom_fmt == 'spdx':
                     rels = defaultdict(list)
                     for rel in doc['relationships']:
                         rels[rel['spdxElementId']].append((rel['relationshipType'], rel['relatedSpdxElement']))
-                    print(f'{len(rels)} elements have relationships')
+                    print(f'  {len(rels)} elements have relationships')
 
-    # check_sbom(os.path.join('Cybeats', 'time.sbom.json'), 'SPDX')
