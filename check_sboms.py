@@ -76,9 +76,9 @@ if __name__ == '__main__':
                     print(f' ERR: {e}')
 
                 # Analyze SBOM data to identify which link associations are used
-                if sbom_fmt == 'spdx':
+                if 'doc' in locals() and sbom_fmt == 'spdx':
                     rels = defaultdict(list)
                     for rel in doc['relationships']:
                         rels[rel['spdxElementId']].append((rel['relationshipType'], rel['relatedSpdxElement']))
-                    print(f'  {len(rels)} elements have relationships')
+                    print(f'  {len(rels)} relationship sources')
 

@@ -11,7 +11,7 @@ Document = Record
   5 dataLicense SpdxLicenseExpr
   6 hasExtractedLicensingInfos LicensingInfo [0..*]
   7 documentNamespace URI
-  8 documentDescribes Link(SPDX-Id) [0..*]
+  8 documentDescribes Link(SPDX-Id) [0..*]  // Needs to link to type (Package), not key
   9 packages PackageInfo [0..*]
  10 files FileInfo [0..*]
  11 relationships Relationship [0..*]  // CONTAINS from Document permitted?
@@ -142,7 +142,7 @@ FileType = Enumerated
   4 SHARED
   5 OTHER
 
-Timestamp = String
+Timestamp = String      // TODO: add "Integer /datetime-ms" format
 
 URI = String /uri
 
