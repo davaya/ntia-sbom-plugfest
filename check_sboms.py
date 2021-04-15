@@ -8,10 +8,15 @@ from typing import NoReturn
 
 sbom_folder = 'Plugfest #1 20210409'
 
+# Map sbom format to name of schema file to use
+schema_filename = {
+    'spdx': 'spdx-reverse'
+}
+
 
 def check_sbom(file: str, sbom_format: str, file_format: str) -> dict:
     print(f'{file} ({sbom_format}, {file_format})')
-    schema_file = os.path.join('Out', sbom_format.strip().lower() + '.jadn')
+    schema_file = os.path.join('Out', schema_filename[sbom_format.strip().lower()] + '.jadn')
     try:
         schema = jadn.load(schema_file)
     except FileNotFoundError:
@@ -20,7 +25,7 @@ def check_sbom(file: str, sbom_format: str, file_format: str) -> dict:
     with open(os.path.join(sbom_folder, file), encoding='utf-8') as fd:
         sbdoc = json.load(fd)   # TODO: JADN Codec needs to decode from file, not Python object
         sbdoc_decoded = codec.decode('Document', sbdoc)
-        assert sbdoc == sbdoc_decoded
+        # assert sbdoc == sbdoc_decoded // TODO: check list reordering
     return sbdoc
 
 
@@ -45,6 +50,7 @@ def translate(filename: str, odir: str) -> NoReturn:
     jadn.convert.jidl_dump(schema, os.path.join(odir, fn + '.jidl'), style=cols)
     jadn.convert.html_dump(schema, os.path.join(odir, fn + '.html'))
     jadn.convert.table_dump(schema, os.path.join(odir, fn + '.md'))
+    jadn.convert.proto_dump(schema, os.path.join(odir, fn + '.proto'))
     jadn.translate.json_schema_dump(schema, os.path.join(odir, fn + '.json'))
     jadn.dump(schema, os.path.join(odir, fn + '.jadn'))
     jadn.dump(jadn.transform.simplify(jadn.transform.strip_comments(schema)),
@@ -52,7 +58,7 @@ def translate(filename: str, odir: str) -> NoReturn:
 
 
 if __name__ == '__main__':
-    print(f'Installed JADN version: {jadn.__version__}\n')
+    print(f'Using JADN version {jadn.__version__}\n')
 
     # Validate schema and translate to other formats
     output_dir = 'Out'

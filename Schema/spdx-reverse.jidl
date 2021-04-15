@@ -1,0 +1,300 @@
+package: "http://spdx.org/spdx-v2.2"
+namespaces: {"ll": "http://spdx.org/license-list"}
+title: "SPDX v2.2 Information Model reverse-engineered from submissions to April 2021 NTIA SBOM Plugfest"
+license: "CC0-1.0"
+exports: ["Document"]
+config: {"$FieldName": "^[a-zA-Z][_A-Za-z0-9]{0,31}$", "$MaxElements": 1000}
+
+Document = Record   // Section 1.4 should define Document fields with cardinality as in other sections
+  1 creationInfo DocumentCreationInfo   // Section 2: mandatory, one
+  2 packages PackageInfo [0..*] // Section 3: "optional, one or many" = 0..*, plural field name
+  3 files FileInfo [1..*]   // Section 4 has no cardinality.  Assume document must have at least one file?
+  4 snippets SnippetInfo [0..*] // Section 5: "snippets can optionally be used" = 0..*
+  5 otherLicensingInfo OtherLicensingInfo optional  // mandatory if license not on license list
+  6 relationships Relationship [0..*]
+  7 annotations Annotation [0..*]
+  8 spdxVersion SpdxVersion
+  9 dataLicense SpdxLicense
+ 10 SPDXID Key(SpdxRef)      // should be spdxId for consistency with other property names
+ 11 name String
+ 12 documentNamespace URI
+ 13 hasExtractedLicensingInfos LicensingInfo [0..*] // not in spec
+ 14 documentDescribes SpdxRef [0..*]  // not in spec
+
+DocumentCreationInfo = Record
+  1 spdxVersion SpdxVersion optional
+  2 dataLicense SpdxLicense optional
+  3 spdxId SPDXREF-DOCUMENT optional
+  4 name String optional
+  5 documentNamespace URI optional  // Can create absURI format if needed.
+  6 externalDocumentRefs ExternalDocumentRef [0..*]
+  7 licenseListVersion MajorMinorVersion optional
+  8 creators Entity [1..*]
+  9 created Timestamp
+ 10 comment String optional // general about creation of the SPDX document
+ 11 documentComment String optional // about the SPDX document
+
+PackageInfo = Record
+  1 name String
+  2 SPDXID Key(SpdxRef)
+  3 versionInfo VersionInfo optional
+  4 packageFileName PackageFileName optional
+  5 supplier PackageSupplier optional
+  6 originator Entity optional  // Person or Org, not Tool
+  7 downloadLocation DownloadLocation optional // mandatory in spec
+  8 filesAnalyzed Boolean optional  // Default True.   3.8.6
+  9 packageVerificationCode PackageVerificationCode optional // mandatory if filesAnalyzed is True, prohibited if False
+ 10 checksums Checksum [0..*]
+ 11 homepage URI optional
+ 12 sourceInfo String optional
+ 13 licenseConcluded LicenseExpression optional // 3.13.3 says mandatory
+ 14 licenseInfoFromFiles LicenseIdentifier [0..*]   // mandatory if filesAnalyzed is True, prohibited if False
+ 15 licenseDeclared LicenseExpression optional // "NOASSERTION" is not a URI, should be omitted
+ 16 licenseComments String optional
+ 17 copyrightText String optional   // 3.17.3 says mandatory
+ 18 summary String optional
+ 19 description String optional
+ 20 comment String optional
+ 21 externalRefs ExternalRef [0..*]
+ 22 attributionText String [0..*]
+ 23 annotations Annotation [0..*] // 8.4.6 says For RDF annotations are a property of Document, Package, File or Snippet
+ 24 hasFiles SpdxRef [0..*] // not in spec
+
+FileInfo = Record
+  1 fileName String
+  2 SPDXID Key(SpdxRef)
+  3 fileTypes FileType [0..*]
+  4 checksums Checksum [0..*]   // 4.4.3 says mandatory
+  5 licenseConcluded LicenseExpression optional // 4.5.3 says mandatory
+  6 licenseInfoInFiles LicenseExpression [0..*]  // 4.6.3 says mandatory
+  7 licenseComments String optional
+  8 copyrightText String optional   // 4.8.3 says mandatory
+  9 comment String optional
+ 10 noticeText String optional
+ 11 contributors String optional    // 4.14.3 says [0..*] (array of strings)
+ 12 attributionText String [0..*]
+ 13 dependencies String [0..*]
+ 14 versionInfo VersionInfo optional    // not in spec
+ 15 licenseDeclared String optional // not in spec
+ 16 externalRefs ExternalRef [0..*] // not in spec
+ 17 artifactOf Artifact [0..*]    // deprecated - delete before new version
+
+SnippetInfo = Record
+  1 SPDXID Key(SpdxRef)
+  2 snippetFromFile SpdxRef
+  3 byteRange Range
+  4 lineRange Range optional
+  5 licenseConcluded LicenseExpression
+  6 licenseInfoInSnippet LicenseExpression [0..*]
+  7 licenseComments String optional
+  8 copyrightText String
+  9 comment String optional
+ 10 name String optional
+ 11 attributionText String [0..*]
+
+OtherLicensingInfo = Record
+  1 licenseID LicenseRef
+  2 extractedText String    // 6.2.3 "if there is a License Identifier assigned" means "on the license list"?
+  3 name String
+  4 crossReference URI  // 6.4: tag is LicenseCrossReference.  rdf is seeAlso
+  5 comment String optional
+
+Relationship = Record
+  1 spdxElementId Key(SpdxRef)     // 7.1.5 tag shows "A <relationshp> B".  RDF does not show a name for A.
+  2 relationshipType RelationshipType
+  3 relatedSpdxElement SpdxRef    // Overloaded multiple targets, consider RelatedElement
+  4 comment String optional
+
+RelatedElement = Choice
+  1 document Link(Document)
+  2 package Link(PackageInfo)
+  3 file Link(FileInfo)
+  4 snippet Link(SnippetInfo)
+
+Annotation = Record
+  1 annotator Entity
+  2 annotationDate Timestamp    // just "date"?
+  3 annotationType AnnotationType
+  4 comment String
+
+SpdxVersion = String{pattern="^SPDX-\d{1,2}\.\d{1,4}$"} // Limit digits to below the absurd, or enumerate valid versions
+
+SpdxLicense = String    // Import ll:License
+
+SPDXREF-DOCUMENT = String{pattern="^SPDXRef-DOCUMENT$"}
+
+SpdxRef = String{pattern="^SPDXRef-[-+_\.a-zA-Z0-9]{1,64}$"}   // 3.2.4: SPDXRef-[idstring] - no underscore
+
+LicenseRef = String{pattern="^LicenseRef-[-+\.a-zA-Z0-9]{1,64}$"}
+
+ExternalDocumentRef = String{pattern="^DocumentRef-[-+\.a-zA-Z]{1,64}$"}  // DocumentRef-[idstring][URI][Checksum]
+
+MajorMinorVersion = String{pattern="^\d{1,2}\.\d{1,4}$"}
+
+VersionInfo = String    // use versioning scheme?
+
+PackageFileName = String
+
+Timestamp = String // Define an ISO 8601 (or RFC 3339?) text representation format for Integer time
+
+URI = String /uri
+
+DownloadLocation = String   // URI or SPDX-specific VCS schemes
+
+Entity = String    // Should be a Map instead of strings.  Spec doesn't require comma-separated tag-values
+
+// Entity = Map{1..*}  // at least one must be present
+//   1 person String optional   // validate person name with optional (email)
+//   2 organization String optional
+//   3 tool String optional
+
+PackageSupplier = String
+
+PackageVerificationCode = Record
+  1 packageVerificationCodeValue Binary /x
+  2 packageVerificationExcludedFiles PackageFileName [0..*] // 3.9.4 says "exclude SPDX file(s)"
+
+Checksum = Record   // Map (below) is "friendly" syntax vs. repeated key-value names
+  1 algorithm HashAlgorithm
+  2 checksumValue Binary /x     // just value?
+
+HashAlgorithm = Enumerated
+  1 SHA1
+  2 SHA224
+  3 SHA256
+  4 SHA384
+  5 SHA512
+  6 MD2
+  7 MD4
+  8 MD5
+  9 MD6
+
+// Checksum = Map{1..*}   // md algorithms not recommended, better algorithms (blake, ripemd, ...) not listed
+//  1 sha1    Binary{20..20} /x optional
+//  2 sha224  Binary{28..28} /x optional
+//  3 sha256  Binary{32..32} /x optional
+//  4 sha384  Binary{48..48} /x optional
+//  5 sha512  Binary{64..64} /x optional
+//  6 md2     Binary{16..16} /x optional
+//  7 md4     Binary{16..16} /x optional
+//  8 md5     Binary{16..16} /x optional
+//  9 md6     Binary /x optional  // Variable-length SHA-3 candidate, need e.g., md6-256 or md6-384
+
+ExternalRef = Record
+  1 referenceCategory ReferenceCategory // just "category"?
+  2 referenceType ReferenceType
+  3 referenceLocator ReferenceLocator
+  4 comment String optional
+
+ReferenceCategory = Enumerated  // 3.2.1.4 (no underscores)
+  1 SECURITY
+  2 PACKAGE-MANAGER
+  3 PERSISTENT-ID
+  4 OTHER
+  5 PACKAGE_MANAGER     // typo - delete
+
+ReferenceType = String  // appendix VI gives regexs for category types
+
+ReferenceLocator = String
+
+FileType = Enumerated
+  1 SOURCE
+  2 BINARY
+  3 ARCHIVE
+  4 APPLICATION
+  5 AUDIO
+  6 IMAGE
+  7 TEXT
+  8 VIDEO
+  9 DOCUMENTATION
+ 10 SPDX
+ 11 SHARED // Cybeats
+ 99 OTHER
+
+LicenseIdentifier = String  // import from License List
+
+LicenseExpression = String
+
+Range = Record
+  1 start Integer
+  2 end Integer
+
+RelationshipType = Enumerated
+  0 NONE
+  1 DESCRIBES
+  2 DESCRIBED_BY
+  3 CONTAINS
+  4 CONTAINED_BY
+  5 DEPENDS_ON
+  6 DEPENENCY_OF
+  7 DEPENDENCY_MANIFEST_OF
+  8 BUILD_+DEPENDENCY_OF
+  9 DEV_DEPENDENCY_OF
+ 10 OPTIONAL_DEPENDENCY_OF
+ 11 PROVIDED_DEPENDENCY_OF
+ 12 TEST_DEPENDENCY_OF
+ 13 RUNTIME_DEPENDENCY_OF
+ 14 EXAMPLE_OF
+ 15 GENERATES
+ 16 GENERATED_FROM
+ 17 ANCESTOR_OF
+ 18 DESCENDANT_OF
+ 19 VARIANT_OF
+ 20 DISTRIBUTION_ARTIFACT
+ 21 PATCH_FOR
+ 22 PATCH_APPLIED
+ 23 COPY_OF
+ 24 FILE_ADDED
+ 25 FILE_DELETED
+ 26 FILE_MODIFIED
+ 27 EXPANDED_FROM_ARCHIVE
+ 28 DYNAMIC_LINK
+ 29 STATIC_LINK
+ 30 DATA_FILE_OF
+ 31 TEST_CASE_OF
+ 32 BUILD_TOOL_OF
+ 33 DEF_TOOL_OF
+ 34 TEST_OF
+ 35 TEST_TOOL_OF
+ 36 DOCUMENTATION_OF
+ 37 OPTIONAL_COMPONENT_OF
+ 38 METAFILE_OF
+ 39 PACKAGE_OF
+ 40 AMENDS
+ 41 PREREQUISITE_FOR
+ 42 HAS_PREREQUISITE
+ 98 NOASSERTION     // should deprecate
+ 99 OTHER
+
+AnnotationType = Enumerated
+  1 REVIEW
+  9 OTHER
+
+Artifact = Record   // Deprecated
+  1 name String
+  2 homepage URI optional
+  3 projectURI URI optional
+
+LicensingInfo = Record
+  1 licenseId LicenseExpression
+  2 name String optional
+  3 crossRefs CrossRef [0..*]
+  4 extractedText String
+  5 isDeprecatedLicenseId Boolean optional
+  6 isFsfLibre Boolean optional
+  7 isOsiApproved Boolean optional
+  8 licenseText String optional
+  9 licenseTextHtml String optional
+ 10 standardLicenseHeader String optional
+ 11 standardLicenseHeaderHtml String optional
+ 12 standardLicenseHeaderTemplate String optional
+ 13 standardLicenseTemplate String optional
+
+CrossRef = Record
+  1 isLive Boolean
+  2 isValid Boolean
+  3 isWayBackLink Boolean
+  4 match String   // Should be Boolean true, not String "true"
+  5 order Integer
+  6 timestamp Timestamp
+  7 url URI
