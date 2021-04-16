@@ -46,8 +46,9 @@ def translate(filename: str, odir: str) -> NoReturn:
     print('\n'.join([f'{k:>15}: {v}' for k, v in jadn.analyze(jadn.check(schema)).items()]))
 
     jadn.convert.dot_dump(schema, os.path.join(odir, fn + '.dot'), style={'links': True})
-    cols = {'name': 24,'desc': 50}    # Specify type column and description length to truncate
+    cols = {'name': 24,'desc': 56}    # Specify type column and description length to truncate
     jadn.convert.jidl_dump(schema, os.path.join(odir, fn + '.jidl'), style=cols)
+    jadn.convert.jidl_dump(jadn.transform.strip_comments(schema), os.path.join(odir, fn + '_s.jidl'), style={'name': 24})
     jadn.convert.html_dump(schema, os.path.join(odir, fn + '.html'))
     jadn.convert.table_dump(schema, os.path.join(odir, fn + '.md'))
     jadn.convert.proto_dump(schema, os.path.join(odir, fn + '.proto'))

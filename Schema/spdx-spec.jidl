@@ -10,7 +10,7 @@ Document = Record   // Section 1.4 should define Document fields with cardinalit
   2 packages PackageInfo [0..*] // Section 3: "optional, one or many" = 0..*, plural field name
   3 files FileInfo [1..*]   // Section 4 has no cardinality.  Assume document must have at least one file?
   4 snippets SnippetInfo [0..*] // Section 5: "snippets can optionally be used" = 0..*
-  5 otherLicensingInfo OtherLicensingInfo optional  // mandatory if license not on license list
+  5 otherLicensingInfo OtherLicensingInfo [0..*]  // mandatory if license not on license list
   6 relationships Relationship [0..*]
   7 annotations Annotation [0..*]
 
@@ -57,14 +57,14 @@ FileInfo = Record
   3 fileTypes FileType [0..*]
   4 checksums Checksum [1..*]
   5 licenseConcluded LicenseExpression
-  6 licenseInfoInFile LicenseExpression [1..*]
+  6 licenseInfoInFiles LicenseExpression [1..*]
   7 licenseComments String optional
   8 copyrightText String
   9 comment String optional
  10 noticeText String optional
  11 contributors String [0..*]
  12 attributionText String [0..*]   // just attributions?
- 13 dependencies String [0..*]
+ 13 dependencies String [0..*]  // deprecated - delete before new version
  14 artifactOf Artifact [0..*]  // deprecated - delete before new version
 
 SnippetInfo = Record
@@ -131,10 +131,10 @@ DownloadLocation = String   // URI or SPDX-specific VCS schemes
 
 Entity = String    // Should be a Map instead of strings.  Spec doesn't require comma-separated tag-values
 
-// Entity = Map{1..*}  // at least one must be present
-//   1 person String optional   // validate person name with optional (email)
-//   2 organization String optional
-//   3 tool String optional
+Entity-Alternate = Map{1..*}  // at least one must be present
+  1 person String optional   // validate person name with optional (email)
+  2 organization String optional
+  3 tool String optional
 
 PackageSupplier = String
 
@@ -157,16 +157,16 @@ HashAlgorithm = Enumerated
   8 MD5
   9 MD6
 
-// Checksum = Map{1..*}   // md algorithms not recommended, better algorithms (blake, ripemd, ...) not listed
-//  1 sha1    Binary{20..20} /x optional
-//  2 sha224  Binary{28..28} /x optional
-//  3 sha256  Binary{32..32} /x optional
-//  4 sha384  Binary{48..48} /x optional
-//  5 sha512  Binary{64..64} /x optional
-//  6 md2     Binary{16..16} /x optional
-//  7 md4     Binary{16..16} /x optional
-//  8 md5     Binary{16..16} /x optional
-//  9 md6     Binary /x optional  // Variable-length SHA-3 candidate, need e.g., md6-256 or md6-384
+Checksum-Alternate = Map{1..*}   // md algorithms not recommended, better algorithms (blake, ripemd, ...) not listed
+  1 sha1    Binary{20..20} /x optional
+  2 sha224  Binary{28..28} /x optional
+  3 sha256  Binary{32..32} /x optional
+  4 sha384  Binary{48..48} /x optional
+  5 sha512  Binary{64..64} /x optional
+  6 md2     Binary{16..16} /x optional
+  7 md4     Binary{16..16} /x optional
+  8 md5     Binary{16..16} /x optional
+  9 md6     Binary /x optional  // Variable-length SHA-3 candidate, need e.g., md6-256 or md6-384
 
 ExternalRef = Record
   1 referenceCategory ReferenceCategory // just "category"?
@@ -178,7 +178,7 @@ ReferenceCategory = Enumerated  // 3.2.1.4 (no underscores)
   1 SECURITY
   2 PACKAGE-MANAGER
   3 PERSISTENT-ID
-  4 OTHER
+ 99 OTHER
 
 ReferenceType = String  // appendix VI gives regexs for category types
 
