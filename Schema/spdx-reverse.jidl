@@ -57,27 +57,28 @@ PackageInfo = Record
  20 comment String optional
  21 externalRefs ExternalRef [0..*]
  22 attributionText String [0..*]
- 23 annotations Annotation [0..*] // 8.4.6 says For RDF annotations are a property of Document, Package, File or Snippet
+ 23 annotations Annotation [0..*] // 8.4.6: For RDF annotations are a property of Document, Package, File or Snippet
  24 hasFiles SpdxRef [0..*] // not in spec
 
 FileInfo = Record
-  1 fileName String
+  1 fileName String // "name" as in PackageInfo
   2 SPDXID Key(SpdxRef)
-  3 fileTypes FileType [0..*]
-  4 checksums Checksum [0..*]   // 4.4.3 says mandatory
-  5 licenseConcluded LicenseExpression optional // 4.5.3 says mandatory
-  6 licenseInfoInFiles LicenseExpression [0..*]  // 4.6.3 says mandatory
-  7 licenseComments String optional
-  8 copyrightText String optional   // 4.8.3 says mandatory
-  9 comment String optional
- 10 noticeText String optional
- 11 contributors String optional    // 4.14.3 says [0..*] (array of strings)
- 12 attributionText String [0..*]
- 13 versionInfo VersionInfo optional    // not in spec
- 14 licenseDeclared String optional // not in spec
- 15 externalRefs ExternalRef [0..*] // not in spec
- 16 dependencies String [0..*]    // deprecated - delete before new version
+  3 versionInfo VersionInfo optional    // not in spec
+  4 fileTypes FileType [0..*]
+  5 checksums Checksum [0..*]   // 4.4.3 says mandatory
+  6 licenseConcluded LicenseExpression optional // 4.5.3 says mandatory
+  7 licenseInfoInFiles LicenseExpression [0..*]  // 4.6.3 says mandatory
+  8 licenseDeclared String optional // not in spec
+  9 licenseComments String optional
+ 10 copyrightText String optional   // 4.8.3 says mandatory
+ 11 comment String optional
+ 12 noticeText String optional
+ 13 contributors String optional    // 4.14.3 says [0..*] (array of strings)
+ 14 externalRefs ExternalRef [0..*] // not in spec
+ 15 attributionText String [0..*]   // just attributions?
+ 16 annotations Annotation [0..*] // 8.4.6: For RDF annotations are a property of Document, Package, File or Snippet
  17 artifactOf Artifact [0..*]    // deprecated - delete before new version
+ 18 dependencies String [0..*]    // deprecated - delete before new version
 
 SnippetInfo = Record
   1 SPDXID Key(SpdxRef)
@@ -91,6 +92,7 @@ SnippetInfo = Record
   9 comment String optional
  10 name String optional
  11 attributionText String [0..*]
+ 12 annotations Annotation [0..*] // 8.4.6: For RDF annotations are a property of Document, Package, File or Snippet
 
 OtherLicensingInfo = Record
   1 licenseID LicenseRef
@@ -116,6 +118,24 @@ Annotation = Record
   2 annotationDate Timestamp    // just "date"?
   3 annotationType AnnotationType
   4 comment String
+
+AnnotationType = Enumerated
+  1 REVIEW
+  9 OTHER
+
+FileType = Enumerated
+  1 SOURCE
+  2 BINARY
+  3 ARCHIVE
+  4 APPLICATION
+  5 AUDIO
+  6 IMAGE
+  7 TEXT
+  8 VIDEO
+  9 DOCUMENTATION
+ 10 SPDX
+ 11 SHARED // Cybeats
+ 99 OTHER
 
 SpdxVersion = String{pattern="^SPDX-\d{1,2}\.\d{1,4}$"} // Limit digits to below the absurd, or enumerate valid versions
 
@@ -197,20 +217,6 @@ ReferenceType = String  // appendix VI gives regexs for category types
 
 ReferenceLocator = String
 
-FileType = Enumerated
-  1 SOURCE
-  2 BINARY
-  3 ARCHIVE
-  4 APPLICATION
-  5 AUDIO
-  6 IMAGE
-  7 TEXT
-  8 VIDEO
-  9 DOCUMENTATION
- 10 SPDX
- 11 SHARED // Cybeats
- 99 OTHER
-
 LicenseIdentifier = String  // import from License List
 
 LicenseExpression = String
@@ -265,10 +271,6 @@ RelationshipType = Enumerated
  42 HAS_PREREQUISITE
  98 NOASSERTION     // should deprecate
  99 OTHER
-
-AnnotationType = Enumerated
-  1 REVIEW
-  9 OTHER
 
 Artifact = Record   // Deprecated
   1 name String

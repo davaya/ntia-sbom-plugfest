@@ -105,6 +105,23 @@ Annotation = Record
   3 annotationType AnnotationType
   4 comment String
 
+AnnotationType = Enumerated
+  1 REVIEW
+  9 OTHER
+
+FileType = Enumerated
+  1 SOURCE
+  2 BINARY
+  3 ARCHIVE
+  4 APPLICATION
+  5 AUDIO
+  6 IMAGE
+  7 TEXT
+  8 VIDEO
+  9 DOCUMENTATION
+ 10 SPDX
+ 99 OTHER
+
 SpdxVersion = String{pattern="^SPDX-\d{1,2}\.\d{1,4}$"} // Limit digits to below the absurd, or enumerate valid versions
 
 SpdxLicense = String    // Import ll:License
@@ -184,19 +201,6 @@ ReferenceType = String  // appendix VI gives regexs for category types
 
 ReferenceLocator = String
 
-FileType = Enumerated
-  1 SOURCE
-  2 BINARY
-  3 ARCHIVE
-  4 APPLICATION
-  5 AUDIO
-  6 IMAGE
-  7 TEXT
-  8 VIDEO
-  9 DOCUMENTATION
- 10 SPDX
- 99 OTHER
-
 LicenseIdentifier = String  // import from License List
 
 LicenseExpression = String
@@ -251,10 +255,6 @@ RelationshipType = Enumerated
  42 HAS_PREREQUISITE
  98 NOASSERTION     // should deprecate
  99 OTHER
-
-AnnotationType = Enumerated
-  1 REVIEW
-  9 OTHER
 
 Artifact = Record   // Deprecated
   1 name String
